@@ -24,12 +24,107 @@ Where $\psi$ is the Dirac Spinor. The mass is included in the SM through the sec
 \end{equation}
 
 We can write the Dirac Spinor as a sum of it's left- and right- chiral states:
-%PIE DE PAGINA A APENDICE
+
 \begin{equation}
  m \bar{\psi} \psi = m \left( \overbar{\psi_L + \psi_R} \right) \left( \psi_L + \psi_R \right) = m \bar{\psi_L} \psi_R + m \bar{\psi_R}\psi_L
+\end{equation} \label{Dirac mass term}
+Previously we have used the fact that: $\bar{\psi_L}\psi_L = \bar{\psi_R}\psi_R = 0$ which is proved in \ref{apendice_neutrinos}. It can be seen from the lastest equation
+that a massive particle must have both quiral states: left and right. Thus, the Dirac Mass can be interpreted as the coupling constant between the two chiral states. Since right-handed 
+neutrinos had never been observed in nature, it is expected that neutrinos have zero mass. Although the experiments of neutrino oscillations indicate that neutrinos have a small mass of the order of meV. The former implies either the existence of a right-handed neutrino which is responsable for the mass of the neutrino or there other sort of mass term.
+
+\subsection{Majorana Mass}
+
+
+The Majorana mechanism is based in the reasoning of writing the mass term in the Lagrangian only in term of the left-handed chiral state. We start by decomposing the wavefunction into its left and right chiral states in the Dirac Lagrangian: 
+
+
+\begin{align}
+  \phantom{i = j = k}
+  &\begin{aligned}
+    \mathllap{L} &= \bar{\psi} \left( i \gamma ^\mu \partial_{\mu} - m \right) \psi \\
+    \mathllap{}  &= (\bar{\psi_L} + \bar{\psi_R})( i \gamma ^\mu \partial_{\mu} - m)(\psi_L + \psi_R) \\
+%    \mathllap{}  &= i \bar{\psi_L} \gamma ^\mu \partial_{\mu} \psi_L + i \bar{\psi_L} \gamma ^\mu   \partial_{\mu} \psi_R - m \bar{\psi_L} \psi_L - m \bar{\psi_L} \psi_R \\
+%  &\qquad + i \bar{\psi_R} \gamma ^\mu \partial_{\mu} \psi_L + i \bar{\psi_R} \gamma^{\mu} \partial_{\mu} \psi_R - m \bar{\psi_R} \psi_L - m \bar{\psi_R} \psi_R \\
+%  \end{aligned}\\
+%  &\begin{aligned}
+   \mathllap{} &= i \bar{\psi_L} \gamma ^\mu \partial_{\mu} \psi_L - m \bar{\psi_L} \psi_R - m \bar{\psi_R} \psi_L + i \bar{\psi_R} \gamma ^\mu \partial_{\mu} \psi_R \\
+   \mathllap{} &= \bar{\psi_R} (i \gamma^\mu \partial_{\mu} - m\bar{\psi_L}) \psi_R + \bar{\psi_L} (i \gamma^\mu \partial_\mu - m \bar{\psi_R}) \psi_L
+   \end{aligned}
+\end{align}
+
+The intermediate steps are explained in the Apendix \ref{apendice_neutrinos}. Now we can find two independent equations of motion using the Euler Langrange equation:
+
+\begin{equation}
+\frac{\partial L}{\partial (\partial \phi)} - \frac{\partial L}{\partial \phi} = 0
 \end{equation}
-Previosly we have used the fact that: $\bar{\psi_L}\psi_L = \bar{\psi_R}\psi_R = 0$ which is proved in \ref{apendice_neutrinos}. It can be seen from the lastest equation
-that 
+
+We obtain two coupled Dirac equations for the right- and left- handed fields:
+
+\begin{equation}
+i \gamma ^\mu \partial_\mu \psi_L = m \psi_R
+\end{equation} \label{majorana_objetive}
+\begin{equation}
+i \gamma ^\mu \partial_\mu \psi_R = m \psi_L
+\end{equation} \label{majorana_start}
+
+The formulation of the SM takes assumes that the mass of the neutrino is zero, in this case we obtain two equations which are called ``Weyl equations'':
+\begin{equation}
+i \gamma ^\mu \partial_\mu \psi_L = 0
+\end{equation}
+\begin{equation}
+i \gamma ^\mu \partial_\mu \psi_R = 0
+\end{equation}
+
+The former means that neutrino can be described using two two-component spinors that are helicity eigenstates which represents two states with definite and opposite helicity which correspond to the left- and right-handed neutrinos. However, since we have not observed a right-handed neutrino we just represent the neutrino as a single left-handed massless field.  \\
+\\
+Majorana work out in a way to describe a massive neutrino just in terms of it's left-handed field. Here we will briefly follow his calculation (which is explained with detail in \ref{apendice_neutrinos}). His objetive was to work out the equation \ref{majorana_start} to made it look like the equation \ref{majorana_objetive} by finding an expression for $\psi_R$ in terms of $\psi_L$.  First, we take the hermitian conjugate of the equation \ref{majorana_start} and multiplying on the right by $\gamma^0$:
+
+\begin{equation}
+-i \partial_\mu \psi^{\dagger}_R \gamma^{\mu \dagger} \gamma^0 = m \psi^{\dagger}_L \gamma^0
+\end{equation}
+
+Using the property $\gamma^{\mu \dagger} \gamma^0 = \gamma^0 \gamma^\mu$ (also explain in the apendix \ref{apendice_neutrinos}) we get:
+
+\begin{equation}
+-i \partial_\mu \psi^{\dagger}_R \gamma^0 \gamma^\mu = m \psi^\dagger_L \gamma_0
+              \ \ \rightarrow \ \ -i \partial_\mu \bar{\psi}\gamma^\mu = m \bar{\psi_L}
+\end{equation}
+
+Taking the transpose of the last equation and using the property $C \gamma^{\mu \intercal} = - \gamma^\mu C$ involving the charge conjugation matrix C (the operator charge conjugation and its properties are described in the apendix \ref{apendice_neutrinos}), we obtain:
+
+\begin{equation}
+i \gamma^\mu \partial_\mu C \bar{\psi}^\intercal_R = m C \bar{\psi}^{\intercal}_L
+\end{equation}
+
+Now, the lastest equation would have the same structure as equation \ref{majorana_objetive} if impose the right handed term to be:
+\begin{equation}
+\psi_R = C \bar{\psi}^\intercal_L
+\end{equation}
+The former assumption requires $C \bar{\psi}^\intercal_L$ to be right-handed, this is proved in the apendix \ref{apendice_neutrinos}. Thus, the complete Majorana field can be written as:
+\begin{equation}
+\psi = \psi_L + \psi_R = \psi_L + C \bar{\psi}^\intercal_L
+\end{equation}
+Defining the charge-conjugate field: $\psi^C_L = C \bar{\psi}^\intercal_L$. We get for the expression of the complete Majorana field:
+\begin{equation}
+\psi = \psi_L + \psi^C_L
+\end{equation}
+The implications of requiring the right handed component of $\psi$ to have that certain expresion are studied by taking the charge conjugate of the complete Majorana field. 
+
+\begin{equation}
+\psi^C = (\psi_L + \psi^C_L)^C = \psi^C_L + \psi_L = \psi
+\end{equation}
+
+Having in mind that the charge conjugation operator turns a particle state into an antiparticle state, it can be deduced that a Majorana particle is it's own antiparticle. Since the charge conjugation operator flips the sign of electric charge, a Majorana particle must be neutral. Thus, the neutrino is the only fermion that could be a Majorana particle.
+
+\subsubsection{Majorana Mass Term}
+
+Previously, we saw that the mass term in the Lagrangian couples the left and right chiral states of the neutrino (equation \ref{Dirac mass term}). 
+Using the expression we found for the right-handed component in terms of the left one in the mass term of the Lagrangian we get:
+
+\begin{equation}
+m \bar{\psi}\psi = m \bar{\psi_L} \psi_R + m \bar{\psi_R}\psi_L = 
+\end{equation}
+
 
 
 
