@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  26 APR 2017 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  27 APR 2017 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,7 +799,7 @@ LaTeX Info: Redefining \nameref on input line 26.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
- <logo_uniandes.png, id=128, 544.0325pt x 311.1625pt>
+ <logo_uniandes.png, id=132, 544.0325pt x 311.1625pt>
 File: logo_uniandes.png Graphic file (type png)
 
 <use logo_uniandes.png>
@@ -864,18 +864,34 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.27 
-      [3])pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.4}) has been already used, duplicate ignored
+      [3]pdfTeX warning (ext4): destination with the same identifier (name{page
+.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.202 \include{Capitulos/StateArt/StateArt}
-                                            [4]
+l.68 \end{equation}
+                    \label{majorana_start} [4]
+Overfull \hbox (14.7046pt too wide) in paragraph at lines 78--81
+[]\OT1/cmr/m/n/10.95 The for-mer means that neu-trino can be de-scribed us-ing 
+two two-component
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+
+ []
+
+
+Overfull \hbox (0.44232pt too wide) in paragraph at lines 93--94
+[]\OT1/cmr/m/n/10.95 Taking the trans-pose of the last equa-tion and us-ing the
+ prop-erty $\OML/cmm/m/it/10.95 C^^M[] \OT1/cmr/m/n/10.95 =
+ []
+
+[5]) [6]
 \openout2 = `Capitulos/VariableDefinitions/VariableDefinitions.aux'.
 
-
-(./Capitulos/VariableDefinitions/VariableDefinitions.tex
+ (./Capitulos/VariableDefinitions/VariableDefinitions.tex
 Chapter 3.
-) [5
+) [7
 
 
 
@@ -884,11 +900,11 @@ Chapter 3.
 
  (./Capitulos/Model/Model.tex
 Overfull \hbox (19.65047pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10.95 6 \OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VAR
+\OT1/cmr/m/n/10.95 8 \OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VAR
 IABLE DEFINITIONS
  []
 
-[6
+[8
 
 
 
@@ -902,47 +918,47 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 12.
 
-) [7]
+) [9]
 \openout2 = `Capitulos/Methodology/Methodology.aux'.
 
- (./Capitulos/Methodology/Methodology.tex [8
+ (./Capitulos/Methodology/Methodology.tex [10
 
 
 
 ]
 Chapter 5.
-) [9]
+) [11]
 \openout2 = `Capitulos/Analysis/Analysis.aux'.
 
- (./Capitulos/Analysis/Analysis.tex [10
+ (./Capitulos/Analysis/Analysis.tex [12
 
 
 
 ]
 Chapter 6.
-[11] [12
+[13] [14
 
 ]
 Chapter 7.
-) [13]
+) [15]
 \openout2 = `Capitulos/Conclusions/Conclusions.aux'.
 
- (./Capitulos/Conclusions/Conclusions.tex [14
+ (./Capitulos/Conclusions/Conclusions.tex [16
 
 
 
 ]
 Chapter 8.
-) [15]
+) [17]
 \openout2 = `Apendices/Neutrinos_calculus.aux'.
 
- (./Apendices/Neutrinos_calculus.tex [16
+ (./Apendices/Neutrinos_calculus.tex [18
 
 
 
 ]
 Appendix A.
-) [17] [18
+) [19] [20
 
 
 ]
@@ -956,31 +972,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
 (./Apendices/Neutrinos_calculus.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 1727A524F5E3C157C503BA76C45E3DAF;2005.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: F606AF918829FEE66A994063EE37A465;1945
-(rerunfilecheck)             After:  1727A524F5E3C157C503BA76C45E3DAF;2005.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 7980 strings out of 494850
- 114600 string characters out of 6178024
- 216062 words of memory out of 5000000
- 11040 multiletter control sequences out of 15000+600000
+ 7999 strings out of 494850
+ 114863 string characters out of 6178024
+ 216196 words of memory out of 5000000
+ 11044 multiletter control sequences out of 15000+600000
  16012 words of font info for 60 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 29i,17n,34p,559b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,17n,34p,576b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -994,11 +1001,12 @@ onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (22 pages, 191036 bytes).
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (24 pages, 206715 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
