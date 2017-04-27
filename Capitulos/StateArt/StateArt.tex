@@ -24,15 +24,32 @@ Where $\psi$ is the Dirac Spinor. The mass is included in the SM through the sec
 \end{equation}
 
 We can write the Dirac Spinor as a sum of it's left- and right- chiral states:
-%PIE DE PAGINA A APENDICE
+
 \begin{equation}
  m \bar{\psi} \psi = m \left( \overbar{\psi_L + \psi_R} \right) \left( \psi_L + \psi_R \right) = m \bar{\psi_L} \psi_R + m \bar{\psi_R}\psi_L
 \end{equation}
 Previously we have used the fact that: $\bar{\psi_L}\psi_L = \bar{\psi_R}\psi_R = 0$ which is proved in \ref{apendice_neutrinos}. It can be seen from the lastest equation
-that a massive particle must have both quiral states: left and right. Thus, the Dirac Mass can be interpreted as the coupling constant between the two chiral states. Since only left-handed 
-neutrinos had been observed in nature, it is expected that neutrino has zero mass. Although the experiments of neutrino oscillations 
+that a massive particle must have both quiral states: left and right. Thus, the Dirac Mass can be interpreted as the coupling constant between the two chiral states. Since right-handed 
+neutrinos had never been observed in nature, it is expected that neutrinos have zero mass. Although the experiments of neutrino oscillations indicate that neutrinos have a small mass of the order of meV. The former implies either the existence of a right-handed neutrino which is responsable for the mass of the neutrino or there other sort of mass term.
+
+\subsection{Majorana Mass}
 
 
+The Majorana mechanism is based in the reasoning of writing the mass term in the Lagrangian only in term of the left-handed chiral state. We start by decomposing the wavefunction into its left and right chiral states in the Dirac Lagrangian: 
+
+
+\begin{align}
+  \phantom{i = j = k}
+  &\begin{aligned}
+    \mathllap{L} &= \bar{\psi} \left( i \gamma ^\mu \partial_{\mu} - m \right) \psi \\
+    \mathllap{}  &= (\bar{\psi_L} + \bar{\psi_R})( i \gamma ^\mu \partial_{\mu} - m)(\psi_L + \psi_R) \\
+    \mathllap{}  &= i \bar{\psi_L} \gamma ^\mu \partial_{\mu} \psi_L + i \bar{\psi_L} \gamma ^\mu \partial_{\mu} \psi_R - m \bar{\psi_L} \psi_L - m \bar{\psi_L} \psi_R \\
+  &\qquad + i \bar{\psi_R} \gamma ^\mu \partial_{\mu} \psi_L + i \bar{\psi_R} \gamma ^\mu \partial_{\mu} \psi_R - m \bar{\psi_R} \psi_L - m \bar{\psi_R} \psi_R \\
+  \end{aligned}\\
+  &\begin{aligned}
+   \mathllap{} &= i \bar{\psi_L} \gamma ^\mu \partial_{\mu} \psi_L - m \bar{\psi_L} \psi_R - m \bar{\psi_R} \psi_L + i \bar{\psi_R} \gamma ^\mu \partial_{\mu} \psi_R \\
+   \end{aligned}
+\end{align}
 
 
 \section{Seesaw Mechanism}
