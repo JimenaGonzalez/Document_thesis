@@ -32,4 +32,5 @@
 \contentsline {chapter}{\numberline {7}Event Selection Criteria}{15}{chapter.7}
 \contentsline {chapter}{\numberline {8}Conclusions}{17}{chapter.8}
 \contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{19}{Appendix.a.A}
-\vspace {2em}
+\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{19}{subsection.a.A.0.1}
+\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{19}{subsection.a.A.0.2}

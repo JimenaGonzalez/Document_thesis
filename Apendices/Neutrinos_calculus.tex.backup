@@ -1,3 +1,57 @@
-\chapter{Álgebra Lineal}
+\chapter{Neutrinos and Seesaw Mechanism} \label{apendice_neutrinos}
 
-Cosas.
+
+\subsection{Dirac Mass}
+In this Appendix we are going to perform with detail the calculations for neutrino physics which where described in the State of the Art chapter. 
+We start here by studying the Dirac Mass wich was a term of the form:
+
+\begin{equation}
+ m \overline{\psi} \psi = m \overline{(\psi_L + \psi_R)} (\psi_L + \psi_R) = m(\overline{\psi_L} \psi_L + \overline{\psi_L}\psi_R + \overline{\psi_R}\psi_L + \overline{\psi_R} \psi_R)
+\end{equation}
+
+Lets study the term $\overline{\psi_L}\psi_L$ and using $P_R  P_L = 0$:
+
+\begin{equation}
+ \overline{\psi_L}\psi_L = \overline{\psi} {P}^{\dagger}_L P_L \psi = \overline{\psi}P_R  P_L \psi = 0
+\end{equation}
+
+Using an analogous reasoning we can find $\overline{\psi_R}\psi_R = 0$, too. Finally, we obtain the expresion:
+
+\begin{equation}
+  m \overline{\psi} \psi = m (\overline{\psi_L} \psi_R + \overline{\psi_R}\psi_L)
+\end{equation}
+
+\subsection{Majorana Mass}
+
+The expresion we had for the Dirac Lagrangian was: 
+
+\begin{align}
+  \phantom{i = j = k}
+  &\begin{aligned}
+    \mathllap{L} &= \overline{\psi} \left( i \gamma ^\mu \partial_{\mu} - m \right) \psi \\
+    \mathllap{}  &= (\overline{\psi_L} + \overline{\psi_R})( i \gamma ^\mu \partial_{\mu} - m)(\psi_L + \psi_R) \\
+    \mathllap{}  &= i \overline{\psi_L} \gamma ^\mu \partial_{\mu} \psi_L + i \overline{\psi_L} \gamma ^\mu   \partial_{\mu} \psi_R - m \overline{\psi_L} \psi_L - m \overline{\psi_L} \psi_R \\
+  &\qquad + i \overline{\psi_R} \gamma ^\mu \partial_{\mu} \psi_L + i \overline{\psi_R} \gamma^{\mu} \partial_{\mu} \psi_R - m \overline{\psi_R} \psi_L - m \overline{\psi_R} \psi_R \\
+  \end{aligned}\\
+\end{align}
+
+We already proved that $\overline{\psi_L}\psi_L = \overline{\psi_R}\psi_R = 0$. We have for the second term of the lastest equation:
+
+\begin{equation}
+i \overline{\psi_L} \gamma ^\mu   \partial_{\mu} \psi_R = i\overline{\psi} P_R \gamma^\mu \partial_\mu P_R \psi = 
+\end{equation}
+
+\begin{align*}
+    i \overline{\psi_L} \gamma ^\mu   \partial_{\mu} \psi_R &= i\overline{\psi} P_R \gamma^\mu \partial_\mu P_R \psi \\        
+     &=     && \text{Since } \\
+     &= 0   && x \text{ must be one}
+\end{align*}
+
+
+
+
+
+
+
+
+
