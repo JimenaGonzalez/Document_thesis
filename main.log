@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  2 MAY 2017 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  2 MAY 2017 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -886,16 +886,16 @@ Overfull \hbox (0.44232pt too wide) in paragraph at lines 90--91
  prop-erty $\OML/cmm/m/it/10.95 C^^M[] \OT1/cmr/m/n/10.95 =
  []
 
-[5] [6]) [7]
+[5] [6] [7]) [8]
 \openout2 = `Capitulos/VariableDefinitions/VariableDefinitions.aux'.
 
- (./Capitulos/VariableDefinitions/VariableDefinitions.tex [8
+ (./Capitulos/VariableDefinitions/VariableDefinitions.tex
+Chapter 3.
+) [9
 
 
 
 ]
-Chapter 3.
-) [9]
 \openout2 = `Capitulos/Model/Model.aux'.
 
  (./Capitulos/Model/Model.tex
@@ -995,13 +995,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 8027 strings out of 494850
- 115252 string characters out of 6178024
- 220293 words of memory out of 5000000
- 11051 multiletter control sequences out of 15000+600000
+ 8033 strings out of 494850
+ 115338 string characters out of 6178024
+ 220341 words of memory out of 5000000
+ 11052 multiletter control sequences out of 15000+600000
  16633 words of font info for 62 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 29i,19n,34p,576b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,19n,34p,669b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1017,10 +1017,10 @@ cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (28 pages, 218721 bytes).
+Output written on main.pdf (28 pages, 222831 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 385 compressed objects within 4 object streams
+ 97 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -115,7 +115,7 @@ Having in mind that the charge conjugation operator turns a particle state into 
 
 \subsubsection{Majorana Mass Term}
 
-Previously, we saw that the mass term in the Lagrangian couples the left and right chiral states of the neutrino (equation \ref{Dirac mass term}). Replacing the expression we found for the right-handed component of the neutrino field in the mass term of the Lagrangian, we get:
+Previously, we saw that the mass term in the Lagrangian couples the left and right chiral states of the neutrino (equation \ref{Dirac mass term}). Replacing the expression we found for the right-handed component of the neutrino field in the mass term of the Lagrangian, we get (having in mind that its hermitian conjugate is identical):
 
 %EXPLICAAAAAR expresion y 1/2
 
@@ -163,10 +163,43 @@ L = \frac{1}{2} \left( m_L \overline{\nu_L^C} \nu_L + m_R \overline{\nu_R^C} \nu
 \end{equation}
 
 The former equation can be written as a matrix equation: 
-\[
-\begin{matrix}
-    m_L     & m_D & x_{13} \\
-    m_D     & m_R & x_{23}  \\
-\end{matrix}
-\]
 
+\begin{equation}\label{matrix m}
+L_{mass} \propto
+\begin{pmatrix} 
+  \overline{\nu_L^C} & \overline{\nu_R}
+\end{pmatrix}
+\begin{pmatrix}
+  m_L & m_D \\
+  m_D & m_R  
+\end{pmatrix}
+\begin{pmatrix}
+  \nu_L \\
+  \nu_R^C  
+\end{pmatrix}
+\end{equation}
+
+The former matrix express the Lagrangian in term of the left and right chiral states. These states do not have a definite mass because the matrix is not diagonal. Thus, the left and right chiral states do not correspond to the physical particles (which have a definite mass), instead the real particles are a superposition of the mass eigenstates. In order to find the mass eigenvalues we need to diagonalize the M matrix (the one in the middle of equation \ref{matrix m}). This calculation is explained is Appendix \ref{apendice_neutrinos}. We find the mass eigenstates are given by the expression:
+
+\begin{equation}
+m_{1,2} = \frac{1}{2} \left( (m_L + m_R) \rm \sqrt{(m_L - m_R)^2 + 4m_D^2} \right)
+\end{equation}
+ 
+The fact that the SM does not allow a Majorana left-chiral mass term implies $m_L = 0$. We are going to study the expression of the mass eigenstates $m_1$ and $m_2$. When we choose $m_R >> m_D$, we get for the masses:
+
+\begin{equation}
+m_1 = \frac{m_D^2}{m_R}
+\end{equation}
+
+\begin{equation}
+m_2 = m_R \left( 1 + \frac{m_D^2}{m_R^2}\right) \approx m_R 
+\end{equation}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
