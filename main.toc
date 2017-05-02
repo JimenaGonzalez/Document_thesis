@@ -34,4 +34,3 @@
 \contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{21}{Appendix.a.A}
 \contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{21}{subsection.a.A.0.1}
 \contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{21}{subsection.a.A.0.2}
-\vspace {2em}

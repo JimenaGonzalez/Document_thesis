@@ -75,28 +75,31 @@ Now, we are going to find an expression for $\psi_R$ in terms of $\psi_L$. First
      \mathllap{i \gamma^\mu \partial_\mu \psi_R} &= m\psi_L\\        
      \mathllap{(i \gamma^\mu \partial_\mu \psi_R)^\dagger} &= m\psi_L^\dagger  & \text{Taking the hermitian conjugate} \\
      \mathllap{-i \partial_\mu \psi_R^\dagger \gamma^{\mu \dagger}} &= m \psi_L^\dagger \\
-     \mathllap{-i \partial_\mu \psi_R^\dagger \gamma^{\mu \dagger}\gamma^0} &= m \psi_L^\dagger \gamma^0  &test{Multiplying on the right by $\gamma^0$}\\
+     \mathllap{-i \partial_\mu \psi_R^\dagger \gamma^{\mu \dagger}\gamma^0} &= m \psi_L^\dagger \gamma^0  &\text{Multiplying on the right by $\gamma^0$}\\
+     \mathllap{-i \partial_\mu \psi_R^\dagger \gamma^0 \gamma^\mu} &= m \psi_L^\dagger \gamma^0  &\text{Using $\gamma^{\mu \dagger}\gamma^0 = \gamma^0 \gamma^\mu$ }\\    %\leftarrow \gamma^0(\gamma^0 \gamma^{\mu \dagger}\gamma^0) = \gamma^0(\gamma^\mu$) }\\
+     \mathllap{-i \partial_\mu \overline{\psi_R}\gamma^\mu} &= m \overline{\psi_L} &\text{We have $\overline{\psi} = \psi^{\dagger}\gamma^0$}\\
+     \mathllap{-i (\partial_\mu \overline{\psi_R}\gamma^\mu)^\intercal} &= m \overline{\psi_L}^\intercal &\text{Taking the transpose}\\
+     \mathllap{-i \gamma^{\mu \intercal} \partial_\mu \overline{\psi_R}^\intercal} &= m \overline{\psi_L}^\intercal \\
+     \mathllap{-i (-C^{-1}\gamma^\mu C) \partial_\mu \overline{\psi_R}^\intercal} &= m \overline{\psi_L}^\intercal &\text{Using $\gamma^{\mu \intercal}= -C^{-1}\gamma^\mu C$}\\
+     \mathllap{i \gamma^\mu \partial_\mu C \overline{\psi_R}^\intercal} &= m C \overline{\psi_L}^\intercal &\text{Multiplying on the left by C}\\
   &\end{aligned}
 \end{align}
 
-
-
-
-and multiply it on the right by $\gamma^0$:
+As we saw previosly, for the lastest equation to have a similar structure to the top equation of \ref{major start}, the right handed component of $\psi$ must be:
 
 \begin{equation}
--i \partial_\mu \psi^{\dagger}_R \gamma^{\mu \dagger} \gamma^0 = m \psi^{\dagger}_L \gamma^0
+ \psi_R = C \overline{\psi_L}^\intercal
 \end{equation}
 
-Using the property $\gamma^{\mu \dagger} \gamma^0 = \gamma^0 \gamma^\mu$ (also explain in the apendix \ref{apendice_neutrinos}) we get:
+Now, we need to prove that $C \overline{\psi_L}^\intercal$ is actually right-handed. To do this we apply the right-handed chiral projection operator $P_L$ on this state and
+the result must be zero.
 
-\begin{equation}
--i \partial_\mu \psi^{\dagger}_R \gamma^0 \gamma^\mu = m \psi^\dagger_L \gamma_0
-              \ \ \rightarrow \ \ -i \partial_\mu \overline{\psi}\gamma^\mu = m \overline{\psi_L}
-\end{equation}
+\begin{align}
+  &\begin{aligned}
+     \mathllap{P_L \left( C \overline{\psi_L}^\intercal \right)} &= C P_L^\intercal \overline{\psi_L}^\intercal &\text{Property of C: $P_LC = C P_L^\intercal$}\\        
+     \mathllap{} &= C \left( \overline{\psi_L}P_L \right)^\intercal  
+  &\end{aligned}
+\end{align}
 
-Taking the transpose of the last equation and using the property $C \gamma^{\mu \intercal} = - \gamma^\mu C$ involving the charge conjugation matrix C (the operator charge conjugation and its properties are described in the apendix \ref{apendice_neutrinos}), we obtain:
-
-
-
+Now, lets examine the term $\overline{\psi_L}P_L$:
 
