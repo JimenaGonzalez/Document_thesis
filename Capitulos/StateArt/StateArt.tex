@@ -2,7 +2,7 @@
 
 \section{Standard Model}
 
-\section{Higgs Mechanism}
+\subsection{Higgs Mechanism}
 
 \section{Neutrinos in the Standard Model}
 
@@ -25,9 +25,9 @@ Where $\psi$ is the Dirac Spinor. The mass is included in the SM through the sec
 
 We can write the Dirac Spinor as a sum of it's left- and right- chiral states:
 
-\begin{equation}
+\begin{equation}\label{Dirac mass term}
  m \overline{\psi} \psi = m \left( \overbar{\psi_L + \psi_R} \right) \left( \psi_L + \psi_R \right) = m \overline{\psi_L} \psi_R + m \overline{\psi_R}\psi_L
-\end{equation} \label{Dirac mass term}
+\end{equation} 
 
 Previously we have used the fact that: $\overline{\psi_L}\psi_L = \overline{\psi_R}\psi_R = 0$ which is proved in \ref{apendice_neutrinos}. It can be seen from the lastest equation
 that a massive particle must have both quiral states: left and right. Thus, the Dirac Mass can be interpreted as the coupling constant between the two chiral states. Since right-handed 
@@ -57,12 +57,12 @@ Since $\overline{\psi_L}\psi_L = \overline{\psi_R}\psi_R = 0$ and $\overline{\ps
 
 We obtain two coupled Dirac equations for the right- and left- handed fields:
 
-\begin{equation}
+\begin{equation}\label{majorana_objetive}
 i \gamma ^\mu \partial_\mu \psi_L = m \psi_R
-\end{equation} \label{majorana_objetive}
-\begin{equation}
+\end{equation} 
+\begin{equation}\label{majorana_start}
 i \gamma ^\mu \partial_\mu \psi_R = m \psi_L
-\end{equation} \label{majorana_start}
+\end{equation} 
 
 The formulation of the SM takes assumes that the mass of the neutrino is zero, in this case we obtain two equations which are called ``Weyl equations'':
 \begin{equation}
@@ -74,26 +74,15 @@ i \gamma ^\mu \partial_\mu \psi_R = 0
 
 The former means that neutrino can be described using two two-component spinors that are helicity eigenstates which represents two states with definite and opposite helicity which correspond to the left- and right-handed neutrinos. However, since we have not observed a right-handed neutrino we just represent the neutrino as a single left-handed massless field.  \\
 \\
-Majorana work out in a way to describe a massive neutrino just in terms of it's left-handed field. Here we will briefly follow his calculation (which is explained with detail in \ref{apendice_neutrinos}). His objetive was to work out the equation \ref{majorana_start} to made it look like the equation \ref{majorana_objetive} by finding an expression for $\psi_R$ in terms of $\psi_L$.  First, we take the hermitian conjugate of the equation \ref{majorana_start} and multiplying on the right by $\gamma^0$:
-
-\begin{equation}
--i \partial_\mu \psi^{\dagger}_R \gamma^{\mu \dagger} \gamma^0 = m \psi^{\dagger}_L \gamma^0
-\end{equation}
-
-Using the property $\gamma^{\mu \dagger} \gamma^0 = \gamma^0 \gamma^\mu$ (also explain in the apendix \ref{apendice_neutrinos}) we get:
-
-\begin{equation}
--i \partial_\mu \psi^{\dagger}_R \gamma^0 \gamma^\mu = m \psi^\dagger_L \gamma_0
-              \ \ \rightarrow \ \ -i \partial_\mu \overline{\psi}\gamma^\mu = m \overline{\psi_L}
-\end{equation}
-
-Taking the transpose of the last equation and using the property $C \gamma^{\mu \intercal} = - \gamma^\mu C$ involving the charge conjugation matrix C (the operator charge conjugation and its properties are described in the apendix \ref{apendice_neutrinos}), we obtain:
+Majorana work out in a way to describe a massive neutrino just in terms of it's left-handed field.
+This calculation is perform in the apendix \ref{apendice_neutrinos}. The objetive of Majorana was to write the equation \ref{majorana_start} as \ref{majorana_objetive} by finding an expression for $\psi_R$ in terms of $\psi_L$. By manipulating the equation \ref{majorana_start} we find that it can be written as:  
 
 \begin{equation}
 i \gamma^\mu \partial_\mu C \overline{\psi}^\intercal_R = m C \overline{\psi}^{\intercal}_L
 \end{equation}
 
-Now, the lastest equation would have the same structure as equation \ref{majorana_objetive} if impose the right handed term to be:
+Where C is the operator Charge Conjugation Operator. This operator and its properties are explained in Apendix (...). Now, the lastest equation would have the same structure as equation \ref{majorana_objetive} if impose the right handed term to be:
+
 \begin{equation}
 \psi_R = C \overline{\psi}^\intercal_L
 \end{equation}
@@ -195,8 +184,17 @@ m_1 = \frac{m_D^2}{m_R}
 m_2 = m_R \left( 1 + \frac{m_D^2}{m_R^2}\right) \approx m_R 
 \end{equation}
  
- 
- 
+From the both equations above we can deduce that if there exist a neutrino with mass $m_2$ very large, then the other neutrino must have a small mass. Now, the neutrino mass eigenstates are given by the following expresions:
+
+\begin{equation}
+\nu_1 \propto \left( \nu_L + \nu_L^C \right) - \frac{m_D}{m_R^2} \left( \nu_R + \nu_R^C \right)
+\end{equation}
+
+\begin{equation}
+\nu_2 \propto \left( \nu_R + \nu_R^C \right) + \frac{m_D}{m_R^2} \left( \nu_L + \nu_L^C \right)
+\end{equation}
+
+The former equations show that $\nu_1$ is mostly the left-handed light Majorana neutrino while $\nu_2$ is the heavy sterile right-handed neutrino. This is the explanation that the Seesaw Mechanism gives to the fact that the neutrino is much lighter than the other fermions. 
  
  
  

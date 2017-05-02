@@ -62,20 +62,40 @@ L = i \overline{\psi_R} \gamma^\mu \partial_\mu \psi_R + i \overline{\psi_L}\gam
 
 Replacing in the Euler-Lagrange equation we get for both states:
 \begin{align}
-  &\begin{aligned}
+  &\begin{aligned}\label{major start}
      \mathllap{\frac{\partial L}{\partial(\partial \overline{\psi_R})}}  &=  \frac{\partial L}{\partial \overline{\psi_R}} \ \ \rightarrow \ \ 0 = i \gamma^\mu \partial_\mu \psi_L -m \psi_R  \\        
      \mathllap{\frac{\partial L}{\partial(\partial \overline{\psi_L})}}  &=  \frac{\partial L}{\partial \overline{\psi_L}} \ \ \rightarrow \ \ 0 = i \gamma^\mu \partial_\mu \psi_R -m \psi_L\\ 
-  &\end{aligned} \label{major start}
+  &\end{aligned} 
 \end{align}
 
-Now, we are going to find an expression for $\psi_R$ in terms of $\psi_L$. We take the hermitian conjugate of the equation $\ref{major start}$:
+Now, we are going to find an expression for $\psi_R$ in terms of $\psi_L$. First, we take the hermitian conjugate of the bottom equation in \ref{major start}:
 
 \begin{align}
   &\begin{aligned}
-     \mathllap{(i \gamma^\mu \partial_\mu \psi_R)^\dagger}  &= m\psi_L^\dagger 
+     \mathllap{i \gamma^\mu \partial_\mu \psi_R} &= m\psi_L\\        
+     \mathllap{(i \gamma^\mu \partial_\mu \psi_R)^\dagger} &= m\psi_L^\dagger  & \text{Taking the hermitian conjugate} \\
+     \mathllap{-i \partial_\mu \psi_R^\dagger \gamma^{\mu \dagger}} &= m \psi_L^\dagger \\
+     \mathllap{-i \partial_\mu \psi_R^\dagger \gamma^{\mu \dagger}\gamma^0} &= m \psi_L^\dagger \gamma^0  &test{Multiplying on the right by $\gamma^0$}\\
   &\end{aligned}
 \end{align}
 
+
+
+
+and multiply it on the right by $\gamma^0$:
+
+\begin{equation}
+-i \partial_\mu \psi^{\dagger}_R \gamma^{\mu \dagger} \gamma^0 = m \psi^{\dagger}_L \gamma^0
+\end{equation}
+
+Using the property $\gamma^{\mu \dagger} \gamma^0 = \gamma^0 \gamma^\mu$ (also explain in the apendix \ref{apendice_neutrinos}) we get:
+
+\begin{equation}
+-i \partial_\mu \psi^{\dagger}_R \gamma^0 \gamma^\mu = m \psi^\dagger_L \gamma_0
+              \ \ \rightarrow \ \ -i \partial_\mu \overline{\psi}\gamma^\mu = m \overline{\psi_L}
+\end{equation}
+
+Taking the transpose of the last equation and using the property $C \gamma^{\mu \intercal} = - \gamma^\mu C$ involving the charge conjugation matrix C (the operator charge conjugation and its properties are described in the apendix \ref{apendice_neutrinos}), we obtain:
 
 
 
