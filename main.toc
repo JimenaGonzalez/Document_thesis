@@ -7,30 +7,31 @@
 \contentsline {subsection}{\numberline {2.3.1}Dirac Mass}{3}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Majorana Mass}{4}{subsection.2.3.2}
 \contentsline {subsubsection}{Majorana Mass Term}{6}{section*.2}
-\contentsline {section}{\numberline {2.4}Seesaw Mechanism}{6}{section.2.4}
-\contentsline {chapter}{\numberline {3}Important Concepts and Variable Definitions}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Jets}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Cross Section}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Coordinate System of CMS and ATLAS detector at the LCH}{7}{section.3.3}
-\contentsline {section}{\numberline {3.4}Pseudorapidity}{7}{section.3.4}
-\contentsline {section}{\numberline {3.5}Minimal Separation Distance Between Particles}{7}{section.3.5}
-\contentsline {section}{\numberline {3.6}Detector CMS and ATLAS}{7}{section.3.6}
-\contentsline {section}{\numberline {3.7}MET}{7}{section.3.7}
-\contentsline {section}{\numberline {3.8}Impact Parameter}{7}{section.3.8}
-\contentsline {chapter}{\numberline {4}Model and backgrounds}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}Signal of Interest}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}Backgrounds}{9}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}W + Jets Background}{9}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Drell Yan + Jets Background}{9}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}t $\mathaccentV {bar}016{t}$ Background}{9}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {5}Methodology}{11}{chapter.5}
-\contentsline {section}{\numberline {5.1}MadGraph}{11}{section.5.1}
-\contentsline {section}{\numberline {5.2}Pythia}{11}{section.5.2}
-\contentsline {section}{\numberline {5.3}Delphes}{11}{section.5.3}
-\contentsline {section}{\numberline {5.4}ROOT}{11}{section.5.4}
-\contentsline {chapter}{\numberline {6}Analysis}{13}{chapter.6}
-\contentsline {chapter}{\numberline {7}Event Selection Criteria}{15}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{17}{chapter.8}
-\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{19}{Appendix.a.A}
-\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{19}{subsection.a.A.0.1}
-\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{19}{subsection.a.A.0.2}
+\contentsline {section}{\numberline {2.4}Seesaw Mechanism}{7}{section.2.4}
+\contentsline {chapter}{\numberline {3}Important Concepts and Variable Definitions}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Jets}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Cross Section}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Coordinate System of CMS and ATLAS detector at the LCH}{9}{section.3.3}
+\contentsline {section}{\numberline {3.4}Pseudorapidity}{9}{section.3.4}
+\contentsline {section}{\numberline {3.5}Minimal Separation Distance Between Particles}{9}{section.3.5}
+\contentsline {section}{\numberline {3.6}Detector CMS and ATLAS}{9}{section.3.6}
+\contentsline {section}{\numberline {3.7}MET}{9}{section.3.7}
+\contentsline {section}{\numberline {3.8}Impact Parameter}{9}{section.3.8}
+\contentsline {chapter}{\numberline {4}Model and backgrounds}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Signal of Interest}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Backgrounds}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}W + Jets Background}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Drell Yan + Jets Background}{11}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}t $\mathaccentV {bar}016{t}$ Background}{11}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Methodology}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}MadGraph}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}Pythia}{13}{section.5.2}
+\contentsline {section}{\numberline {5.3}Delphes}{13}{section.5.3}
+\contentsline {section}{\numberline {5.4}ROOT}{13}{section.5.4}
+\contentsline {chapter}{\numberline {6}Analysis}{15}{chapter.6}
+\contentsline {chapter}{\numberline {7}Event Selection Criteria}{17}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{19}{chapter.8}
+\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{21}{Appendix.a.A}
+\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{21}{subsection.a.A.0.1}
+\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{21}{subsection.a.A.0.2}
+\vspace {2em}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  28 APR 2017 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  2 MAY 2017 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -868,43 +868,43 @@ l.27
 .4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 \end{equation}
-                    \label{majorana_start} [4]
-Overfull \hbox (14.7046pt too wide) in paragraph at lines 78--81
+l.62 \end{equation}
+                    \label{majorana_objetive} [4]
+Overfull \hbox (14.7046pt too wide) in paragraph at lines 75--78
 []\OT1/cmr/m/n/10.95 The for-mer means that neu-trino can be de-scribed us-ing 
 two two-component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
  []
 
 
-Overfull \hbox (0.44232pt too wide) in paragraph at lines 93--94
+Overfull \hbox (0.44232pt too wide) in paragraph at lines 90--91
 []\OT1/cmr/m/n/10.95 Taking the trans-pose of the last equa-tion and us-ing the
  prop-erty $\OML/cmm/m/it/10.95 C^^M[] \OT1/cmr/m/n/10.95 =
  []
 
-[5]) [6]
+[5] [6]) [7]
 \openout2 = `Capitulos/VariableDefinitions/VariableDefinitions.aux'.
 
- (./Capitulos/VariableDefinitions/VariableDefinitions.tex
-Chapter 3.
-) [7
+ (./Capitulos/VariableDefinitions/VariableDefinitions.tex [8
 
 
 
 ]
+Chapter 3.
+) [9]
 \openout2 = `Capitulos/Model/Model.aux'.
 
  (./Capitulos/Model/Model.tex
-Overfull \hbox (19.65047pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10.95 8 \OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VAR
-IABLE DEFINITIONS
+Overfull \hbox (25.12547pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 10 \OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VA
+RIABLE DEFINITIONS
  []
 
-[8
+[10
 
 
 
@@ -918,41 +918,41 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 12.
 
-) [9]
+) [11]
 \openout2 = `Capitulos/Methodology/Methodology.aux'.
 
- (./Capitulos/Methodology/Methodology.tex [10
+ (./Capitulos/Methodology/Methodology.tex [12
 
 
 
 ]
 Chapter 5.
-) [11]
+) [13]
 \openout2 = `Capitulos/Analysis/Analysis.aux'.
 
- (./Capitulos/Analysis/Analysis.tex [12
+ (./Capitulos/Analysis/Analysis.tex [14
 
 
 
 ]
 Chapter 6.
-[13] [14
+[15] [16
 
 ]
 Chapter 7.
-) [15]
+) [17]
 \openout2 = `Capitulos/Conclusions/Conclusions.aux'.
 
- (./Capitulos/Conclusions/Conclusions.tex [16
+ (./Capitulos/Conclusions/Conclusions.tex [18
 
 
 
 ]
 Chapter 8.
-) [17]
+) [19]
 \openout2 = `Apendices/Neutrinos_calculus.aux'.
 
- (./Apendices/Neutrinos_calculus.tex [18
+ (./Apendices/Neutrinos_calculus.tex [20
 
 
 
@@ -962,7 +962,17 @@ Appendix A.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-[19]) [20]
+[21]
+Underfull \vbox (badness 1275) has occurred while \output is active []
+
+ [22]
+
+LaTeX Warning: Reference `major start' on page 23 undefined on input line 71.
+
+) [23] [24
+
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
  (./main.aux (./Capitulos/Introduction/Introduction.aux)
@@ -979,14 +989,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 8008 strings out of 494850
- 115019 string characters out of 6178024
- 217196 words of memory out of 5000000
- 11046 multiletter control sequences out of 15000+600000
- 16012 words of font info for 60 fonts, out of 8000000 for 9000
+ 8027 strings out of 494850
+ 115252 string characters out of 6178024
+ 220293 words of memory out of 5000000
+ 11051 multiletter control sequences out of 15000+600000
+ 16633 words of font info for 62 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  29i,19n,34p,576b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1004,10 +1017,10 @@ cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (24 pages, 211289 bytes).
+Output written on main.pdf (28 pages, 218721 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 429 PDF objects out of 1000 (max. 8388607)
+ 377 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

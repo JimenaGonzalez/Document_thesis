@@ -36,26 +36,45 @@ The expresion we had for the Dirac Lagrangian was:
 \end{align}
 
 We already proved that $\overline{\psi_L}\psi_L = \overline{\psi_R}\psi_R = 0$. Now we study the second term in the latest equation, which has a term of the form:
-\begin{align*}
+\begin{align}
   &\begin{aligned}
      \mathllap{P_R\gamma^\mu}  &= \frac{1}{2} (1 + \gamma^5)\gamma^\mu = \frac{1}{2} (\gamma^\mu + \gamma^5 \gamma^\mu) \\        
-     \mathllap{}            &= \frac{1}{2} (\gamma^\mu - \gamma^\mu \gamma^5) && \text{Since $\{\gamma^5,\gamma^\mu\} = \gamma^5\gamma^\mu + \gamma^\mu \gamma^5 = 0$} \\
+     \mathllap{}            &= \frac{1}{2} (\gamma^\mu - \gamma^\mu \gamma^5) & \text{Since $\{\gamma^5,\gamma^\mu\} = \gamma^5\gamma^\mu + \gamma^\mu \gamma^5 = 0$} \\
      \mathllap{}            &= \frac{1}{2} \gamma^\mu (1 - \gamma^5) = \gamma^\mu P_L 
   &\end{aligned}
-\end{align*}
+\end{align}
 
 Using what we have found in the last expression, we get for the second term:
 \begin{align*}
   &\begin{aligned}
-     \mathllap{i\overline{\psi_L}\gamma^\mu \partial_\mu \psi_R}  &=  i \overline{\psi}P_R \gamma^\mu P_R \psi\\        
-     \mathllap{}            &=  && \text{Since} \\
-     \mathllap{}            &=  \\
-     \mathllap{}            &= 
+     \mathllap{i\overline{\psi_L}\gamma^\mu \partial_\mu \psi_R}  &=  i \overline{\psi}P_R \gamma^\mu \partial_\mu P_R \psi\\        
+     \mathllap{}            &=  i \overline{\psi}\gamma^\mu P_L \partial_\mu P_R\psi \\
+     \mathllap{}            &=  i \overline{\psi}\gamma^\mu \partial_\mu P_L P_R \psi && \text{Since $P_L$ is a constant operator}\\
+     \mathllap{}            &=  0
   &\end{aligned}
 \end{align*}
 
+Following a similar calculus we get: $i\overline{\psi_R}\gamma^\mu \partial_\mu \psi_L$ = 0. Our next step is to find the two coupled Dirac equations using the Euler-Lagrange equation. We obtained for the Lagrangian:
 
+\begin{equation}
+L = i \overline{\psi_R} \gamma^\mu \partial_\mu \psi_R + i \overline{\psi_L}\gamma^\mu \psi_L -m\overline{\psi_R}\psi_L - m \psi_L\psi_R
+\end{equation}
 
+Replacing in the Euler-Lagrange equation we get for both states:
+\begin{align*}
+  &\begin{aligned}
+     \mathllap{\frac{\partial L}{\partial(\partial \overline{\psi_R})}}  &=  \frac{\partial L}{\partial \overline{\psi_R}} \ \ \rightarrow \ \ 0 = i \gamma^\mu \partial_\mu \psi_L -m \psi_R  \\        
+     \mathllap{\frac{\partial L}{\partial(\partial \overline{\psi_L})}}  &=  \frac{\partial L}{\partial \overline{\psi_L}} \ \ \rightarrow \ \ 0 = i \gamma^\mu \partial_\mu \psi_R -m \psi_L\\ 
+  &\end{aligned} \label{major start}
+\end{align*}
+
+Now, we are going to find an expression for $\psi_R$ in terms of $\psi_L$. We take the hermitian conjugate of the equation $\ref{major start}$:
+
+\begin{align*}
+  &\begin{aligned}
+     \mathllap{(i \gamma^\mu \partial_\mu \psi_R)^\dagger}  &= m\psi_L^\dagger 
+  &\end{aligned}
+\end{align*}
 
 
 
