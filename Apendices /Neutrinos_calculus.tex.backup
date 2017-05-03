@@ -1,0 +1,130 @@
+\chapter{Neutrinos and Seesaw Mechanism} \label{apendice_neutrinos}
+
+
+\subsection{Dirac Mass}
+In this Appendix we are going to perform with detail the calculations for neutrino physics which where mentioned in the State of the Art chapter. 
+We start here by studying the Dirac Mass, which is a term of the form:
+
+\begin{equation}
+ m \overline{\psi} \psi = m \overline{(\psi_L + \psi_R)} (\psi_L + \psi_R) = m(\overline{\psi_L} \psi_L + \overline{\psi_L}\psi_R + \overline{\psi_R}\psi_L + \overline{\psi_R} \psi_R)
+\end{equation}
+
+Lets study the term $\overline{\psi_L}\psi_L$ and using $P_R  P_L = 0$:
+
+\begin{equation}
+ \overline{\psi_L}\psi_L = \overline{\psi} {P}^{\dagger}_L P_L \psi = \overline{\psi}P_R  P_L \psi = 0
+\end{equation}
+
+Using an analogous reasoning we can find $\overline{\psi_R}\psi_R = 0$, too. Finally, we obtain the expresion:
+
+\begin{equation}
+  m \overline{\psi} \psi = m (\overline{\psi_L} \psi_R + \overline{\psi_R}\psi_L)
+\end{equation}
+
+\subsection{Majorana Mass}
+
+The expresion we had for the Dirac Lagrangian was: 
+
+\begin{align}
+  %\phantom{i = j = k}
+  &\begin{aligned}
+    \mathllap{L} &= \overline{\psi} \left( i \gamma ^\mu \partial_{\mu} - m \right) \psi \\
+    \mathllap{}  &= (\overline{\psi_L} + \overline{\psi_R})( i \gamma ^\mu \partial_{\mu} - m)(\psi_L + \psi_R) \\
+    \mathllap{}  &= i \overline{\psi_L} \gamma ^\mu \partial_{\mu} \psi_L + i \overline{\psi_L} \gamma ^\mu   \partial_{\mu} \psi_R - m \overline{\psi_L} \psi_L - m \overline{\psi_L} \psi_R \\
+  &\qquad + i \overline{\psi_R} \gamma ^\mu \partial_{\mu} \psi_L + i \overline{\psi_R} \gamma^{\mu} \partial_{\mu} \psi_R - m \overline{\psi_R} \psi_L - m \overline{\psi_R} \psi_R \\
+  \end{aligned}\\
+\end{align}
+
+We already proved that $\overline{\psi_L}\psi_L = \overline{\psi_R}\psi_R = 0$. Now we study the second term in the latest equation, which has a term of the form:
+\begin{align}
+  &\begin{aligned}
+     \mathllap{P_R\gamma^\mu}  &= \frac{1}{2} (1 + \gamma^5)\gamma^\mu = \frac{1}{2} (\gamma^\mu + \gamma^5 \gamma^\mu) \\        
+     \mathllap{}            &= \frac{1}{2} (\gamma^\mu - \gamma^\mu \gamma^5) & \text{Since $\{\gamma^5,\gamma^\mu\} = \gamma^5\gamma^\mu + \gamma^\mu \gamma^5 = 0$} \\
+     \mathllap{}            &= \frac{1}{2} \gamma^\mu (1 - \gamma^5) = \gamma^\mu P_L 
+  &\end{aligned}
+\end{align}
+
+Using what we have found in the last expression, we get for the second term:
+\begin{align}
+  &\begin{aligned}
+     \mathllap{i\overline{\psi_L}\gamma^\mu \partial_\mu \psi_R}  &=  i \overline{\psi}P_R \gamma^\mu \partial_\mu P_R \psi\\        
+     \mathllap{}            &=  i \overline{\psi}\gamma^\mu P_L \partial_\mu P_R\psi \\
+     \mathllap{}            &=  i \overline{\psi}\gamma^\mu \partial_\mu P_L P_R \psi && \text{Since $P_L$ is a constant operator}\\
+     \mathllap{}            &=  0
+  &\end{aligned}
+\end{align}
+
+Following a similar calculation we get: $i\overline{\psi_R}\gamma^\mu \partial_\mu \psi_L$ = 0. Our next step is to find the two coupled Dirac equations using the Euler-Lagrange equation. We 
+obtained for the Lagrangian:   
+
+\begin{equation}
+L = i \overline{\psi_R} \gamma^\mu \partial_\mu \psi_R + i \overline{\psi_L}\gamma^\mu \psi_L -m\overline{\psi_R}\psi_L - m \psi_L\psi_R
+\end{equation}
+
+Replacing in the Euler-Lagrange equation, we get for both states:
+\begin{align}
+  &\begin{aligned}\label{major start}
+     \mathllap{\frac{\partial L}{\partial(\partial \overline{\psi_R})}}  &=  \frac{\partial L}{\partial \overline{\psi_R}} \ \ \rightarrow \ \ 0 = i \gamma^\mu \partial_\mu \psi_L -m \psi_R  \\        
+     \mathllap{\frac{\partial L}{\partial(\partial \overline{\psi_L})}}  &=  \frac{\partial L}{\partial \overline{\psi_L}} \ \ \rightarrow \ \ 0 = i \gamma^\mu \partial_\mu \psi_R -m \psi_L\\ 
+  &\end{aligned} 
+\end{align}
+
+Now, we are going to find an expression for $\psi_R$ in terms of $\psi_L$. First, we take the hermitian conjugate of the bottom equation in \ref{major start}:
+
+\begin{align}
+  &\begin{aligned}
+     \mathllap{i \gamma^\mu \partial_\mu \psi_R} &= m\psi_L\\        
+     \mathllap{(i \gamma^\mu \partial_\mu \psi_R)^\dagger} &= m\psi_L^\dagger  & \text{Taking the hermitian conjugate} \\
+     \mathllap{-i \partial_\mu \psi_R^\dagger \gamma^{\mu \dagger}} &= m \psi_L^\dagger \\
+     \mathllap{-i \partial_\mu \psi_R^\dagger \gamma^{\mu \dagger}\gamma^0} &= m \psi_L^\dagger \gamma^0  &\text{Multiplying on the right by $\gamma^0$}\\
+     \mathllap{-i \partial_\mu \psi_R^\dagger \gamma^0 \gamma^\mu} &= m \psi_L^\dagger \gamma^0  &\text{Using $\gamma^{\mu \dagger}\gamma^0 = \gamma^0 \gamma^\mu$ }\\    %\leftarrow \gamma^0(\gamma^0 \gamma^{\mu \dagger}\gamma^0) = \gamma^0(\gamma^\mu$) }\\
+     \mathllap{-i \partial_\mu \overline{\psi_R}\gamma^\mu} &= m \overline{\psi_L} &\text{We have $\overline{\psi} = \psi^{\dagger}\gamma^0$}\\
+     \mathllap{-i (\partial_\mu \overline{\psi_R}\gamma^\mu)^\intercal} &= m \overline{\psi_L}^\intercal &\text{Taking the transpose}\\
+     \mathllap{-i \gamma^{\mu \intercal} \partial_\mu \overline{\psi_R}^\intercal} &= m \overline{\psi_L}^\intercal \\
+     \mathllap{-i (-C^{-1}\gamma^\mu C) \partial_\mu \overline{\psi_R}^\intercal} &= m \overline{\psi_L}^\intercal &\text{Using $\gamma^{\mu \intercal}= -C^{-1}\gamma^\mu C$}\\
+     \mathllap{i \gamma^\mu \partial_\mu C \overline{\psi_R}^\intercal} &= m C \overline{\psi_L}^\intercal &\text{Multiplying on the left by C}\\
+  &\end{aligned}
+\end{align}
+
+As we saw previously, for the lastest equation to have a similar structure as the top equation of \ref{major start}, the right-handed component of $\psi$ must be:
+
+\begin{equation}
+ \psi_R = C \overline{\psi_L}^\intercal
+\end{equation}
+
+Now, we need to prove that $C \overline{\psi_L}^\intercal$ is actually right-handed. To do this we apply the left-handed chiral projection operator $P_L$ on this state and
+the result must be zero.
+
+\begin{align}
+  &\begin{aligned}
+     \mathllap{P_L \left( C \overline{\psi_L}^\intercal \right)} &= C P_L^\intercal \overline{\psi_L}^\intercal &\text{Property of C: $P_LC = C P_L^\intercal$}\\        
+     \mathllap{} &= C \left( \overline{\psi_L}P_L \right)^\intercal  
+  &\end{aligned}
+\end{align}
+
+Now, lets examine the term $\overline{\psi_L}P_L$:
+ 
+%REVISARRRRRRRRRRRRRRR TERMINO
+
+\begin{align}
+  &\begin{aligned}
+    \mathllap{\overline{\psi_L}P_L} &= (P_L \psi)^\dagger \gamma_0 P_L = \psi^\dagger P_L \gamma_0 P_L\\
+    \mathllap{} &= \psi^\dagger \gamma^0 P_R P_L = 0
+    &\end{aligned}
+\end{align}
+
+Hence $C \overline{\psi_L}^\intercal$ is in fact a right-handed quiral state. 
+\\
+Now, let us find the neutrino mass eigenstates by diagonalizing the matrix M:
+
+\begin{equation}\label{matrix m}
+M = 
+\begin{pmatrix}
+  m_L & m_D \\
+  m_D & m_R  
+\end{pmatrix}
+\end{equation}
+
+
+
+
