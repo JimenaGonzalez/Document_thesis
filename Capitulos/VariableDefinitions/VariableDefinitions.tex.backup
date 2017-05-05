@@ -30,8 +30,28 @@
   \frac{N_{events}}{s} = \sigma \frac{N_{flux}/s}{F} = \sigma \times Luminosity
  \end{equation}
 
+ In the last identity we defined the concept of luminosity, which is a measure of sensitivity and depends on the energy adn on the beam dynamics. In particle colliders the luminosity depends of 
+ parameters as the number of particles per bunch $N_b$, the number of bunches in each beam $\kappa_b$, the revolution frequency $f$ at the storage ring and the beam radii $ \sigma$ of the bunches 
+ at the crossing point:
+ 
+ \begin{equation}
+  L = \frac{N_b^2 f \kappa_b}{4\pi \sigma^2} 
+ \end{equation}
+
+ The luminosity is a quantity that is used to describe the performance of a particle accelerator. 
  
  \section{Pseudorapidity}
+ 
+ The variable Pseudorapidity is defined as a parametrization of the CMS detector coordinates, which are ilustrated in the figure \ref{CMSCoordinates}:
+ 
+ %\graphicspath{./Capitulos/VariableDefinitions}
+ 
+ \begin{figure}[h] \label{CMSCoordinates}
+ \includegraphics[width=0.75\textwidth]{./Capitulos/VariableDefinitions/CMS_coordinates}  
+  \caption{CMS detector coordinates}
+ \end{figure}
+
+Where the polar angle is describe by the parameter $\theta$ and the azimuthal by $\Phi$. 
  
  
  \section{Minimal Separation Distance Between Particles}

@@ -30,15 +30,34 @@
   \frac{N_{events}}{s} = \sigma \frac{N_{flux}/s}{F} = \sigma \times Luminosity
  \end{equation}
 
- In the last identity we defined the concept of luminosity, which is a measure of sensitivity. In particle colliders this quantity is proportional to parameters as the number of particles per bunch
- $N_b$, the number of bunches in each beam $\kappa_b$, the revolution frequency $f$ at the storage ring and the beam radii $ \sigma$ of the bunches at the crossing point:
+ In the last identity we defined the concept of luminosity, which is a measure of sensitivity and depends on the energy and on the beam dynamics.  The luminosity is a quantity that is used to 
+ describe the performance of a particle accelerator. It has units of the inverse of cross section, which is know as inverse barns $fb^{-1}$ and it is equivalent to $(1 fb = 10^{-28} m^2)$. 
+ In particle colliders the 
+ luminosity depends of different as the number of particles per bunch $N_b$, the number of bunches in each beam $\kappa_b$, the revolution frequency $f$ at the storage ring and the beam radii 
+ $ \sigma$ of the bunches at the crossing point:
  
  \begin{equation}
   L = \frac{N_b^2 f \kappa_b}{4\pi \sigma^2} 
  \end{equation}
 
- 
  \section{Pseudorapidity}
+ 
+ The variable Pseudorapidity is defined as a parametrization of the CMS detector coordinates, which are ilustrated in the figure \ref{CMSCoordinates}:
+ 
+ %\graphicspath{./Capitulos/VariableDefinitions}
+ 
+ \begin{figure}[h] \label{CMSCoordinates}
+ \includegraphics[width=0.75\textwidth]{./Capitulos/VariableDefinitions/CMS_coordinates}  
+  \caption{CMS detector coordinates}
+ \end{figure}
+
+The origen of the CMS coordinates coincide with the point in which a collision occurs in the detector. 
+The polar angle is described by the parameter $\theta$ and the azimuthal angle by $\Phi$. The Pseudorapidity is defined in terms of the polar angle as:
+
+\begin{equation}
+ \eta = - \ln \left( \tan (\theta /2 ) \right)
+\end{equation}
+
  
  
  \section{Minimal Separation Distance Between Particles}
