@@ -26,6 +26,7 @@
  number of atoms per cubic meter in the target multiplied by the lenght. The inverse of the last quantity is called ``target constant $F$'' and it has the dimesion of an area. Thus, it is possible
  to make an estimation of the number of interactions per second using:
  
+ %citar libro data analysis techniques for high energy physics
  \begin{equation}
   \frac{N_{events}}{s} = \sigma \frac{N_{flux}/s}{F} = \sigma \times Luminosity
  \end{equation}
@@ -42,7 +43,7 @@
 
  \section{Pseudorapidity}
  
- The variable Pseudorapidity is defined as a parametrization of the CMS detector coordinates, which are ilustrated in the figure \ref{CMSCoordinates}:
+ The variable Pseudorapidity is defined as a parametrization of the CMS detector coordinates. These coordinates are ilustrated in the figure \ref{CMSCoordinates}:
  
  %\graphicspath{./Capitulos/VariableDefinitions}
  
@@ -51,21 +52,65 @@
   \caption{CMS detector coordinates}
  \end{figure}
 
-The origen of the CMS coordinates coincide with the point in which a collision occurs in the detector. 
-The polar angle is described by the parameter $\theta$ and the azimuthal angle by $\Phi$. The Pseudorapidity is defined in terms of the polar angle as:
+The origen of the CMS coordinates coincides with the point in which a collision occurs in the detector. 
+The polar angle is described by the parameter $\theta$ and it is measured with respect to the z axis.
+The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from the x axis. The Pseudorapidity is defined in terms of the polar angle as:
 
 \begin{equation}
- \eta = - \ln \left( \tan (\theta /2 ) \right)
+ \eta \equiv - \ln \left( \tan (\theta /2 ) \right)
 \end{equation}
 
+ The motivation to define and use this variable is that while $\Delta \theta$ is not a Lorentz invariant $\Delta \eta$ is. Moreover, the quantity of particles in function on the variable $\eta$
+ is approximately uniform in a cilindrical detector. 
  
+  
+ \section{$p_T$ and $\vec{E_T^{miss}}$}
+
+ The quantity $p_T$ is the transversal momentum and it is the projection of the linear momentum onto the xy plane. This variable is used instead of the linear momentum because the initial beams
+ are moving just in the z axis (the initial momentum in the xy plane is zero), so when a collision is produced the interesant effects occur in the transverse plane.\\
+ %the particles adquiere momentum in the xy plane. 
  
- \section{Minimal Separation Distance Between Particles}
+ As it was already mentioned the momentum in the tranverse plane is zero before the collision. Since the tranverse momentum has to be conserved, after the collision it must be zero. We can write
+ the total momentum as the sum of the particles that are detected (visible particles) and the ones that are not detected (invisible particles), the former can be expressed as:
  
- \section{MET}
+ \begin{equation}
+  0 = \sum_{i=1}^N \vec{P_T(i)} = \sum_{j=1}^M \vec{P_T(j)}^{visibles} + \sum_{k=M}^{N-M} \vec{P_T(k)}^{invisibles}
+ \end{equation}
+
+ The former equation motivates the definition of a variable called ``Missing transverse energy'' ($\vec{E_T^{miss}}$), which is defined as the sum of the transverse momentum of the invisible
+ particles:
+ 
+ \begin{equation}
+  \vec{E_T^{miss}} \equiv \sum_{k=M}^{N-M}\vec{P_T(k)}^{invisibles} = - \sum_{j=1}^M  \vec{P_T(j)}^{visibles}
+ \end{equation}
 
  
  \section{Impact Parameter}
-
+The vertex of a track is a variable of importance because it can be used to determine the position of the point of interaction and the momentum vector of the tracks emerging from the vertex. The 
+vertex fit can also be used to check the association of tracks to a vertex, in oder words, to determine if a track actually originates from a certain vertex. In order to determine the direction of the
+track connecting a primary and a secondary vertices we have to find the position of the secondary vertex.
+It is relevant to find the position
+of any secondary vertex since it can determine the direction of the track conneting both vertices.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  

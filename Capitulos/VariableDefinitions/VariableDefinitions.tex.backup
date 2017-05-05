@@ -26,23 +26,24 @@
  number of atoms per cubic meter in the target multiplied by the lenght. The inverse of the last quantity is called ``target constant $F$'' and it has the dimesion of an area. Thus, it is possible
  to make an estimation of the number of interactions per second using:
  
+ %citar libro data analysis techniques for high energy physics
  \begin{equation}
   \frac{N_{events}}{s} = \sigma \frac{N_{flux}/s}{F} = \sigma \times Luminosity
  \end{equation}
 
- In the last identity we defined the concept of luminosity, which is a measure of sensitivity and depends on the energy adn on the beam dynamics. In particle colliders the luminosity depends of 
- parameters as the number of particles per bunch $N_b$, the number of bunches in each beam $\kappa_b$, the revolution frequency $f$ at the storage ring and the beam radii $ \sigma$ of the bunches 
- at the crossing point:
+ In the last identity we defined the concept of luminosity, which is a measure of sensitivity and depends on the energy and on the beam dynamics.  The luminosity is a quantity that is used to 
+ describe the performance of a particle accelerator. It has units of the inverse of cross section, which is know as inverse barns $fb^{-1}$ and it is equivalent to $(1 fb = 10^{-28} m^2)$. 
+ In particle colliders the 
+ luminosity depends of different as the number of particles per bunch $N_b$, the number of bunches in each beam $\kappa_b$, the revolution frequency $f$ at the storage ring and the beam radii 
+ $ \sigma$ of the bunches at the crossing point:
  
  \begin{equation}
   L = \frac{N_b^2 f \kappa_b}{4\pi \sigma^2} 
  \end{equation}
 
- The luminosity is a quantity that is used to describe the performance of a particle accelerator. 
- 
  \section{Pseudorapidity}
  
- The variable Pseudorapidity is defined as a parametrization of the CMS detector coordinates, which are ilustrated in the figure \ref{CMSCoordinates}:
+ The variable Pseudorapidity is defined as a parametrization of the CMS detector coordinates. These coordinates are ilustrated in the figure \ref{CMSCoordinates}:
  
  %\graphicspath{./Capitulos/VariableDefinitions}
  
@@ -51,15 +52,62 @@
   \caption{CMS detector coordinates}
  \end{figure}
 
-Where the polar angle is describe by the parameter $\theta$ and the azimuthal by $\Phi$. 
+The origen of the CMS coordinates coincides with the point in which a collision occurs in the detector. 
+The polar angle is described by the parameter $\theta$ and it is measured with respect to the z axis.
+The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from the x axis. The Pseudorapidity is defined in terms of the polar angle as:
+
+\begin{equation}
+ \eta \equiv - \ln \left( \tan (\theta /2 ) \right)
+\end{equation}
+
+ The motivation to define and use this variable is that while $\Delta \theta$ is not a Lorentz invariant $\Delta \eta$ is. Moreover, the quantity of particles in function on the variable $\eta$
+ is approximately uniform in a cilindrical detector. 
  
+  
+ \section{$p_T$ and $\vec{E_T^{miss}}$}
+
+ The quantity $p_T$ is the transversal momentum and it is the projection of the linear momentum onto the xy plane. This variable is used instead of the linear momentum because the initial beams
+ are moving just in the z axis (the initial momentum in the xy plane is zero), so when a collision is produced the interesant effects occur in the transverse plane.\\
+ %the particles adquiere momentum in the xy plane. 
  
- \section{Minimal Separation Distance Between Particles}
+ As it was already mentioned the momentum in the tranverse plane is zero before the collision. Since the tranverse momentum has to be conserved, after the collision it must be zero. We can write
+ the total momentum as the sum of the particles that are detected (visible particles) and the ones that are not detected (invisible particles), the former can be expressed as:
  
- \section{MET}
+ \begin{equation}
+  0 = \sum_{i=1}^N \vec{P_T(i)} = \sum_{j=1}^M \vec{P_T(j)}^{visibles} + \sum_{k=M}^{N-M} \vec{P_T(k)}^{invisibles}
+ \end{equation}
+
+ The former equation motivates the definition of a variable called ``Missing transverse energy'' ($\vec{E_T^{miss}}$), which is defined as the sum of the transverse momentum of the invisible
+ particles:
+ 
+ \begin{equation}
+  \vec{E_T^{miss}} \equiv \sum_{k=M}^{N-M}\vec{P_T(k)}^{invisibles} = - \sum_{j=1}^M  \vec{P_T(j)}^{visibles}
+ \end{equation}
 
  
  \section{Impact Parameter}
-
+The vertex of a track is a variable of importance because it can be used to determine the position of the point of interaction and the momentum vector of the tracks emerging from the vertex. The 
+vertex fit can also be used to check the association of tracks to a vertex, in oder words, to determine if a track actually originates from a certain vertex.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  

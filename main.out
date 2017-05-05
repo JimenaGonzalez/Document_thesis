@@ -5,21 +5,34 @@
 \BOOKMARK [2][-]{subsection.1.2.1}{Dirac Mass}{section.1.2}% 5
 \BOOKMARK [2][-]{subsection.1.2.2}{Majorana Mass}{section.1.2}% 6
 \BOOKMARK [1][-]{section.1.3}{Seesaw Mechanism}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Important Concepts and Variable Definitions}{}% 8
-\BOOKMARK [1][-]{section.2.1}{Jets}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{Cross Section and Luminosity}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{Pseudorapidity}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.4}{Minimal Separation Distance Between Particles}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.5}{MET}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.6}{Impact Parameter}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{CMS Detector}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Accelarator and Storage Ring}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Tracks Detector}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.3}{Hadronic Calorimeter}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.4}{Electromagnetic Calorimeter}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.5}{Muon Detector}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.6}{Triggers}{chapter.3}% 21
-\BOOKMARK [0][-]{Appendix.a.A}{Appendix Neutrinos and Seesaw Mechanism}{}% 22
-\BOOKMARK [1][-]{subsection.a.A.0.1}{Dirac Mass}{Appendix.a.A}% 23
-\BOOKMARK [2][-]{subsection.a.A.0.2}{Majorana Mass}{subsection.a.A.0.1}% 24
-\BOOKMARK [0][-]{Appendix.a.B}{Appendix Charge Conjugation Operator}{}% 25
+\BOOKMARK [0][-]{chapter.2}{CMS Detector}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Accelarator and Storage Ring}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{Tracks Detector}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Hadronic Calorimeter}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{Electromagnetic Calorimeter}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.5}{Muon Detector}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.6}{Triggers}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Important Concepts and Variable Definitions}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Jets}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Cross Section and Luminosity}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{Pseudorapidity}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{pT and }{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.5}{Impact Parameter}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Model and backgrounds}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Signal of Interest}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Backgrounds}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.2.1}{W + Jets Background}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.2}{Drell Yan + Jets Background}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.3}{t \040Background}{section.4.2}% 26
+\BOOKMARK [0][-]{chapter.5}{Methodology}{}% 27
+\BOOKMARK [1][-]{section.5.1}{MadGraph}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{Pythia}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.3}{Delphes}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.4}{ROOT}{chapter.5}% 31
+\BOOKMARK [0][-]{chapter.6}{Analysis}{}% 32
+\BOOKMARK [0][-]{chapter.7}{Event Selection Criteria}{}% 33
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 34
+\BOOKMARK [0][-]{Appendix.a.A}{Appendix Neutrinos and Seesaw Mechanism}{}% 35
+\BOOKMARK [1][-]{subsection.a.A.0.1}{Dirac Mass}{Appendix.a.A}% 36
+\BOOKMARK [2][-]{subsection.a.A.0.2}{Majorana Mass}{subsection.a.A.0.1}% 37
+\BOOKMARK [0][-]{Appendix.a.B}{Appendix Charge Conjugation Operator}{}% 38
