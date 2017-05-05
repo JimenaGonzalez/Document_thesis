@@ -7,17 +7,32 @@
  the string model, the confining nature of strong interaction increases the potential colour in a proportional way as the distance between the initial partons. When the distance reaches a certain 
  critical value it is energetically favourable to produce a quark pair from the vacuum. Finally, by this proccess the inital colour charged particles are convert into bound colour-singlet hadronic 
  states. \\
+ %Citar libro: Particle detectors Calus GRupen and Boris shwartz
  
  Besides jets may display a structure with properties that could indicate which were the initial partons interacting, they are hard to study individually when there is a numerous quantity of them
- in an event. The former is because it is almost imposible to attach all particles in an event final state to a single initial parton. Thus, there exist algorithms which cluster some particles in 
- a final state in a way that it is possible to determined properties as 4-momentum and jet shapes. The objetive of this algorithms is to approximate the direction and energies of the initial partons.
+ in an event. The former is because it is almost imposible to attach all particles in an event final state to a single initial parton. The reconstruction of jets depends of elements like the 
+ fragmentation process, detectors effects, among others. Thus, there exist algorithms which cluster some particles in a final state so that it is possible to determine properties as 4-momentum 
+ and jet shapes. The objetive of this algorithms is to determine the inital interacting partons and approximate its directions and energies. \\
  
+ According to the reconstruction algorithms we can define a jet at three different levels. At partonic level a jet can be understood as a quark or a gluon. At hadronic level can be referred to the
+ hadrons produced due to the hadronization process. Finally, at a detector level can be understood as a the tracks detected and the energy deposited in the calorimeters of the detector. The 
+ reconstuction algorithms that are going to be used for this analysis consist in enclose in cones the regions where there is a numerous detection of particles. 
+ %Citar tesis Luis Alfredo
  
  \section{Cross Section and Luminosity}
  
+ In High Energy Physics the cross section $\sigma$ concept is the probability that a certain event of interest has to occur. This quantity is proportional to the energy of the event production. The unit 
+ used for cross sections is the bar (1 b = $10^{-28} m^2$). The number of a certain interaction in a fixed target experiment is proportional to its cross section, the particles flux, and the
+ number of atoms per cubic meter in the target multiplied by the lenght. The inverse of the last quantity is called ``target constant $F$'' and it has the dimesion of an area. Thus, it is possible
+ to make an estimation of the number of interactions per second using:
+ 
+ \begin{equation}
+  \frac{N_{events}}{s} = \sigma \frac{N_{flux}/s}{F} = \sigma \times Luminosity
+ \end{equation}
+
+ 
  \section{Pseudorapidity}
  
- \subsection{Coordinate System of CMS and ATLAS dectector at the LHC}
  
  \section{Minimal Separation Distance Between Particles}
  

@@ -10,18 +10,17 @@
 \contentsline {chapter}{\numberline {2}Important Concepts and Variable Definitions}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Jets}{7}{section.2.1}
 \contentsline {section}{\numberline {2.2}Cross Section and Luminosity}{8}{section.2.2}
-\contentsline {section}{\numberline {2.3}Pseudorapidity}{8}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Coordinate System of CMS and ATLAS dectector at the LHC}{8}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Minimal Separation Distance Between Particles}{8}{section.2.4}
-\contentsline {section}{\numberline {2.5}MET}{8}{section.2.5}
-\contentsline {section}{\numberline {2.6}Impact Parameter}{8}{section.2.6}
-\contentsline {chapter}{\numberline {3}CMS Detector}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Tracks Detector}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Hadronic Calorimeter}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Electromagnetic Calorimeter}{9}{section.3.3}
-\contentsline {section}{\numberline {3.4}Muon Detector}{9}{section.3.4}
-\contentsline {section}{\numberline {3.5}Triggers}{9}{section.3.5}
-\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{10}{Appendix.a.A}
-\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{10}{subsection.a.A.0.1}
-\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{11}{subsection.a.A.0.2}
-\contentsline {chapter}{Appendix \numberline {B}Charge Conjugation Operator}{14}{Appendix.a.B}
+\contentsline {section}{\numberline {2.3}Pseudorapidity}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Minimal Separation Distance Between Particles}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}MET}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}Impact Parameter}{9}{section.2.6}
+\contentsline {chapter}{\numberline {3}CMS Detector}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}Tracks Detector}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}Hadronic Calorimeter}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Electromagnetic Calorimeter}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Muon Detector}{10}{section.3.4}
+\contentsline {section}{\numberline {3.5}Triggers}{10}{section.3.5}
+\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{11}{Appendix.a.A}
+\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{11}{subsection.a.A.0.1}
+\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{12}{subsection.a.A.0.2}
+\contentsline {chapter}{Appendix \numberline {B}Charge Conjugation Operator}{15}{Appendix.a.B}
