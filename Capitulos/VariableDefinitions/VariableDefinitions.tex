@@ -48,8 +48,9 @@
  %\graphicspath{./Capitulos/VariableDefinitions}
  
  \begin{figure}[h] \label{CMSCoordinates}
+ \centering
+ \caption{CMS detector coordinates}
  \includegraphics[width=0.75\textwidth]{./Capitulos/VariableDefinitions/CMS_coordinates}  
-  \caption{CMS detector coordinates}
  \end{figure}
 
 The origen of the CMS coordinates coincides with the point in which a collision occurs in the detector. 
@@ -85,16 +86,28 @@ The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from
  \end{equation}
 
  
- \section{Impact Parameter}
+ \section{Displaced Vertices and Impact Parameter}
 The vertex of a track is a variable of importance because it can be used to determine the position of the point of interaction and the momentum vector of the tracks emerging from the vertex. The 
-vertex fit can also be used to check the association of tracks to a vertex, in oder words, to determine if a track actually originates from a certain vertex. In order to determine the direction of the
-track connecting a primary and a secondary vertices we have to find the position of the secondary vertex.
-It is relevant to find the position
-of any secondary vertex since it can determine the direction of the track conneting both vertices.
+vertex fit can also be used to check the association of tracks to a vertex, in oder words, to determine if a track actually originates from a certain vertex. In order to determine the direction of the track connecting a primary and a secondary vertices we have to find the position of the secondary vertex. Some particles can pass through the detector without living tracks, when this particles decay, the particles produced can be detected and leave tracks on the detector. The point in which the product particles are detected is called a secondary vertex, and it is said that it is a displaced vertice. The former description is showed in the figure \ref{Displaced_vertices}, where the path of the undetected particle is represent by a doted line:
+
+ % Imagen tomada Displaced Vertex: https://indico.cern.ch/event/149404/contributions/1388848/attachments/149638/211969/azuma_berkeley_111020_v05.pdf
+ % Imagen Impact parameter: http://www.quantumdiaries.org/2011/06/10/to-b-or-not-to-bbar-b-tagging-via-track-counting/
  
+ \begin{figure}[h] \label{Displaced_vertices}
+ \centering
+ \caption{Scheme of a displaced vertex}
+ \includegraphics[width=0.4\textwidth]{./Capitulos/VariableDefinitions/Displaced_vertex}  
+ \end{figure}
  
- 
- 
+Now, the impact parameter is defined as the closest distance between the vertex and the points of the track. A visualization of this is showed in the figure \ref{Impact_parameter}. In this image the track is represented by the blue dotted line, and the impact parameter by the red line. It can be seen that the impact parameter line forms a right angle with the track. Using this characteristic it is possible to identify in a unique way the closest point of approach of the track to the vertex.
+
+
+ \begin{figure}[h] \label{Impact_parameter}
+ \centering
+ \caption{Scheme of the impact parameter variable}
+ \includegraphics[width=0.7\textwidth]{./Capitulos/VariableDefinitions/Impact_parameter}  
+ \end{figure} 
+
  
  
  
