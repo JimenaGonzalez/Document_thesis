@@ -10,20 +10,15 @@ is constructed and its specific task in the development of the project.
 
 The first program that is going to be used is MadGraph, which is a generator of events that simulates the collisions of particle beams, which in our case are protons. MadGraph is written in Python
 programming language. The physical processes that MadGraph can simulate include processes from the SM and from physics beyond the SM that are based on certain theoretical models like Supersymmetry.
-This program incorporates diverse physical parameters in order to include all the necessary elements to make phenomenological studies: it calculates the cross section of a certain event, it generates events with 
-strong interactions (including possible decay of particles) and it offers relevant tools to manipulate the events and to make their posterior analysis. 
-
-Madgraph uses perturbation theory to perform production calculations and to generate physical processes. The parameter entries are controlled in configuration files that are called input cards. 
-These cards are use to modify 
+This program incorporates diverse physical
+parameters in order to include all the necessary elements to make phenomenological studies: it calculates the cross section of a certain event, it generates events with 
+strong interactions (including possible decay of particles) and it offers relevant tools to manipulate the events and to make their posterior analysis. Madgraph uses perturbation theory to perform 
+production calculations and to generate physical processes. The parameter entries are controlled in configuration files that are called input cards. These cards are use to modify 
 essential variables in the production of the events, for example: the type of particles that will collide, the energy of the collision, number of events that are going to be simulated, mass of the
 generated particles, final states, among others. At the level of event generation it is possible to make basic cuts of minimal and maximal values of some kinematic variables. Moreover, the lastest
 version of MadGraph (MadGraph 5) has an useful characteristic: it can give an output file with matrix elements that can be used directly in the program Pythia. Additionally, this program is fully 
 compatible with FeynRules which allows it to be able to generate any new physical model that can be written in the form of a Lagrangian.
 
-Since the programm took large time producing the signal of interest it was necessary to write the theory 
-
-
-(Pagina 11!) (The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations).
 
 \section{Pythia}
 
