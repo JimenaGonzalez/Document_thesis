@@ -8,35 +8,34 @@
 \contentsline {subsubsection}{Majorana Mass Term}{4}{section*.2}
 \contentsline {section}{\numberline {1.3}Seesaw Mechanism}{4}{section.1.3}
 \contentsline {chapter}{\numberline {2}CMS Detector}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Accelarator and Storage Ring}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}Tracks Detector}{8}{section.2.2}
-\contentsline {section}{\numberline {2.3}Calorimetry}{9}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Electromagnetic Calorimeter}{9}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Hadronic Calorimeter}{10}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Muon Detector}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}Triggers}{10}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Triggers at the CMS}{10}{subsection.2.5.1}
-\contentsline {chapter}{\numberline {3}Important Concepts and Variable Definitions}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Jets}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Cross Section and Luminosity}{12}{section.3.2}
-\contentsline {section}{\numberline {3.3}Pseudorapidity}{13}{section.3.3}
-\contentsline {section}{\numberline {3.4}$p_T$ and $\mathaccentV {vec}17E{E_T^{miss}}$}{14}{section.3.4}
-\contentsline {section}{\numberline {3.5}Displaced Vertices and Impact Parameter}{14}{section.3.5}
-\contentsline {chapter}{\numberline {4}Model and backgrounds}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Signal of Interest}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Backgrounds}{17}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}W + Jets Background}{17}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Drell Yan + Jets Background}{17}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}t $\mathaccentV {bar}016{t}$ Background}{17}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {5}Methodology}{18}{chapter.5}
-\contentsline {section}{\numberline {5.1}MadGraph}{18}{section.5.1}
-\contentsline {section}{\numberline {5.2}Pythia}{18}{section.5.2}
-\contentsline {section}{\numberline {5.3}Delphes}{18}{section.5.3}
-\contentsline {section}{\numberline {5.4}ROOT}{18}{section.5.4}
-\contentsline {chapter}{\numberline {6}Analysis}{19}{chapter.6}
-\contentsline {chapter}{\numberline {7}Event Selection Criteria}{20}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{21}{chapter.8}
-\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{22}{Appendix.a.A}
-\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{22}{subsection.a.A.0.1}
-\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{23}{subsection.a.A.0.2}
-\contentsline {chapter}{Appendix \numberline {B}Charge Conjugation Operator}{26}{Appendix.a.B}
+\contentsline {section}{\numberline {2.1}Tracks Detector}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Calorimetry}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Electromagnetic Calorimeter}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Hadron Calorimeter}{10}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Muon Detector}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}Triggers}{11}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Triggers at the CMS}{11}{subsection.2.4.1}
+\contentsline {chapter}{\numberline {3}Important Concepts and Variable Definitions}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Jets}{12}{section.3.1}
+\contentsline {section}{\numberline {3.2}Cross Section and Luminosity}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Pseudorapidity}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}$p_T$ and $\mathaccentV {vec}17E{E_T^{miss}}$}{15}{section.3.4}
+\contentsline {section}{\numberline {3.5}Displaced Vertices and Impact Parameter}{15}{section.3.5}
+\contentsline {chapter}{\numberline {4}Model and backgrounds}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}Signal of Interest}{18}{section.4.1}
+\contentsline {section}{\numberline {4.2}Backgrounds}{18}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}W + Jets Background}{18}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Drell Yan + Jets Background}{18}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}t $\mathaccentV {bar}016{t}$ Background}{18}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Methodology}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}MadGraph}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Pythia}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}Delphes}{19}{section.5.3}
+\contentsline {section}{\numberline {5.4}ROOT}{19}{section.5.4}
+\contentsline {chapter}{\numberline {6}Analysis}{20}{chapter.6}
+\contentsline {chapter}{\numberline {7}Event Selection Criteria}{21}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{22}{chapter.8}
+\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{23}{Appendix.a.A}
+\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{23}{subsection.a.A.0.1}
+\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{24}{subsection.a.A.0.2}
+\contentsline {chapter}{Appendix \numberline {B}Charge Conjugation Operator}{27}{Appendix.a.B}
