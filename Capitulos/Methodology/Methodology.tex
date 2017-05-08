@@ -1,52 +1,32 @@
 \chapter{Methodology} 
 
-The objective of this project is to make a phenomenological study that allows the identification of a signal whith the presence of a heavy neutrino in the experiments of the LHC. For this reason, 
-the methodology that is going to be use consist in the use of different computational programs to simulate the signal and its background, and after to perform the statistical analysis of the 
-simulated data. The programs that are going to be used to simulate the signal are MadGraph \cite{MadGraph 1, MadGraph 2}, Pythia \cite{Pythia} and Delphes \cite{Delphes}. The statistical study 
-of the data is going to be develop with the software ROOT \cite{Root}. In the next paragraphs each program is going to be described, including the fundamental physical basis on which the program 
-is constructed and its specific task in the development of the project.
+The objective of this project is to make a phenomenological study that allows the identification of a signal with the presence of a heavy neutrino in the experiments of the LHC. For this reason, 
+the methodology that is going to be use consist in the use of different computational programs to simulate the signal and its background as it should be produced and measured at the CMS detector. Next, this data must go through a statistical analysis. The programs that are going to be used to simulate the signal are MadGraph \cite{MadGraph 1, MadGraph 2} and Pythia \cite{Pythia}. Then the program Delphes is used to simulate the behaviur of the multi-purpose CMS detector \cite{Delphes}. Lastly,the statistical study of the data is going to be develop with the software ROOT \cite{Root}, which will determine the potential variables that could differenciate the signal and background. In the next paragraphs each program is going to be described, including the fundamental physical basis on which the program is constructed and its specific task in the development of the project.
 
 \section{MadGraph}
 
-The first program that is going to be used is MadGraph, which is a generator of events that simulates the collisions of particle beams, which in our case are protons. MadGraph is written in Python
-programming language. The physical processes that MadGraph can simulate include processes from the SM and from physics beyond the SM that are based on certain theoretical models like Supersymmetry.
-This program incorporates diverse physical parameters in order to include all the necessary elements to make phenomenological studies: it calculates the cross section of a certain event, it generates events with 
-strong interactions (including possible decay of particles) and it offers relevant tools to manipulate the events and to make their posterior analysis. 
+The first program that is going to be used is MadGraph, which is a generator of events that simulates the collisions of particle beams, which in our case are protons. MadGraph is written in Python programming language. The physical processes that MadGraph can simulate include processes from the SM and from physics beyond the SM that are based on certain theoretical models like Supersymmetry. This program incorporates diverse physical parameters in order to include all the necessary elements to make phenomenological studies: it calculates the cross section of a certain event, it generates events with strong interactions (including possible decay of particles) and it offers relevant tools to manipulate the events and to make their posterior analysis. 
 
 Madgraph uses perturbation theory to perform production calculations and to generate physical processes. The parameter entries are controlled in configuration files that are called input cards. 
-These cards are use to modify 
-essential variables in the production of the events, for example: the type of particles that will collide, the energy of the collision, number of events that are going to be simulated, mass of the
-generated particles, final states, among others. At the level of event generation it is possible to make basic cuts of minimal and maximal values of some kinematic variables. Moreover, the lastest
-version of MadGraph (MadGraph 5) has an useful characteristic: it can give an output file with matrix elements that can be used directly in the program Pythia. Additionally, this program is fully 
-compatible with FeynRules which allows it to be able to generate any new physical model that can be written in the form of a Lagrangian.
+These cards are use to modify essential variables in the production of the events, for example: the type of particles that will collide, the energy of the collision, number of events that are going to be simulated, mass of the generated particles, final states, among others. At the level of event generation it is possible to make basic cuts of minimal and maximal values of some kinematic variables. Moreover, the lastest version of MadGraph (MadGraph 5) has an useful characteristic: it can give an output file with matrix elements that can be used directly in the program Pythia. 
 
-Since the programm took large time producing the signal of interest it was necessary to write the theory 
+In order to produce an event of physics beyond the SM one has to describe the physical model in the form of a Lagrangian , a list of fields and parameters. Then use the former elements as parameters input of the MATEMATICA-based package FEYNRULES. Finally, FEYNRULES returns the Feynman rules corresponding to the Lagrangian of the model, which are used as input of MadGraph.
 
-
-(Pagina 11!) (The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations).
 
 \section{Pythia}
 
-The second program is Pythia, this program incorporates a set of physical models to develop the evolution of few-body system into a complex final state with multiple particles. This program 
-simulates the processes of fragmentation of quarks and gluons. The former process is called hadronization and it is a consequence of the color confinement, which is the phenomenon that the elemental
-color charged particles can not be isolated singularly. As a consequence, when quarks are produced in an event, as the distance among them increases the energy increases too. When this energy 
-reaches a critical value, a pair quark-antiquark is produced in the vacuum. The result of this process are neutral color hadrons, for this reason the process is called hadronization. The program
-Pythia receives as parameter entry the file generated by the Siftware MadGraph and generates the simulations of the fragmentation process of quarks and gluons.
+The second computational programm that is going to be used is called Pythia. This program recieves as parameter input the file generated by the software MadGrap. Pythia incorporates a set of physical models to develop the evolution of a few-body system into a complex multi-particle final state. Thus, the task of the Pythia in the project is to simulate the processes of hadronization of quarks and gluons.
 
 \section{Delphes}
-The last program that is going to be used to generate the simulation of the signal and background is Delphes. This software makes the simulation of a multipurpose detector. The simulation includes a
-system of track reconstruction immerse in a magnetic field, an electromagnetic calorimeter, a hadronic calorimeter and a muon detection system. Delphes takes as input file the events generated by 
-Pythia and then it makes a realistic simulation of the multipurpose detector behaviour. Due to the proposed analysis includes the systematic errors that can be generated by the detector, it can be 
-implemented in the experimental studies at the LHC. The systematic errors can be caused by multiple factors as the resolution of the detectors. Delphes have in mind (consider) different 
-characteristics of the event in the experiment: detector geometry, the track of the charged particles in the magnetic field, reconstruction of the event and efficiencies of the reconstruction 
-and particle identification.
+
+The next program that is going to be used recieves as input the events produced by Pythia and it is called Delphes. This software makes a realistic simulation of the multipurpose CMS detector performance as it would happen if there was occurring such an event at CMS. The simulation includes a system of track reconstruction immerse in a magnetic field, an electromagnetic calorimeter, a hadronic calorimeter and a muon detection system.
+
+Delphes takes into account the systematic errors that can be generated by the detector, which can be caused by multiple factors as the resolution of the detectors. This program contemplates different characteristics of the event in the experiment: detector geometry, the track of the charged particles in the magnetic field, reconstruction of the event and efficiencies of the reconstruction and particle identification. Due to the proposed analysis includes the systematic errors that can be generated by the detector, it can be implemented in the experimental studies at the LHC. 
 
 \section{ROOT}
 
-The analysis of the simulated data is going to be done using the software ROOT. This software was developed by the CERN laboratory. Root is written in the programming language C++ and it was 
-designed to analyse data in particle physics. This program provides all the necessary tools to efficiently process big data, make statistical analysis, visualize and store data. The program 
-includes a numerous quantity of mathematical and statistic functions, numeric algorithms and methods for analysis of data regression. One key tool ROOT has are the histograms that can even use 
-multidimensional data and estimate their density. The histograms can be manipulated, they offer statistical information and can make data regression. The program ROOT receives as input parameter 
-complementary information that allows to do the best analysis of the signal: characteristics of the detector or configuration settings that were made in the simulations. Root includes other 
-components like a command interpreter that makes quicker the analysis process and a graphic interface which contains a flexible set of tools. The former means that the set of tools can be modified 
-using GUI Builder (the graphic interface constructor). This software can be used to analyse real or simulated data that have the same structure and consist of many events. 
+The analysis of the simulated data is going to be develop by the software ROOT. This software was developed by the CERN laboratory. Root is written in the programming language C++ and it was 
+designed to analyse data in particle physics. This program provides all the necessary tools to efficiently process big data, make statistical analysis, and visualize and store data. The program 
+includes a numerous quantity of mathematical and statistic functions, numeric algorithms and methods for analysis of data regression. One key tool ROOT has are the histograms that can even use multidimensional data and estimate their density. The histograms can be manipulated, they offer statistical information and can make data regression. 
+
+The program ROOT receives as input parameter complementary information that allows to do the best analysis of the signal: characteristics of the detector or configuration settings that were made in the simulations. Root includes other components like a command interpreter that makes quicker the analysis process and a graphic interface which contains a flexible set of tools. The former means that the set of tools can be modified using GUI Builder (the graphic interface constructor). This software can be used to analyse real or simulated data that have the same structure and consist of many events. 
