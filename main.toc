@@ -1,7 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}State of the Art}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Standard Model}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Higgs Mechanism}{1}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Neutrinos in the Standard Model}{1}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Dirac Mass}{1}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Majorana Mass}{2}{subsection.1.2.2}
@@ -20,22 +19,21 @@
 \contentsline {subsection}{\numberline {3.2.2}Hadron Calorimeter}{17}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Muon Detector}{17}{section.3.3}
 \contentsline {section}{\numberline {3.4}Triggers}{17}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Triggers at the CMS}{17}{subsection.3.4.1}
 \contentsline {chapter}{\numberline {4}Model and backgrounds}{18}{chapter.4}
 \contentsline {section}{\numberline {4.1}Signal of Interest}{18}{section.4.1}
 \contentsline {section}{\numberline {4.2}Backgrounds}{19}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}W + Jets Background}{20}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Drell Yan + Jets Background}{20}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}$t \mathaccentV {bar}016{t}$ Background}{20}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {5}Methodology}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}MadGraph}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Pythia}{22}{section.5.2}
-\contentsline {section}{\numberline {5.3}Delphes}{23}{section.5.3}
-\contentsline {section}{\numberline {5.4}ROOT}{23}{section.5.4}
-\contentsline {chapter}{\numberline {6}Analysis}{25}{chapter.6}
-\contentsline {chapter}{\numberline {7}Event Selection Criteria}{26}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{27}{chapter.8}
-\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{28}{Appendix.a.A}
-\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{28}{subsection.a.A.0.1}
-\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{29}{subsection.a.A.0.2}
-\contentsline {chapter}{Appendix \numberline {B}Charge Conjugation Operator}{32}{Appendix.a.B}
+\contentsline {subsection}{\numberline {4.2.1}W+Jets Background}{20}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Drell Yan + Jets Background}{21}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}$t \mathaccentV {bar}016{t}$ Background}{21}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Methodology}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}MadGraph}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Pythia}{24}{section.5.2}
+\contentsline {section}{\numberline {5.3}Delphes}{25}{section.5.3}
+\contentsline {section}{\numberline {5.4}ROOT}{25}{section.5.4}
+\contentsline {chapter}{\numberline {6}Analysis}{27}{chapter.6}
+\contentsline {chapter}{\numberline {7}Event Selection Criteria}{28}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{29}{chapter.8}
+\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{30}{Appendix.a.A}
+\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{30}{subsection.a.A.0.1}
+\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{31}{subsection.a.A.0.2}
+\contentsline {chapter}{Appendix \numberline {B}Charge Conjugation Operator}{34}{Appendix.a.B}

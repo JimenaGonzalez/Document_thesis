@@ -76,16 +76,9 @@ in Figure \ref{w_jets_feynman}.
  
  Other background for our signal of interest comes from the Drell Yan procces. In this process a quark and an antiquark comming from the initial interacting hadrons annihilate each other and this
  produce a virtual photon or a Z boson. The concept virtual photon means that this particle is created for a really short period of time. We studied this process only when the Z boson decays into a 
- pair lepton-antilepton, because in this case the final state is the most similar to the one of the signal. Specifically, we considered the events were the Z decays into a pair 
- tau and antitau ($\tau \overline{\tau}$). This proccess was simulated with the presence of a jet from ISR. Thus, the final state is conformed by one tau, jets (from the ISR procces), 
- $\vec{E_T^{miss}}$ (from the erroneus identification of the one of the taus). The Figure \ref{dy_jets_feynman} shows the Feynman diagram for this process.
- 
-  \begin{figure}[h] 
- \label{dy_jets_feynman}
- \centering
- \caption{Feynman diagram for the DY+jets Background}
- \includegraphics[width=0.4\textwidth]{./Capitulos/Model/DY+jets}  
- \end{figure} 
+ pair lepton-antilepton, because in this case the final state is the most similar to the one of the signal. 
+ When the Z boson decays into a pair lepton-antilepton the 
+ state of the event is conformed by: 
  
  \subsection{$t \bar{t}$ Background}
  
