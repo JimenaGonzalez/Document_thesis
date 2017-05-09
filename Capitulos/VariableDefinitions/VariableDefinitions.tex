@@ -1,18 +1,18 @@
  \chapter{Important Concepts and Variable Definitions}
  
  \section{Jets}
- A Jet can be defined as a high energy shower of stable particles that comes from fragmentation of quarks or gluons. The initial quarks and gluons in the process are know ``initial partons''.
- Due to the initial partons are colour charged, they can not be isolated singularly (this phenomenon is called ``colour confinement''. Since it is not possible for charged particles to be isolated 
+ A jet can be defined as a high energy shower of stable particles that comes from fragmentation of quarks or gluons. The initial quarks and gluons in the process are known as ``initial partons''.
+ Due to that initial partons are colour charged, they can not be isolated singularly (this phenomenon is called ``colour confinement''). Since it is not possible for charged particles to be isolated 
  they must go through a non-perturvative process that converts them into colour neutral particles. This process is called ``hadronization'' and there are different models to explain it. According to 
  the string model, the confining nature of strong interaction increases the potential colour in a proportional way as the distance between the initial partons. When the distance reaches a certain 
- critical value it is energetically favourable to produce a quark pair from the vacuum. Finally, by this proccess the inital colour charged particles are convert into bound colour-singlet hadronic 
+ critical value it is energetically favourable to produce a quark pair from the vacuum. Finally, by this proccess the inital colour charged particles are converted into bound colour-singlet hadronic 
  states. \\
  %Citar libro: Particle detectors Calus GRupen and Boris shwartz
  
- Besides jets may display a structure with properties that could indicate which were the initial partons interacting, they are hard to study individually when there is a numerous quantity of them
- in an event. The former is because it is almost imposible to attach all particles in an event final state to a single initial parton. The reconstruction of jets depends of elements like the 
+ Despite jets may display a structure with properties that could indicate which were the initial partons interacting, they are hard to study individually when there is a numerous quantity of them
+ in an event. The former is because it is almost imposible to associate all particles in an event final state to a single initial parton. The reconstruction of jets depends of elements like the 
  fragmentation process, detectors effects, among others. Thus, there exist algorithms which cluster some particles in a final state so that it is possible to determine properties as 4-momentum 
- and jet shapes. The objetive of this algorithms is to determine the inital interacting partons and approximate its directions and energies. \\
+ and jet shapes. The objective of this algorithms is to determine the inital interacting partons and approximate its directions and energies. \\
  
  According to the reconstruction algorithms we can define a jet at three different levels. At partonic level a jet can be understood as a quark or a gluon. At hadronic level can be referred to the
  hadrons produced due to the hadronization process. Finally, at a detector level can be understood as a the tracks detected and the energy deposited in the calorimeters of the detector. The 
@@ -21,20 +21,20 @@
  
  \section{Cross Section and Luminosity}
  
- In High Energy Physics the cross section $\sigma$ concept is the probability that a certain event of interest has to occur. This quantity is proportional to the energy of the event production. The unit 
- used for cross sections is the bar (1 b = $10^{-28} m^2$). The number of a certain interaction in a fixed target experiment is proportional to its cross section, the particles flux, and the
+ In High Energy Physics, the cross section $\sigma$ concept is the probability that a certain event  occurs. This quantity is proportional to the energy of the event production. The unit 
+ used for cross sections is the bar (1b = $10^{-28} \text{m}^2$). The number of a certain interaction in a fixed target experiment is proportional to its cross section, the particles flux, and the
  number of atoms per cubic meter in the target multiplied by the lenght. The inverse of the last quantity is called ``target constant $F$'' and it has the dimesion of an area. Thus, it is possible
  to make an estimation of the number of interactions per second using:
  
  %citar libro data analysis techniques for high energy physics
  \begin{equation}
-  \frac{N_{events}}{s} = \sigma \frac{N_{flux}/s}{F} = \sigma \times Luminosity
+  \frac{N_{events}}{s} = \sigma \times \frac{N_{flux}/s}{F} = \sigma \times Luminosity
  \end{equation}
 
- In the last identity we defined the concept of luminosity, which is a measure of sensitivity and depends on the energy and on the beam dynamics.  The luminosity is a quantity that is used to 
+ In the last equation we defined the concept of luminosity, which is a measure of sensitivity and depends on the energy and on the beam dynamics.  The luminosity is a quantity that is used to 
  describe the performance of a particle accelerator. It has units of the inverse of cross section, which is know as inverse barns $fb^{-1}$ and it is equivalent to $(1 fb = 10^{-28} m^2)$. 
  In particle colliders the 
- luminosity depends of different as the number of particles per bunch $N_b$, the number of bunches in each beam $\kappa_b$, the revolution frequency $f$ at the storage ring and the beam radii 
+ luminosity depends on different variables like the number of particles per bunch $N_b$, the number of bunches in each beam $\kappa_b$, the revolution frequency $f$ at the storage ring and the beam radii 
  $ \sigma$ of the bunches at the crossing point:
  
  \begin{equation}
@@ -43,7 +43,7 @@
 
  \section{Pseudorapidity}
  
- The variable Pseudorapidity is defined as a parametrization of the CMS detector coordinates. These coordinates are ilustrated in the figure \ref{CMSCoordinates}:
+ The variable pseudorapidity is defined as a parametrization of the CMS detector coordinates. These coordinates are ilustrated in the Figure \ref{CMSCoordinates}:
  
  %\graphicspath{./Capitulos/VariableDefinitions}
  
@@ -53,32 +53,36 @@
  \includegraphics[width=0.75\textwidth]{./Capitulos/VariableDefinitions/CMS_coordinates}  
  \end{figure}
 
-The origen of the CMS coordinates coincides with the point in which a collision occurs in the detector. 
+%CITAR GRAFICAAAA
+
+The origin of the CMS coordinates coincides with the point in which a collision occurs in the detector. 
 The polar angle is described by the parameter $\theta$ and it is measured with respect to the z axis.
-The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from the x axis. The Pseudorapidity is defined in terms of the polar angle as:
+The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from the x axis. The pseudorapidity is defined in terms of the polar angle as:
 
 \begin{equation}
  \eta \equiv - \ln \left( \tan (\theta /2 ) \right)
 \end{equation}
 
- The motivation to define and use this variable is that while $\Delta \theta$ is not a Lorentz invariant $\Delta \eta$ is. Moreover, the quantity of particles in function on the variable $\eta$
+ The motivation to define and use this variable is that while $\Delta \theta$ is not a Lorentz invariant $\Delta \eta$ is. Moreover, the quantity of particles depending on the variable $\eta$
  is approximately uniform in a cilindrical detector. 
  
   
  \section{$p_T$ and $\vec{E_T^{miss}}$}
 
  The quantity $p_T$ is the transversal momentum and it is the projection of the linear momentum onto the xy plane. This variable is used instead of the linear momentum because the initial beams
- are moving just in the z axis (the initial momentum in the xy plane is zero), so when a collision is produced the interesant effects occur in the transverse plane.\\
+ are moving just in the z axis (the initial momentum in the xy plane is zero), so when a collision is produced the interesting effects occur in the transverse plane.\\
  %the particles adquiere momentum in the xy plane. 
  
- As it was already mentioned the momentum in the tranverse plane is zero before the collision. Since the tranverse momentum has to be conserved, after the collision it must be zero. We can write
+ As it was already mentioned, the momentum in the tranverse plane is zero before the collision. Since the tranverse momentum has to be conserved, after the collision it must also be zero. We can write
  the total momentum as the sum of the particles that are detected (visible particles) and the ones that are not detected (invisible particles), the former can be expressed as:
  
  \begin{equation}
   0 = \sum_{i=1}^N \vec{P_T(i)} = \sum_{j=1}^M \vec{P_T(j)}^{visibles} + \sum_{k=M}^{N-M} \vec{P_T(k)}^{invisibles}
  \end{equation}
 
- The former equation motivates the definition of a variable called ``Missing transverse energy'' ($\vec{E_T^{miss}}$), which is defined as the sum of the transverse momentum of the invisible
+%CITAAAAAAAAAAAAAAAR
+
+ The last equation motivates the definition of a variable called ``Missing transverse energy'' ($\vec{E_T^{miss}}$), which is defined as the sum of the transverse momentum of the invisible
  particles:
  
  \begin{equation}
@@ -88,7 +92,7 @@ The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from
  
  \section{Displaced Vertices and Impact Parameter}
 The vertex of a track is a variable of importance because it can be used to determine the position of the point of interaction and the momentum vector of the tracks emerging from the vertex. The 
-vertex fit can also be used to check the association of tracks to a vertex, in oder words, to determine if a track actually originates from a certain vertex. In order to determine the direction of the track connecting a primary and a secondary vertices we have to find the position of the secondary vertex. Some particles can pass through the detector without living tracks, when this particles decay, the particles produced can be detected and leave tracks on the detector. The point in which the product particles are detected is called a secondary vertex, and it is said that it is a displaced vertice. The former description is showed in the figure \ref{Displaced_vertices}, where the path of the undetected particle is represent by a doted line:
+vertex fit can also be used to check the association of tracks to a vertex, in other words, to determine if a track actually originates from a certain vertex. In order to determine the direction of the track connecting a primary and a secondary vertices we have to find the position of the secondary vertex. Some particles can pass through the detector without leaving tracks. However, when these undetected particles decay, the particles produced can be observed because they leave tracks on the detector. The point in which the product particles are detected is called a secondary vertex, and it is said that it is a displaced vertex. The former description is showed in Figure \ref{Displaced_vertices}, where the path of the undetected particle is represented by a dotted line:
 
  % Imagen tomada Displaced Vertex: https://indico.cern.ch/event/149404/contributions/1388848/attachments/149638/211969/azuma_berkeley_111020_v05.pdf
  % Imagen Impact parameter: http://www.quantumdiaries.org/2011/06/10/to-b-or-not-to-bbar-b-tagging-via-track-counting/
@@ -99,7 +103,7 @@ vertex fit can also be used to check the association of tracks to a vertex, in o
  \includegraphics[width=0.4\textwidth]{./Capitulos/VariableDefinitions/Displaced_vertex}  
  \end{figure}
  
-Now, the impact parameter is defined as the closest distance between the vertex and the points of the track. A visualization of this is showed in the figure \ref{Impact_parameter}. In this image the track is represented by the blue dotted line, and the impact parameter by the red line. It can be seen that the impact parameter line forms a right angle with the track. Using this characteristic it is possible to identify in a unique way the closest point of approach of the track to the vertex.
+Now, the impact parameter is defined as the closest distance between the vertex and the points of the track. A visualization of this is showed in Figure \ref{Impact_parameter}. In this image the track is represented by the blue dotted line, and the impact parameter by the red line. It can be seen that the impact parameter line forms a right angle with the track. Using this characteristic it is possible to identify in a unique way the closest point of approach of the track to the vertex.
 
 
  \begin{figure}[h] \label{Impact_parameter}
