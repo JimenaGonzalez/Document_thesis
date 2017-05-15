@@ -14,33 +14,44 @@
  fragmentation process, detectors effects, among others. Thus, there exist algorithms which cluster some particles in a final state so that it is possible to determine properties as 4-momentum 
  and jet shapes. The objective of these algorithms is to determine the inital interacting partons and approximate its directions and energies. \\
  
- According to the reconstruction algorithms we can define a jet at three different levels. At partonic level a jet can be understood as a quark or a gluon. At hadronic level can be referred to the
- hadrons produced due to the hadronization process. Finally, at a detector level can be understood as a set of reconstructed tracks spatially associated with energy deposited in the calorimeters of the detector.
- 
- as a the tracks detected and the energy deposited in the calorimeters of the detector. The 
- reconstuction algorithms that are going to be used for this analysis consist in enclose in cones the regions where there is a numerous detection of particles. 
+ According to the reconstruction algorithms we can define a jet at three different levels. At parton level a jet can be understood as a quark or a gluon. At hadronic level can be referred to the
+ hadrons produced due to the hadronization process, like kaons or pions. Finally, at a detector level a jet can be understood as a set of reconstructed tracks spatially associated with energy 
+ deposited in the calorimeters. The reconstuction algorithms that are going to be used for this analysis consist in the use of mathematical cones that enclose the regions where a large quantity
+ of particles are 
+ detected. The radius of the cone must be large enough to enclose all the particles comming from the initial quark or gluon, and must be small enough to not include other particles that belong to a 
+ different jet. The three level definitions just mentioned are illustrated in Figure \ref{Jets_definitions}. In this figure the mathematical cones used for the reconstruction of a jet is also showed.
  %Citar tesis Luis Alfredo
+ 
+ %Citar figura https://phys.org/news/2012-07-jets-cms-energy-scale.html
+ 
+ \begin{figure}[h] 
+ \label{Jets_definitions}
+ \centering
+ \caption{Description of a jet at three different levels: partonic, hadronic and detector.}
+ \includegraphics[width=0.75\textwidth]{./Capitulos/VariableDefinitions/jets_definitions}  
+ \end{figure}
  
  \section{Cross Section and Luminosity}
  
- In High Energy Physics, the cross section $\sigma$ concept is the probability that a certain event  occurs. This quantity is proportional to the energy of the event production. The unit 
- used for cross sections is the bar (1b = $10^{-28} \text{m}^2$). The number of a certain interaction in a fixed target experiment is proportional to its cross section, the particles flux, and the
- number of atoms per cubic meter in the target multiplied by the lenght. The inverse of the last quantity is called ``target constant $F$'' and it has the dimesion of an area. Thus, it is possible
- to make an estimation of the number of interactions per second using:
+ In High Energy Physics, the cross section $\sigma$ represents the probability that a given physical proccess occurs. This quantity is proportional to the energy of the event production. The unit 
+ used for cross sections is the bar (1b = $10^{-28} \text{m}^2$). The number of expected events of a certain interaction in a fixed target experiment is proportional to its cross section, the particles flux, and the
+ number of atoms per cubic meter in the target multiplied by the lenght. The inverse of the number of atoms per area is called ``target constant $F$'' and it has the dimesion of an area. Thus, it 
+ is possible to make an estimation of the number of interactions per second using:
  
  %citar libro data analysis techniques for high energy physics
  \begin{equation}
+ \label{luminosity}
   \frac{N_{events}}{s} = \sigma \times \frac{N_{flux}/s}{F} = \sigma \times Luminosity
  \end{equation}
 
- In the last equation we defined the concept of luminosity, which is a measure of sensitivity and depends on the energy and on the beam dynamics.  The luminosity is a quantity that is used to 
+ In the Equation \ref{luminosity} we defined the concept of luminosity, which is a measure of sensitivity and depends on the energy and on the beam dynamics.  The luminosity is a quantity that is used to 
  describe the performance of a particle accelerator. It has units of the inverse of cross section, which is know as inverse barns $fb^{-1}$ and it is equivalent to $(1 fb = 10^{-28} m^2)$. 
  In particle colliders the 
- luminosity depends on different variables like the number of particles per bunch $N_b$, the number of bunches in each beam $\kappa_b$, the revolution frequency $f$ at the storage ring and the beam radii 
- $ \sigma$ of the bunches at the crossing point:
+ luminosity depends on different variables such as the number of particles per bunch $N_b$, the number of bunches in each beam $\kappa_b$, the revolution frequency $f$ at the storage ring and the beam radii 
+ $R$ of the bunches at the crossing point:
  
  \begin{equation}
-  L = \frac{N_b^2 f \kappa_b}{4\pi \sigma^2} 
+  L = \frac{N_b^2 f \kappa_b}{4\pi R^2} 
  \end{equation}
 
  \section{Pseudorapidity}
@@ -49,7 +60,8 @@
  
  %\graphicspath{./Capitulos/VariableDefinitions}
  
- \begin{figure}[h] \label{CMSCoordinates}
+ \begin{figure}[h]
+ \label{CMSCoordinates}
  \centering
  \caption{CMS detector coordinates}
  \includegraphics[width=0.75\textwidth]{./Capitulos/VariableDefinitions/CMS_coordinates}  
@@ -94,12 +106,16 @@ The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from
  
  \section{Displaced Vertices and Impact Parameter}
 The vertex of a track is a variable of importance because it can be used to determine the position of the point of interaction and the momentum vector of the tracks emerging from the vertex. The 
-vertex fit can also be used to check the association of tracks to a vertex, in other words, to determine if a track actually originates from a certain vertex. In order to determine the direction of the track connecting a primary and a secondary vertices we have to find the position of the secondary vertex. Some particles can pass through the detector without leaving tracks. However, when these undetected particles decay, the particles produced can be observed because they leave tracks on the detector. The point in which the product particles are detected is called a secondary vertex, and it is said that it is a displaced vertex. The former description is showed in Figure \ref{Displaced_vertices}, where the path of the undetected particle is represented by a dotted line:
+vertex fit can also be used to check the association of tracks to a vertex, in other words, to determine if a track actually originates from a certain vertex. In order to determine the direction
+of the track connecting a primary and a secondary vertices we have to find the position of the secondary vertex. Some particles can pass through the detector without leaving tracks. However,
+when these undetected particles decay, the particles produced can be observed because they leave tracks on the detector. The point in which the product particles are detected is called a secondary 
+vertex, and it is said that it is a displaced vertex. The former description is showed in Figure \ref{Displaced_vertex}, where the path of the undetected particle is represented by a dotted line:
 
  % Imagen tomada Displaced Vertex: https://indico.cern.ch/event/149404/contributions/1388848/attachments/149638/211969/azuma_berkeley_111020_v05.pdf
  % Imagen Impact parameter: http://www.quantumdiaries.org/2011/06/10/to-b-or-not-to-bbar-b-tagging-via-track-counting/
  
- \begin{figure}[h] \label{Displaced_vertices}
+ \begin{figure}[h] 
+ \label{Displaced_vertex}
  \centering
  \caption{Scheme of a displaced vertex}
  \includegraphics[width=0.4\textwidth]{./Capitulos/VariableDefinitions/Displaced_vertex}  
@@ -108,7 +124,8 @@ vertex fit can also be used to check the association of tracks to a vertex, in o
 Now, the impact parameter is defined as the closest distance between the vertex and the points of the track. A visualization of this is showed in Figure \ref{Impact_parameter}. In this image the track is represented by the blue dotted line, and the impact parameter by the red line. It can be seen that the impact parameter line forms a right angle with the track. Using this characteristic it is possible to identify in a unique way the closest point of approach of the track to the vertex.
 
 
- \begin{figure}[h] \label{Impact_parameter}
+ \begin{figure}[h] 
+ \label{Impact_parameter}
  \centering
  \caption{Scheme of the impact parameter variable}
  \includegraphics[width=0.7\textwidth]{./Capitulos/VariableDefinitions/Impact_parameter}  
