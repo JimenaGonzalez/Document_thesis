@@ -12,13 +12,13 @@ In this section we are going to work on possible solutions to these problems. \f
 
 \subsection{Dirac Mass}
 
-First, we start by studying the Dirac mass term of a free fermion. The lagrangian equation for a fermion particle is given by the expression:
+First, we start by studying the Dirac mass term of a free fermion. The Lagrangian equation for a fermion particle is given by the expression:
 
 \begin{equation}
- L = \overline{\psi} \left( i \gamma ^\mu \partial_{\mu} - m \right) \psi
+ L = \overline{\psi} \left( i \gamma ^\mu \partial_{\mu} - m \right) \psi \text{,}
 \end{equation}
 
-Where $\psi$ is the Dirac Spinor. From this Lagrangian expression it is possible to see that in the SM the mass is included through the second term in the equation which is called ``Dirac mass term'':
+where $\psi$ is the Dirac Spinor. From this Lagrangian expression it is possible to see that in the SM the mass is included through the second term in the equation which is called ``Dirac mass term'':
 
 \begin{equation}
  m \overline{\psi} \psi
@@ -30,10 +30,9 @@ We can write the Dirac Spinor as a sum of its left- and right- chiral states:
  m \overline{\psi} \psi = m \left( \overbar{\psi_L + \psi_R} \right) \left( \psi_L + \psi_R \right) = m \overline{\psi_L} \psi_R + m \overline{\psi_R}\psi_L
 \end{equation} 
 
-Previously we have used the fact that: $\overline{\psi_L}\psi_L = \overline{\psi_R}\psi_R = 0$ which is proved in Appedix \ref{apendice_neutrinos}. It can be seen from the lastest equation
-that a massive particle must have both quiral states: left and right. Thus, the Dirac Mass can be interpreted as the coupling constant between the two chiral states. Since right-handed 
+In the last expression we used the fact that: $\overline{\psi_L}\psi_L = \overline{\psi_R}\psi_R = 0$ which is proved in Appedix \ref{apendice_neutrinos}. It can be seen from Equation \ref{Dirac mass term} that a massive particle must have both quiral states: left and right. Thus, the Dirac mass can be interpreted as the coupling constant between the two chiral states. Since right-handed 
 neutrinos had been never observed in nature, it is expected that neutrinos have zero mass. Although, experiments of neutrino oscillations indicate that neutrinos have a small mass of 
-the order of meV. The former implies either the existence of a right-handed neutrino which is responsible for the mass of the neutrino, or that there exists other sort of mass term.
+the order of MeV. The former implies either the existence of a right-handed neutrino which is responsible for the mass of the neutrino, or that there exists other sort of mass term.
 
 \subsection{Majorana Mass}
 
@@ -85,13 +84,14 @@ This calculation is performed in the Appendix \ref{apendice_neutrinos}. The obje
 find that it can be written as:  
 
 \begin{equation} \label{Equation_not_used}
-i \gamma^\mu \partial_\mu C \overline{\psi}^\intercal_R = m C \overline{\psi}^{\intercal}_L
+i \gamma^\mu \partial_\mu C \overline{\psi}^\intercal_R = m C \overline{\psi}^{\intercal}_L \text{,}
 \end{equation}
 
-Where $C$ is the operator charge conjugation operator. This operator and its properties are explained in Appendix \ref{appendix_charge_conjugation}. Now, the Equation \ref{Equation_not_used} would have the same structure
+where $C$ is the operator charge conjugation operator. This operator and its properties are explained in Appendix \ref{appendix_charge_conjugation}. Now, the Equation \ref{Equation_not_used} would have the same structure
 as Equation \ref{majorana_objetive} if the right-handed term is imposed to be:
 
-\begin{equation}
+\begin{equation} 
+\label{Expression_right_handed}
 \psi_R = C \overline{\psi}^\intercal_L
 \end{equation}
 
@@ -101,13 +101,13 @@ field can be written as:
 \psi = \psi_L + \psi_R = \psi_L + C \overline{\psi}^\intercal_L
 \end{equation}
 
-Defining the charge-conjugate field as: $\psi^C_L = C \overline{\psi}^\intercal_L$. We get for the expression of the complete Majorana field:
+Defining the charge-conjugate field as: $\psi^C_L = C \overline{\psi}^\intercal_L$, we get for the expression of the complete Majorana field:
 
 \begin{equation} \label{Structure_imposed}
 \psi = \psi_L + \psi^C_L
 \end{equation}
 
-The implications of requiring the right-handed component of $\psi$ to satisfy the \ref{Structure_imposed} expression can be studied by taking the charge conjugate of the complete Majorana field. 
+The implications of requiring the right-handed component of $\psi$ to satisfy the Equation                                                    \ref{Structure_imposed} can be studied by taking the charge conjugate of the complete Majorana field. 
 
 \begin{equation}
 \psi^C = (\psi_L + \psi^C_L)^C = \psi^C_L + \psi_L = \psi
@@ -118,13 +118,12 @@ Since the charge conjugation operator flips the sign of electric charge, a Major
 
 \subsubsection{Majorana Mass Term}
 
-Previously, we saw that the mass term in the Lagrangian couples the left and right chiral states of the neutrino (Equation \ref{Dirac mass term}). Replacing the 
-expression we found for the right-handed component of the neutrino field in the mass term of the Lagrangian, we get (having in mind that its hermitian conjugate 
-is identical):
+In Equation \ref{Dirac mass term} we saw that the mass term in the Lagrangian couples the left and right chiral states of the neutrino. Replacing the 
+expression we found in Equation \ref{Expression_right_handed} for the right-handed component of the neutrino field in the mass term of the Lagrangian we get the equation \ref{majorana_mass_term}. In this equation we denoted the Dirac Spinor of neutrino as $\nu$. Having in mind that the hermitian conjugated of the first term in the equation is identical, we normalize the Lagrangian and obtain:
 
 %EXPLICAAAAAR expresion y 1/2
 
-\begin{equation}
+\begin{equation}\label{majorana_mass_term}
 L_{Maj}^{L} = m \overline{\nu_L} \nu_L^C + m \overline{\nu_L^C} \nu_L = \frac{1}{2} m \overline{\nu_L^{C}} \nu_L
 \end{equation}
 
@@ -134,14 +133,14 @@ L_{Maj}^{L} = m \overline{\nu_L} \nu_L^C + m \overline{\nu_L^C} \nu_L = \frac{1}
 
 \section{Seesaw Mechanism}
 
-As it was mentioned before, in the case that the right-handed chiral field does not exist there can be no Dirac mass term. However we can have a Majarona mass term in the 
-Lagrangian so the neutrino would be a Majorana particle:
+As it was mentioned before, in the case that the right-handed chiral field does not exist there can be no Dirac mass term. However, we can have a Majarona mass term in the 
+Lagrangian (associated to a left-handed quiral field) so the neutrino would be a Majorana particle:
 
 \begin{equation}
 L_{Maj}^{L} = \frac{1}{2} m_L \overline{\nu^{C}}_L \nu_L
 \end{equation}
 
-The term $m_L$ is forbidden by electroweak symmetry and it appears after its spontaneous breakdown through the Higgs Mechanism, hence such a term can not exist. In order to let the neutrino to have mass, a right-handed neutrino that interacts only with gravity and the Higgs mechanism must exist.
+The term $m_L$ is forbidden by electroweak symmetry and it appears after its spontaneous breakdown through the Higgs Mechanism, hence such a term can not exist. In order to let the neutrino to have mass, a right-handed neutrino that interacts only with gravity and the Higgs field must exist.
 %EXPLICARRR
 If we consider that a right-handed chiral neutrino can exist, we would have to add different terms to the Lagrangian. First, if 
 we assume that it is possible to write a left-handed Majorana field, we have for the first term:
@@ -156,7 +155,7 @@ Additionally, we have to include a similar term which is the right-handed Majora
 L_R^{M} = m_R \overline{\nu_R^C} \nu_{R} + m_R \overline{\nu_R} \nu_R^C
 \end{equation}
 
-We also have to add Dirac mass terms: the first Dirac mass term we mentioned on this section (Equation \ref{Dirac normal}) and another one that comes from the 
+We also have to add Dirac mass terms in order to study the most general Lagrangian: the first Dirac mass term we mentioned on this section (Equation \ref{Dirac normal}) and another one that comes from the 
 charge-conjugate fields (Equation \ref{Dirac conjugated}):
 
 \begin{equation}\label{Dirac normal}
@@ -189,7 +188,7 @@ L_{mass} \propto
 \end{pmatrix}
 \end{equation}
 
-The Equation \ref{matrix_m_sa} expresses the Lagrangian in terms of the left and right chiral states. These states do not have a definite mass because the matrix is not diagonal. 
+Equation \ref{matrix_m_sa} expresses the Lagrangian in terms of the left and right chiral states. These states do not have a definite mass because the matrix is not diagonal. 
 Thus, the left and right chiral states do not correspond to the physical particles (which have a definite mass). Instead the real particles are a superposition of the 
 mass eigenstates. In order to find the mass eigenvalues we need to diagonalize the M matrix (the one in the middle of the former equation). This calculation is 
 explained in Appendix \ref{apendice_neutrinos}. We find the mass eigenstates are given by the expression:
@@ -214,14 +213,16 @@ The former fact is the reason why this mechanism is called ``Seesaw'': the mass 
 the other is heavier. Now, the neutrino mass eigenstates are given by the following expresions:
 
 \begin{equation}
+\label{nu_1}
 \nu_1 \propto \left( \nu_L + \nu_L^C \right) - \frac{m_D}{m_R^2} \left( \nu_R + \nu_R^C \right)
 \end{equation}
 
 \begin{equation}
+\label{nu_2}
 \nu_2 \propto \left( \nu_R + \nu_R^C \right) + \frac{m_D}{m_R^2} \left( \nu_L + \nu_L^C \right)
 \end{equation}
 
-The former equations show that $\nu_1$ is mostly the left-handed light Majorana neutrino while $\nu_2$ is the heavy sterile right-handed neutrino. This is the explanation 
+The Equations \ref{nu_1} and \ref{nu_2} show that $\nu_1$ is mostly the left-handed light Majorana neutrino while $\nu_2$ is the heavy sterile right-handed neutrino. This is the explanation 
 that the Seesaw Mechanism gives to the fact that the neutrino is much lighter than the other fermions. 
  
  

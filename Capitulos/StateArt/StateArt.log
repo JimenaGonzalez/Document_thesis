@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  2 MAY 2017 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  14 MAY 2017 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -81,46 +81,6 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
-[]
- []
-
-! Undefined control sequence.
-l.5 \subsection
-               {Higgs Mechanism}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \subsection{H
-                 iggs Mechanism}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no H in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no m in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
 []
  []
 
@@ -790,7 +750,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no L in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -872,9 +832,18 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 17--17
 [] 
  []
 
+! Undefined control sequence.
+l.18 ...^\mu \partial_{\mu} - m \right) \psi \text
+                                                  {,}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (91.20917pt too wide) detected at line 19
-\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = [] [] \OML/cmm/m/it/10  
+
+Overfull \hbox (93.98695pt too wide) detected at line 19
+\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = [] [] \OML/cmm/m/it/10  []
  []
 
 
@@ -884,13 +853,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 W
+l.21 w
       here $\psi$ is the Dirac Spinor. From this Lagrangian expression it is...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no W in font nullfont!
+Missing character: There is no w in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1200,27 +1169,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 P
-      reviously we have used the fact that: $\overline{\psi_L}\psi_L = \over...
+l.33 I
+      n the last expression we used the fact that: $\overline{\psi_L}\psi_L ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no P in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no y in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1264,7 +1238,7 @@ Missing character: There is no x in font nullfont!
 <write> ... `apendice_neutrinos' on page \thepage 
                                                   \space undefined\on@line .
 l.33 ...proved in Appedix \ref{apendice_neutrinos}
-                                                  . It can be seen from the ...
+                                                  . It can be seen from Equa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1291,17 +1265,7 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no E in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -1309,6 +1273,21 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+<write> ...nce `Dirac mass term' on page \thepage 
+                                                  \space undefined\on@line .
+l.33 ...e seen from Equation \ref{Dirac mass term}
+                                                   that a massive particle m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Dirac mass term' on page  undefined on input line 33.
+
+
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -1380,7 +1359,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
-Missing character: There is no M in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1629,7 +1608,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
-Missing character: There is no m in font nullfont!
+Missing character: There is no M in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -1770,32 +1749,37 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 33--37
+Overfull \hbox (20.0pt too wide) in paragraph at lines 33--36
 []
  []
 
 
-Overfull \hbox (35.55563pt too wide) in paragraph at lines 33--37
+Overfull \hbox (35.55563pt too wide) in paragraph at lines 33--36
 []\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (36.70352pt too wide) in paragraph at lines 33--37
+Overfull \hbox (36.70352pt too wide) in paragraph at lines 33--36
 []\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 33--37
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 33--36
 \OT1/cmr/m/n/10 0$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 33--37
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 33--36
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 33--36
 []
  []
 
 ! Undefined control sequence.
-l.38 \subsection
+l.37 \subsection
                 {Majorana Mass}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1810,7 +1794,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \subsection{M
+l.37 \subsection{M
                   ajorana Mass}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1828,7 +1812,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 38--39
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
 []
  []
 
@@ -1839,7 +1823,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 T
+l.39 T
       he Majorana Mechanism is based on expressing the mass term in the Lagr...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2043,7 +2027,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 40--42
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--41
 []
  []
 
@@ -2054,7 +2038,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \begin{align}
+l.43 \begin{align}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2066,7 +2050,7 @@ Missing character: There is no j in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Misplaced alignment tab character &.
-l.46   &
+l.45   &
         \begin{aligned}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2082,14 +2066,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46   &\begin{aligned}
+l.45   &\begin{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.47     \mathllap
+l.46     \mathllap
                   {L} &= \overline{\psi} \left( i \gamma ^\mu \partial_{\mu}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2104,7 +2088,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47     \mathllap{L
+l.46     \mathllap{L
                     } &= \overline{\psi} \left( i \gamma ^\mu \partial_{\mu}...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2112,7 +2096,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no L in font nullfont!
 ! Misplaced alignment tab character &.
-l.47     \mathllap{L} &
+l.46     \mathllap{L} &
                        = \overline{\psi} \left( i \gamma ^\mu \partial_{\mu}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2125,7 +2109,7 @@ Missing character: There is no = in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.47     \mathllap{L} &= \overline
+l.46     \mathllap{L} &= \overline
                                   {\psi} \left( i \gamma ^\mu \partial_{\mu}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2133,7 +2117,7 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 <recently read> \mathllap 
                           
-l.48     \mathllap
+l.47     \mathllap
                   {}  &= (\overline{\psi_L} + \overline{\psi_R})( i \gamma ^...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2142,7 +2126,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.48     \mathllap{}  &
+l.47     \mathllap{}  &
                        = (\overline{\psi_L} + \overline{\psi_R})( i \gamma ^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2154,7 +2138,7 @@ might try typing `S' now just to see what is salvageable.
 ! Undefined control sequence.
 <recently read> \mathllap 
                           
-l.49      \mathllap
+l.48      \mathllap
                    {} &= i \overline{\psi_L}\gamma^\mu\partial_\mu \psi_L - ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2163,7 +2147,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.49      \mathllap{} &
+l.48      \mathllap{} &
                        = i \overline{\psi_L}\gamma^\mu\partial_\mu \psi_L - ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2173,7 +2157,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.51    &
+l.50    &
          \end{aligned}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2189,7 +2173,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51    &\end{aligned}
+l.50    &\end{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2198,7 +2182,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.51    &\end{aligned}
+l.50    &\end{aligned}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2213,69 +2197,69 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \end{align}
+l.51 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 47--53
+Overfull \hbox (20.0pt too wide) in paragraph at lines 46--52
 []
  []
 
 
-Overfull \hbox (71.07037pt too wide) in paragraph at lines 47--53
+Overfull \hbox (71.07037pt too wide) in paragraph at lines 46--52
 [] [] \OML/cmm/m/it/10  [] 
  []
 
 
-Overfull \hbox (10.55551pt too wide) in paragraph at lines 47--53
+Overfull \hbox (10.55551pt too wide) in paragraph at lines 46--52
 [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (24.16676pt too wide) in paragraph at lines 47--53
+Overfull \hbox (24.16676pt too wide) in paragraph at lines 46--52
 \OT1/cmr/m/n/10 ([] +
  []
 
 
-Overfull \hbox (53.84126pt too wide) in paragraph at lines 47--53
+Overfull \hbox (53.84126pt too wide) in paragraph at lines 46--52
 []\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 i^^M[]@[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (36.8358pt too wide) in paragraph at lines 47--53
+Overfull \hbox (36.8358pt too wide) in paragraph at lines 46--52
 \OML/cmm/m/it/10 m\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (16.9629pt too wide) in paragraph at lines 47--53
+Overfull \hbox (16.9629pt too wide) in paragraph at lines 46--52
 \OML/cmm/m/it/10  []\OT1/cmr/m/n/10 )[] 
  []
 
 
-Overfull \hbox (10.55551pt too wide) in paragraph at lines 47--53
+Overfull \hbox (10.55551pt too wide) in paragraph at lines 46--52
 [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (57.98958pt too wide) in paragraph at lines 47--53
+Overfull \hbox (57.98958pt too wide) in paragraph at lines 46--52
 \OML/cmm/m/it/10 i[]^^M[]@[] [] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (42.132pt too wide) in paragraph at lines 47--53
+Overfull \hbox (42.132pt too wide) in paragraph at lines 46--52
 []\OML/cmm/m/it/10 m [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (59.13747pt too wide) in paragraph at lines 47--53
+Overfull \hbox (59.13747pt too wide) in paragraph at lines 46--52
 \OML/cmm/m/it/10 i[]^^M[]@[] [] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (34.3542pt too wide) in paragraph at lines 47--53
+Overfull \hbox (34.3542pt too wide) in paragraph at lines 46--52
 []\OML/cmm/m/it/10 m []$
  []
 
@@ -2286,7 +2270,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 S
+l.53 S
       ince $\overline{\psi_L}\psi_L = \overline{\psi_R}\psi_R = 0$ and $\ove...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2331,7 +2315,7 @@ Missing character: There is no x in font nullfont!
 ! Undefined control sequence.
 <write> ... `apendice_neutrinos' on page \thepage 
                                                   \space undefined\on@line .
-l.55 ...d in the Appendix \ref{apendice_neutrinos}
+l.54 ...d in the Appendix \ref{apendice_neutrinos}
                                                   . Now, we can replace the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2341,7 +2325,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `apendice_neutrinos' on page  undefined on input line 
-55.
+54.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no N in font nullfont!
@@ -2418,42 +2402,42 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 54--56
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--55
 []
  []
 
 
-Overfull \hbox (35.55563pt too wide) in paragraph at lines 54--56
+Overfull \hbox (35.55563pt too wide) in paragraph at lines 53--55
 []\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (36.70352pt too wide) in paragraph at lines 54--56
+Overfull \hbox (36.70352pt too wide) in paragraph at lines 53--55
 []\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 54--56
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 53--55
 \OT1/cmr/m/n/10 0$
  []
 
 
-Overfull \hbox (57.8961pt too wide) in paragraph at lines 54--56
+Overfull \hbox (57.8961pt too wide) in paragraph at lines 53--55
 []\OML/cmm/m/it/10 ^^M[]@[] [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (57.8961pt too wide) in paragraph at lines 54--56
+Overfull \hbox (57.8961pt too wide) in paragraph at lines 53--55
 []\OML/cmm/m/it/10 ^^M[]@[] [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 54--56
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 53--55
 \OT1/cmr/m/n/10 0$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 54--56
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 53--55
 []
  []
 
@@ -2464,18 +2448,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \begin{equation}
+l.56 \begin{equation}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 57--57
+Overfull \hbox (20.0pt too wide) in paragraph at lines 56--56
 [] 
  []
 
 
-Overfull \hbox (69.04648pt too wide) detected at line 59
+Overfull \hbox (69.04648pt too wide) detected at line 58
 [] \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m/n/10 = 0
  []
 
@@ -2486,7 +2470,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 B
+l.60 B
       y doing this we find that the two equations of motion for the fields a...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2609,7 +2593,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 61--62
+Overfull \hbox (20.0pt too wide) in paragraph at lines 60--61
 []
  []
 
@@ -2620,23 +2604,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \begin{equation}
+l.62 \begin{equation}
                      \label{majorana_objetive}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 63--63
+Overfull \hbox (20.0pt too wide) in paragraph at lines 62--62
 [] 
  []
 
 
-Overfull \hbox (72.89908pt too wide) detected at line 65
+Overfull \hbox (72.89908pt too wide) detected at line 64
 []\OML/cmm/m/it/10 i^^M[]@[] [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m []
  []
 
 
-Overfull \hbox (72.89908pt too wide) detected at line 68
+Overfull \hbox (72.89908pt too wide) detected at line 67
 []\OML/cmm/m/it/10 i^^M[]@[] [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m []
  []
 
@@ -2647,7 +2631,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 I
+l.69 I
       n the formulation of the SM the mass of the neutrino is zero, in this ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2766,17 +2750,17 @@ Missing character: There is no ' in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 70--71
+Overfull \hbox (20.0pt too wide) in paragraph at lines 69--70
 []
  []
 
 
-Overfull \hbox (56.04495pt too wide) detected at line 73
+Overfull \hbox (56.04495pt too wide) detected at line 72
 \OML/cmm/m/it/10 i^^M[]@[] [] \OT1/cmr/m/n/10 = 0
  []
 
 
-Overfull \hbox (56.6189pt too wide) detected at line 76
+Overfull \hbox (56.6189pt too wide) detected at line 75
 \OML/cmm/m/it/10 i^^M[]@[] [] \OT1/cmr/m/n/10 = 0
  []
 
@@ -2787,7 +2771,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 T
+l.77 T
       he former means that neutrinos can be described using two two-componen...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3238,7 +3222,7 @@ Missing character: There is no x in font nullfont!
 ! Undefined control sequence.
 <write> ... `apendice_neutrinos' on page \thepage 
                                                   \space undefined\on@line .
-l.83 ...d in the Appendix \ref{apendice_neutrinos}
+l.82 ...d in the Appendix \ref{apendice_neutrinos}
                                                   . The objective of Majoran...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3248,7 +3232,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `apendice_neutrinos' on page  undefined on input line 
-83.
+82.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
@@ -3297,7 +3281,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `majorana_start' on page \thepage 
                                                   \space undefined\on@line .
-l.84 \ref{majorana_start}
+l.83 \ref{majorana_start}
                           as \ref{majorana_objetive} by finding an expressio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3306,14 +3290,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `majorana_start' on page  undefined on input line 84.
+LaTeX Warning: Reference `majorana_start' on page  undefined on input line 83.
 
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
 <write> ...e `majorana_objetive' on page \thepage 
                                                   \space undefined\on@line .
-l.84 ...majorana_start} as \ref{majorana_objetive}
+l.83 ...majorana_start} as \ref{majorana_objetive}
                                                    by finding an expression ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3323,7 +3307,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `majorana_objetive' on page  undefined on input line 8
-4.
+3.
 
 Missing character: There is no b in font nullfont!
 Missing character: There is no y in font nullfont!
@@ -3399,7 +3383,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `majorana_start' on page \thepage 
                                                   \space undefined\on@line .
-l.84 ...tions of the Equation \ref{majorana_start}
+l.83 ...tions of the Equation \ref{majorana_start}
                                                    we
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3408,7 +3392,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `majorana_start' on page  undefined on input line 84.
+LaTeX Warning: Reference `majorana_start' on page  undefined on input line 83.
 
 Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -3438,37 +3422,37 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 78--86
+Overfull \hbox (20.0pt too wide) in paragraph at lines 77--85
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 78--86
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 77--85
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 78--86
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 77--85
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 78--86
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 77--85
 []
  []
 
 
-Overfull \hbox (13.074pt too wide) in paragraph at lines 78--86
+Overfull \hbox (13.074pt too wide) in paragraph at lines 77--85
 \OML/cmm/m/it/10  []$
  []
 
 
-Overfull \hbox (12.50006pt too wide) in paragraph at lines 78--86
+Overfull \hbox (12.50006pt too wide) in paragraph at lines 77--85
 \OML/cmm/m/it/10  []$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 78--86
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 77--85
 []
  []
 
@@ -3479,18 +3463,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 \begin{equation}
+l.86 \begin{equation}
                       \label{Equation_not_used}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 87--87
+Overfull \hbox (20.0pt too wide) in paragraph at lines 86--86
 [] 
  []
 
 ! Undefined control sequence.
-l.88 ...u \partial_\mu C \overline{\psi}^\intercal
+l.87 ...u \partial_\mu C \overline{\psi}^\intercal
                                                   _R = m C \overline{\psi}^{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3501,7 +3485,7 @@ and I'll forget about whatever was undefined.
 ! Missing { inserted.
 <to be read again> 
                    _
-l.88 ... \partial_\mu C \overline{\psi}^\intercal_
+l.87 ... \partial_\mu C \overline{\psi}^\intercal_
                                                   R = m C \overline{\psi}^{\...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -3509,8 +3493,17 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 ! Undefined control sequence.
-l.88 ...ntercal_R = m C \overline{\psi}^{\intercal
-                                                  }_L
+l.87 ...ntercal_R = m C \overline{\psi}^{\intercal
+                                                  }_L \text{,}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.87 ... = m C \overline{\psi}^{\intercal}_L \text
+                                                  {,}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3520,7 +3513,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\eqno' in math mode.
 \endequation ->\eqno 
                      \hbox {\@eqnnum }$$\@ignoretrue 
-l.89 \end{equation}
+l.88 \end{equation}
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -3530,7 +3523,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.89 \end{equation}
+l.88 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3539,7 +3532,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (89.16441pt too wide) detected at line 89
+Overfull \hbox (91.53941pt too wide) detected at line 88
 []\OML/cmm/m/it/10 i^^M[]@[]C[][]
  []
 
@@ -3550,13 +3543,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 W
+l.90 w
       here $C$ is the operator charge conjugation operator. This operator an...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no W in font nullfont!
+Missing character: There is no w in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -3653,7 +3646,7 @@ Missing character: There is no x in font nullfont!
 ! Undefined control sequence.
 <write> ...x_charge_conjugation' on page \thepage 
                                                   \space undefined\on@line .
-l.91 ...Appendix \ref{appendix_charge_conjugation}
+l.90 ...Appendix \ref{appendix_charge_conjugation}
                                                   . Now, the Equation \ref{E...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3663,7 +3656,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `appendix_charge_conjugation' on page  undefined on in
-put line 91.
+put line 90.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no N in font nullfont!
@@ -3684,7 +3677,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...e `Equation_not_used' on page \thepage 
                                                   \space undefined\on@line .
-l.91 ... Now, the Equation \ref{Equation_not_used}
+l.90 ... Now, the Equation \ref{Equation_not_used}
                                                    would have the same struc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3694,7 +3687,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `Equation_not_used' on page  undefined on input line 9
-1.
+0.
 
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3734,7 +3727,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...e `majorana_objetive' on page \thepage 
                                                   \space undefined\on@line .
-l.92 as Equation \ref{majorana_objetive}
+l.91 as Equation \ref{majorana_objetive}
                                          if the right-handed term is imposed...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3744,7 +3737,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `majorana_objetive' on page  undefined on input line 9
-2.
+1.
 
 Missing character: There is no i in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -3782,27 +3775,27 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 91--93
+Overfull \hbox (20.0pt too wide) in paragraph at lines 90--92
 []
  []
 
 
-Overfull \hbox (7.86249pt too wide) in paragraph at lines 91--93
+Overfull \hbox (7.86249pt too wide) in paragraph at lines 90--92
 \OML/cmm/m/it/10 C$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 91--93
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 90--92
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 91--93
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 90--92
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 91--93
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 90--92
 []
  []
 
@@ -3813,13 +3806,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \begin{equation}
+l.93 \begin{equation}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 94--94
+Overfull \hbox (20.0pt too wide) in paragraph at lines 93--93
 [] 
  []
 
@@ -3865,7 +3858,7 @@ my insertion and my current dilemma will both disappear.
 
 
 Overfull \hbox (64.69807pt too wide) detected at line 96
-\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 C[][]
+[]\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 C[][]
  []
 
 
@@ -4152,7 +4145,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
 l.104 ...: $\psi^C_L = C \overline{\psi}^\intercal
-                                                  _L$. We get for the expres...
+                                                  _L$, we get for the expres...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4163,7 +4156,7 @@ and I'll forget about whatever was undefined.
 <to be read again> 
                    _
 l.104 ... $\psi^C_L = C \overline{\psi}^\intercal_
-                                                  L$. We get for the express...
+                                                  L$, we get for the express...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -4173,15 +4166,15 @@ so that I will find a matching right brace soon.
 <inserted text> 
                 }
 l.104 ...\psi^C_L = C \overline{\psi}^\intercal_L$
-                                                  . We get for the expressio...
+                                                  , we get for the expressio...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-Missing character: There is no . in font nullfont!
-Missing character: There is no W in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -4344,11 +4337,19 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...e `Structure_imposed' on page \thepage 
                                                   \space undefined\on@line .
-l.110 ...i$ to satisfy the \ref{Structure_imposed}
-                                                   expression can be studied...
+l.110 ...                  \ref{Structure_imposed}
+                                                   can be studied by taking ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4359,16 +4360,6 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Reference `Structure_imposed' on page  undefined on input line 1
 10.
 
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -4837,23 +4828,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 P
-       reviously, we saw that the mass term in the Lagrangian couples the le...
+l.121 I
+       n Equation \ref{Dirac mass term} we saw that the mass term in the Lag...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no , in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+<write> ...nce `Dirac mass term' on page \thepage 
+                                                  \space undefined\on@line .
+l.121 In Equation \ref{Dirac mass term}
+                                        we saw that the mass term in the Lag...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Dirac mass term' on page  undefined on input line 121
+.
+
 Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -4936,31 +4941,6 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no q in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Undefined control sequence.
-<write> ...nce `Dirac mass term' on page \thepage 
-                                                  \space undefined\on@line .
-l.121 ... neutrino (Equation \ref{Dirac mass term}
-                                                  ). Replacing the
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `Dirac mass term' on page  undefined on input line 121
-.
-
-Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -4991,6 +4971,31 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+<write> ...ression_right_handed' on page \thepage 
+                                                  \space undefined\on@line .
+l.122 ...in Equation \ref{Expression_right_handed}
+                                                   for the right-handed comp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Expression_right_handed' on page  undefined on input 
+line 122.
+
 Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -5064,14 +5069,89 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no , in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no ( in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+<write> ... `majorana_mass_term' on page \thepage 
+                                                  \space undefined\on@line .
+l.122 ...get the equation \ref{majorana_mass_term}
+                                                  . In this equation we deno...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `majorana_mass_term' on page  undefined on input line 
+122.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -5087,9 +5167,9 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -5108,6 +5188,34 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -5119,16 +5227,64 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no ) in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 121--124
+Overfull \hbox (20.0pt too wide) in paragraph at lines 121--123
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 121--124
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 121--123
 []
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 121--123
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 121--123
+[]
+ []
+
+
+Overfull \hbox (5.57639pt too wide) in paragraph at lines 121--123
+\OML/cmm/m/it/10 ^^W$
  []
 
 
@@ -5138,24 +5294,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \begin{equation}
-                      
+l.126 \begin{equation}
+                      \label{majorana_mass_term}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 127--127
+Overfull \hbox (20.0pt too wide) in paragraph at lines 126--126
 [] 
  []
 
 
-Overfull \hbox (161.60284pt too wide) detected at line 129
-\OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m[]^^W[] \OT1/cmr/m/n/1
-0 + \OML/cmm/m/it/10 m[]^^W[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 m[]^^W[]
+Overfull \hbox (161.60284pt too wide) detected at line 128
+[]\OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m[]^^W[] \OT1/cmr/m/n
+/10 + \OML/cmm/m/it/10 m[]^^W[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 m[]^^W[]
  []
 
 ! Undefined control sequence.
-l.135 \section
+l.134 \section
               {Seesaw Mechanism}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5170,7 +5326,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \section{S
+l.134 \section{S
                 eesaw Mechanism}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5191,7 +5347,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 135--136
+Overfull \hbox (20.0pt too wide) in paragraph at lines 134--135
 []
  []
 
@@ -5202,7 +5358,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 A
+l.136 A
        s it was mentioned before, in the case that the right-handed chiral f...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -5315,6 +5471,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -5356,6 +5513,43 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ) in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -5395,7 +5589,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 137--139
+Overfull \hbox (20.0pt too wide) in paragraph at lines 136--138
 []
  []
 
@@ -5406,18 +5600,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.140 \begin{equation}
+l.139 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 140--140
+Overfull \hbox (20.0pt too wide) in paragraph at lines 139--139
 [] 
  []
 
 
-Overfull \hbox (88.44717pt too wide) detected at line 142
+Overfull \hbox (88.44717pt too wide) detected at line 141
 \OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 m[][][]^^W[]
  []
 
@@ -5428,7 +5622,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.144 T
+l.143 T
        he term $m_L$ is forbidden by electroweak symmetry and it appears aft...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -5658,15 +5852,11 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -5863,12 +6053,12 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 144--148
+Overfull \hbox (20.0pt too wide) in paragraph at lines 143--147
 []
  []
 
 
-Overfull \hbox (14.76628pt too wide) in paragraph at lines 144--148
+Overfull \hbox (14.76628pt too wide) in paragraph at lines 143--147
 \OML/cmm/m/it/10 m[]$
  []
 
@@ -5879,18 +6069,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 \begin{equation}
+l.148 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 149--149
+Overfull \hbox (20.0pt too wide) in paragraph at lines 148--148
 [] 
  []
 
 
-Overfull \hbox (112.78223pt too wide) detected at line 151
+Overfull \hbox (112.78223pt too wide) detected at line 150
 \OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m[][]^^W[] \OT1/cmr/m/n
 /10 + \OML/cmm/m/it/10 m[][]^^W[]
  []
@@ -5902,7 +6092,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 A
+l.152 A
        dditionally, we have to include a similar term which is the right-han...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -5985,7 +6175,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 153--154
+Overfull \hbox (20.0pt too wide) in paragraph at lines 152--153
 []
  []
 
@@ -5996,22 +6186,110 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.155 \begin{equation}
+l.154 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 155--155
+Overfull \hbox (20.0pt too wide) in paragraph at lines 154--154
 [] 
  []
 
 
-Overfull \hbox (115.078pt too wide) detected at line 157
+Overfull \hbox (115.078pt too wide) detected at line 156
 \OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m[][]^^W[] \OT1/cmr/m/n
 /10 + \OML/cmm/m/it/10 m[][]^^W[]
  []
 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+! Undefined control sequence.
+<write> \newlabel{Dirac mass term}{{3}{\thepage 
+                                                }}
+l.156 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{Dirac mass term}{{3}{}}
+! Undefined control sequence.
+<write> \newlabel{majorana_objetive}{{5}{\thepage 
+                                                  }}
+l.156 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{majorana_objetive}{{5}{}}
+! Undefined control sequence.
+<write> \newlabel{majorana_start}{{6}{\thepage 
+                                               }}
+l.156 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{majorana_start}{{6}{}}
+! Undefined control sequence.
+<write> \newlabel{Equation_not_used}{{9}{\thepage 
+                                                  }}
+l.156 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{Equation_not_used}{{9}{}}
+! Undefined control sequence.
+<write> ...Expression_right_handed}{{10}{\thepage 
+                                                  }}
+l.156 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{Expression_right_handed}{{10}{}}
+! Undefined control sequence.
+<write> ...label{Structure_imposed}{{12}{\thepage 
+                                                  }}
+l.156 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{Structure_imposed}{{12}{}}
+]
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -6019,8 +6297,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 W
-       e also have to add Dirac mass terms: the first Dirac mass term we men...
+l.158 W
+       e also have to add Dirac mass terms in order to study the most genera...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6054,6 +6332,44 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -6112,7 +6428,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...erence `Dirac normal' on page \thepage 
                                                   \space undefined\on@line .
-l.159 ...this section (Equation \ref{Dirac normal}
+l.158 ...this section (Equation \ref{Dirac normal}
                                                   ) and another one that com...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6121,7 +6437,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `Dirac normal' on page  undefined on input line 159.
+LaTeX Warning: Reference `Dirac normal' on page  undefined on input line 158.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -6187,7 +6503,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ce `Dirac conjugated' on page \thepage 
                                                   \space undefined\on@line .
-l.160 ...e fields (Equation \ref{Dirac conjugated}
+l.159 ...e fields (Equation \ref{Dirac conjugated}
                                                   ):
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6196,102 +6512,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `Dirac conjugated' on page  undefined on input line 16
-0.
+LaTeX Warning: Reference `Dirac conjugated' on page  undefined on input line 15
+9.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 159--161
+Overfull \hbox (20.0pt too wide) in paragraph at lines 158--160
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 159--161
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 158--160
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 159--161
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 158--160
 [] 
  []
 
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-! Undefined control sequence.
-<write> \newlabel{Dirac mass term}{{3}{\thepage 
-                                                }}
-l.161 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{Dirac mass term}{{3}{}}
-! Undefined control sequence.
-<write> \newlabel{majorana_objetive}{{5}{\thepage 
-                                                  }}
-l.161 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{majorana_objetive}{{5}{}}
-! Undefined control sequence.
-<write> \newlabel{majorana_start}{{6}{\thepage 
-                                               }}
-l.161 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{majorana_start}{{6}{}}
-! Undefined control sequence.
-<write> \newlabel{Equation_not_used}{{9}{\thepage 
-                                                  }}
-l.161 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{Equation_not_used}{{9}{}}
-! Undefined control sequence.
-<write> ...label{Structure_imposed}{{12}{\thepage 
-                                                  }}
-l.161 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{Structure_imposed}{{12}{}}
-]
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -6299,18 +6539,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \begin{equation}
+l.161 \begin{equation}
                       \label{Dirac normal}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 162--162
+Overfull \hbox (20.0pt too wide) in paragraph at lines 161--161
 [] 
  []
 
 
-Overfull \hbox (104.83615pt too wide) detected at line 164
+Overfull \hbox (104.83615pt too wide) detected at line 163
 []\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m[][]^^W[] \OT1/cmr/m/n
 /10 + \OML/cmm/m/it/10 m[][]^^W[]
  []
@@ -6322,18 +6562,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \begin{equation}
+l.165 \begin{equation}
                       \label{Dirac conjugated}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 166--166
+Overfull \hbox (20.0pt too wide) in paragraph at lines 165--165
 [] 
  []
 
 
-Overfull \hbox (109.19388pt too wide) detected at line 168
+Overfull \hbox (109.19388pt too wide) detected at line 167
 []\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m[][]^^W[] \OT1/cmr/m/n
 /10 + \OML/cmm/m/it/10 m[][]^^W[]
  []
@@ -6345,7 +6585,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.170 S
+l.169 S
        ince the hermitian conjugate of each equation is identical, we can wr...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6439,12 +6679,12 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 170--171
+Overfull \hbox (20.0pt too wide) in paragraph at lines 169--170
 []
  []
 
 
-Overfull \hbox (234.05183pt too wide) detected at line 173
+Overfull \hbox (234.05183pt too wide) detected at line 172
 \OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = [] []
  []
 
@@ -6455,7 +6695,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 T
+l.174 T
        he former equation can be written as a matrix equation:
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6508,7 +6748,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 175--176
+Overfull \hbox (20.0pt too wide) in paragraph at lines 174--175
 []
  []
 
@@ -6519,20 +6759,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \begin{equation}
+l.176 \begin{equation}
                       \label{matrix_m_sa}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 177--177
+Overfull \hbox (20.0pt too wide) in paragraph at lines 176--176
 [] 
  []
 
 ! Missing { inserted.
 <to be read again> 
                    $
-l.180   \overline
+l.179   \overline
                  {\nu_L^C} & \overline{\nu_R}
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -6542,7 +6782,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.180   \overline
+l.179   \overline
                  {\nu_L^C} & \overline{\nu_R}
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6551,7 +6791,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Misplaced alignment tab character &.
-l.180   \overline{\nu_L^C} &
+l.179   \overline{\nu_L^C} &
                              \overline{\nu_R}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6561,7 +6801,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.183   m_L &
+l.182   m_L &
               m_D \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6571,7 +6811,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.184   m_D &
+l.183   m_D &
               m_R
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6581,7 +6821,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (191.12898pt too wide) detected at line 190
+Overfull \hbox (191.12898pt too wide) detected at line 189
 []\OML/cmm/m/it/10 L[] \OMS/cmsy/m/n/10 / [] [][] [][] \OML/cmm/m/it/10 m[][] m
 []m[] [][] [] ^^W[]
  []
@@ -6593,15 +6833,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192 T
-       he Equation \ref{matrix_m_sa} expresses the Lagrangian in terms of th...
+l.191 E
+       quation \ref{matrix_m_sa} expresses the Lagrangian in terms of the le...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no T in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -6613,8 +6850,8 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ference `matrix_m_sa' on page \thepage 
                                                   \space undefined\on@line .
-l.192 The Equation \ref{matrix_m_sa}
-                                     expresses the Lagrangian in terms of th...
+l.191 Equation \ref{matrix_m_sa}
+                                 expresses the Lagrangian in terms of the le...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6622,7 +6859,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `matrix_m_sa' on page  undefined on input line 192.
+LaTeX Warning: Reference `matrix_m_sa' on page  undefined on input line 191.
 
 Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
@@ -7039,7 +7276,7 @@ Missing character: There is no x in font nullfont!
 ! Undefined control sequence.
 <write> ... `apendice_neutrinos' on page \thepage 
                                                   \space undefined\on@line .
-l.195 ...ined in Appendix \ref{apendice_neutrinos}
+l.194 ...ined in Appendix \ref{apendice_neutrinos}
                                                   . We find the mass eigenst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7049,7 +7286,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `apendice_neutrinos' on page  undefined on input line 
-195.
+194.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no W in font nullfont!
@@ -7101,17 +7338,17 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 192--196
+Overfull \hbox (20.0pt too wide) in paragraph at lines 191--195
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 192--196
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 191--195
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 192--196
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 191--195
 []
  []
 
@@ -7122,18 +7359,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.197 \begin{equation}
+l.196 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 197--197
+Overfull \hbox (20.0pt too wide) in paragraph at lines 196--196
 [] 
  []
 
 
-Overfull \hbox (212.76009pt too wide) detected at line 199
+Overfull \hbox (212.76009pt too wide) detected at line 198
 \OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 = [] []
  []
 
@@ -7144,7 +7381,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 T
+l.200 T
        he fact that the SM does not allow a Majorana left-chiral mass term i...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -7314,37 +7551,37 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 201--203
+Overfull \hbox (20.0pt too wide) in paragraph at lines 200--202
 []
  []
 
 
-Overfull \hbox (25.3218pt too wide) in paragraph at lines 201--203
+Overfull \hbox (25.3218pt too wide) in paragraph at lines 200--202
 \OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 201--203
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 200--202
 \OT1/cmr/m/n/10 0$
  []
 
 
-Overfull \hbox (13.26627pt too wide) in paragraph at lines 201--203
+Overfull \hbox (13.26627pt too wide) in paragraph at lines 200--202
 \OML/cmm/m/it/10 m[]$
  []
 
 
-Overfull \hbox (13.26627pt too wide) in paragraph at lines 201--203
+Overfull \hbox (13.26627pt too wide) in paragraph at lines 200--202
 \OML/cmm/m/it/10 m[]$
  []
 
 
-Overfull \hbox (33.67354pt too wide) in paragraph at lines 201--203
+Overfull \hbox (33.67354pt too wide) in paragraph at lines 200--202
 \OML/cmm/m/it/10 m[] >>
  []
 
 
-Overfull \hbox (16.0339pt too wide) in paragraph at lines 201--203
+Overfull \hbox (16.0339pt too wide) in paragraph at lines 200--202
 \OML/cmm/m/it/10 m[]$
  []
 
@@ -7355,18 +7592,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.204 \begin{equation}
+l.203 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 204--204
+Overfull \hbox (20.0pt too wide) in paragraph at lines 203--203
 [] 
  []
 
 
-Overfull \hbox (45.03339pt too wide) detected at line 206
+Overfull \hbox (45.03339pt too wide) detected at line 205
 \OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 = []
  []
 
@@ -7377,18 +7614,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.208 \begin{equation}
+l.207 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 208--208
+Overfull \hbox (20.0pt too wide) in paragraph at lines 207--207
 [] 
  []
 
 
-Overfull \hbox (122.65813pt too wide) detected at line 210
+Overfull \hbox (122.65813pt too wide) detected at line 209
 \OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 m[] [] \OMS/cmsy/m/n/10
  ^^Y \OML/cmm/m/it/10 m[]
  []
@@ -7400,7 +7637,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.212 F
+l.211 F
        rom both equations above we can deduce that if there a neutrino with ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -7760,12 +7997,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 212--215
+Overfull \hbox (20.0pt too wide) in paragraph at lines 211--214
 []
  []
 
 
-Overfull \hbox (13.26627pt too wide) in paragraph at lines 212--215
+Overfull \hbox (13.26627pt too wide) in paragraph at lines 211--214
 \OML/cmm/m/it/10 m[]$
  []
 
@@ -7776,19 +8013,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.216 \begin{equation}
+l.215 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 216--216
+Overfull \hbox (20.0pt too wide) in paragraph at lines 215--215
 [] 
  []
 
 
 Overfull \hbox (140.44582pt too wide) detected at line 218
-\OML/cmm/m/it/10 ^^W[] \OMS/cmsy/m/n/10 / [] ^^@ [] []
+[]\OML/cmm/m/it/10 ^^W[] \OMS/cmsy/m/n/10 / [] ^^@ [] []
  []
 
 
@@ -7809,8 +8046,8 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 220--220
  []
 
 
-Overfull \hbox (140.44582pt too wide) detected at line 222
-\OML/cmm/m/it/10 ^^W[] \OMS/cmsy/m/n/10 / [] \OT1/cmr/m/n/10 + [] []
+Overfull \hbox (140.44582pt too wide) detected at line 223
+[]\OML/cmm/m/it/10 ^^W[] \OMS/cmsy/m/n/10 / [] \OT1/cmr/m/n/10 + [] []
  []
 
 
@@ -7820,8 +8057,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224 T
-       he former equations show that $\nu_1$ is mostly the left-handed light...
+l.225 T
+       he Equations \ref{nu_1} and \ref{nu_2} show that $\nu_1$ is mostly th...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7829,13 +8066,7 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no E in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -7844,6 +8075,37 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
+! Undefined control sequence.
+<write> ...ing: Reference `nu_1' on page \thepage 
+                                                  \space undefined\on@line .
+l.225 The Equations \ref{nu_1}
+                               and \ref{nu_2} show that $\nu_1$ is mostly th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `nu_1' on page  undefined on input line 225.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+! Undefined control sequence.
+<write> ...ing: Reference `nu_2' on page \thepage 
+                                                  \space undefined\on@line .
+l.225 The Equations \ref{nu_1} and \ref{nu_2}
+                                              show that $\nu_1$ is mostly th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `nu_2' on page  undefined on input line 225.
+
 Missing character: There is no s in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -8044,17 +8306,27 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 224--226
+Overfull \hbox (20.0pt too wide) in paragraph at lines 225--227
 []
  []
 
 
-Overfull \hbox (9.42595pt too wide) in paragraph at lines 224--226
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 225--227
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 225--227
+[]
+ []
+
+
+Overfull \hbox (9.42595pt too wide) in paragraph at lines 225--227
 \OML/cmm/m/it/10 ^^W[]$
  []
 
 
-Overfull \hbox (9.42595pt too wide) in paragraph at lines 224--226
+Overfull \hbox (9.42595pt too wide) in paragraph at lines 225--227
 \OML/cmm/m/it/10 ^^W[]$
  []
 
@@ -8066,11 +8338,11 @@ Overfull \hbox (9.42595pt too wide) in paragraph at lines 224--226
 
  
 Here is how much of TeX's memory you used:
- 28 strings out of 494850
- 445 string characters out of 6178024
+ 32 strings out of 494850
+ 502 string characters out of 6178024
  54936 words of memory out of 5000000
- 3425 multiletter control sequences out of 15000+600000
+ 3429 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 18i,10n,15p,311b,144s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,10n,15p,436b,144s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
