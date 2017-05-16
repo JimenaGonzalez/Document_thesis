@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.5.29)  15 MAY 2017 11:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.5.29)  15 MAY 2017 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -806,7 +806,7 @@ File: ./Capitulos/VariableDefinitions/CMS_coordinates.png Graphic file (type pn
 g)
  <use ./Capitulos/VariableDefinitions/CMS_coordinates.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/CMS_coordinates.png us
-ed on input line 67.
+ed on input line 66.
 (pdftex.def)             Requested size: 255.00726pt x 122.18073pt.
 
 
@@ -821,26 +821,26 @@ Overfull \hbox (34.16154pt too wide) has occurred while \output is active
 [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 84.
+(hyperref)                removing `math shift' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 84.
+(hyperref)                removing `subscript' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 84.
+(hyperref)                removing `math shift' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 84.
+(hyperref)                removing `math shift' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 84.
+(hyperref)                removing `math shift' on input line 83.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
 
  []
 
@@ -857,7 +857,7 @@ File: ./Capitulos/VariableDefinitions/Displaced_vertex.png Graphic file (type p
 ng)
  <use ./Capitulos/VariableDefinitions/Displaced_vertex.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/Displaced_vertex.png u
-sed on input line 121.
+sed on input line 119.
 (pdftex.def)             Requested size: 136.00179pt x 93.69606pt.
 
 Overfull \hbox (39.63655pt too wide) has occurred while \output is active
@@ -872,7 +872,7 @@ File: ./Capitulos/VariableDefinitions/Impact_parameter.png Graphic file (type p
 ng)
  <use ./Capitulos/VariableDefinitions/Impact_parameter.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/Impact_parameter.png u
-sed on input line 131.
+sed on input line 129.
 (pdftex.def)             Requested size: 238.00574pt x 178.49846pt.
 )
 Overfull \hbox (39.63655pt too wide) has occurred while \output is active
@@ -966,14 +966,14 @@ al.png>] <./Capitulos/Model/w+jets.png, id=384, 185.19188pt x 217.5628pt>
 File: ./Capitulos/Model/w+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/w+jets.png>
-Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 72.
+Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 71.
 (pdftex.def)             Requested size: 136.00179pt x 159.7756pt.
 
 <./Capitulos/Model/DY+jets.png, id=386, 229.60782pt x 206.27063pt>
 File: ./Capitulos/Model/DY+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/DY+jets.png>
-Package pdftex.def Info: ./Capitulos/Model/DY+jets.png used on input line 87.
+Package pdftex.def Info: ./Capitulos/Model/DY+jets.png used on input line 86.
 (pdftex.def)             Requested size: 136.00179pt x 122.1833pt.
 
 
@@ -1088,7 +1088,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
 Here is how much of TeX's memory you used:
  8034 strings out of 493315
  116006 string characters out of 6145893
- 221604 words of memory out of 5000000
+ 221615 words of memory out of 5000000
  11152 multiletter control sequences out of 15000+600000
  18313 words of font info for 70 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1106,7 +1106,7 @@ fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texm
 f/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/symbols/m
 sam10.pfb>
-Output written on main.pdf (37 pages, 891726 bytes).
+Output written on main.pdf (37 pages, 891758 bytes).
 PDF statistics:
  549 PDF objects out of 1000 (max. 8388607)
  477 compressed objects within 5 object streams
