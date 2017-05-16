@@ -108,8 +108,7 @@ The vertex of a track is a variable of importance because it can be used to dete
 vertex fit can also be used to check the association of tracks to a vertex, in other words, to determine if a track actually originates from a certain vertex. In order to determine the direction
 of the track connecting a primary and a secondary vertex we have to find the position of the secondary vertex. Some particles can pass through the detector without leaving tracks. However,
 when these undetected particles decay, the particles produced can be observed because they leave tracks on the detector. The point in which the product particles are detected is called a secondary 
-vertex, and it is said that it is a displaced vertex. Figure \re
-The former description is showed in Figure \ref{Displaced_vertex}, where the path of the undetected particle is represented by a dotted line:
+vertex, and it is said that it is a displaced vertex. Figure \ref{Displaced_vertex} shows a sketch of a displaced vertex, where the path of the undetected particle is represented by a dotted line.
 
  % Imagen tomada Displaced Vertex: https://indico.cern.ch/event/149404/contributions/1388848/attachments/149638/211969/azuma_berkeley_111020_v05.pdf
  % Imagen Impact parameter: http://www.quantumdiaries.org/2011/06/10/to-b-or-not-to-bbar-b-tagging-via-track-counting/
@@ -121,13 +120,13 @@ The former description is showed in Figure \ref{Displaced_vertex}, where the pat
  \label{Displaced_vertex}
  \end{figure}
  
-Now, the impact parameter is defined as the closest distance between the vertex and the points of the track. A visualization of this is showed in Figure \ref{Impact_parameter}. In this image the track is represented by the blue dotted line, and the impact parameter by the red line. It can be seen that the impact parameter line forms a right angle with the track. Using this characteristic it is possible to identify in a unique way the closest point of approach of the track to the vertex.
+The impact parameter is defined as the closest distance between the vertex and the points of the track. A visualization of this is showed in Figure \ref{Impact_parameter}. In this image the track is represented by the blue dotted line, and the impact parameter by the red line. It can be seen that the impact parameter line forms a right angle with the track. Using this characteristic it is possible to identify in a unique way the closest point of approach of the track to the vertex.
 
 
  \begin{figure}[h] 
  \centering
  \caption{Scheme of the impact parameter variable}
- \includegraphics[width=0.7\textwidth]{./Capitulos/VariableDefinitions/Impact_parameter}  
+ \includegraphics[width=0.7\textwidth]{./Capitulos/VariableDefinitions/impactParameter}  
  \label{Impact_parameter}
  \end{figure} 
 

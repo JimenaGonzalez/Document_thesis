@@ -1,9 +1,16 @@
 \chapter{CMS Detector}
 
-In this analysis we are going to perform simulations of collisions occurring at the CMS experiment, so we have to take into account the specific characteristics of this detector.
-The CMS is one of the seven experiments located at the Large Hadron Collider (LHC), which is the largest and most powerfull particle accelerator in the world. This accelerator collides protons at very high energies of the order of 13 TeV, with the objective of studying the elemental particles of the universe. 
+In this analysis we are going to perform simulations of collisions occurring at the CMS experiment, so we have to take into account the specific characteristics of this detector. For this reason
+the components of the CMS are going to be explaind.
+The CMS is one of the seven experiments located at the Large Hadron Collider (LHC), which is the largest and most powerfull particle accelerator in the world. This accelerator collides protons 
+and heavy ions at very high energies of the order of 13 TeV and 6.37 TeV, respectively, with the objective of studying the elemental particles of the universe. 
 
-The LHC is conformed by a ring of almost 27 km and by 4 detectors located at the different collision points of the ring. Two of these detector are general-purpose detectors, and they belong to the experiments CMS (Compact Muon Solenoid) and ATLAS (A Toroidal LHC ApparatuS). Both experiments share the same goals of searching physics beyond the SM like: search and measurement of the Higgs boson, Supersymmetry searches, dark matter, detection of extra dimensions, among others. The difference between both experiments is that they use different technical solutions and the magnetic field is produced by a different system design. In the ATLAS detector the magnetic field is produced by a central toroid, two end toroids and a central solenoid, while the CMS detector is built around a solenoid magnet.  
+%Energia ions http://accelconf.web.cern.ch/accelconf/ipac2016/papers/tupmw027.pdf
+
+The LHC is conformed by a ring of almost 27 km of perimeter and by 7 detectors located at the different collision points of the ring. Two of these detector are general-purpose detectors, and they 
+are referred as experiments CMS and ATLAS (A Toroidal LHC ApparatuS). Both experiments share the same goals of searching physics beyond the SM. The physics program includes measurements of the Higgs boson, 
+Supersymmetry searches, dark matter, detection of extra dimensions, among others. The difference between both experiments is that they use different desings and software. In the ATLAS detector the 
+magnetic field is produced by a central toroid, two end toroids and a central solenoid, while the CMS detector is built around a superconducting solenoid magnet.  
 
 The CMS and ATLAS detectors have a cylindrical form in order to have the most uniform magnetic field posible. They are centered in the direction of the interacting beams and the collision point and have two ``end-caps'' to cover the forward regions. These detectors are conformed by the same general components, from the inner part of the detector to the outer part. These components are: a tracking system, an electromagnetic and a hadronic calorimeter, and muon detectors. They also have magnets to curve the path of the electric charged particles, so it can be determined whether a particle has a positive or negative charge. Aditionally, the measurement of the curve can be used to calculate the momentum of the charged particle. In Figure \ref{CMS_detector}, there is a diagram showing the structure of the CMS detector. This image also shows the interaction of different particles with the parts of the detector.
 
