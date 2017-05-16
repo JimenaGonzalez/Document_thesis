@@ -3,13 +3,15 @@
  
 \section{Signal of Interest}
 
-The model that was studied is based on a recently proposed new mechanism of production of heavy neutrinos through the Higgs Boson decay \cite{Seesaw Mechanism with displaced vertices}. One favourable characteristic of this model is that in a natural scenario the mass of the heavy neutrinos can lie at the electroweak scale. The theoretical study by \cite{Seesaw Mechanism with displaced vertices} proposes the experimental search of the heavy neutrinos using a technique known as displaced vertices.
+The model that was studied is based on a recently proposed new mechanism of production of heavy neutrinos through the Higgs Boson decay \cite{Seesaw Mechanism with displaced vertices}. One
+favourable characteristic of this model is that in a natural scenario the mass of the heavy neutrinos can lie at the electroweak scale. The theoretical study by \cite{Seesaw Mechanism with displaced vertices} 
+proposes the experimental search of the heavy neutrinos using a technique known as displaced vertices.
 
 According to this model, when the mass of the heavy neutrinos is inferior than the mass of the Higgs, the latter can present novel decay channels. The Higgs boson can decay into a light and a heavy
 neutrino, followed by a subsequent decay of the heavy neutrino via a charged or neutral current interaction. Then, the decays of the heavy neutrino can be represented by: $N \rightarrow l^+ l^- \nu$
 or $N \rightarrow l q q'$. Thus, there are two possible final states of the event of interest: two leptons, two jets (from the VBF process) and $\vec{E_T^{miss}}$ (due to the neutrino) or four jets 
 (two of the VBF process and two from the quarks of the heavy neutrino decays), $\vec{E_T^{miss}}$ and one lepton. The first type of final state is going to be called leptonic signal, while the second
-will be named hadron signal.
+will be named hadronic signal.
 
 If the heavy neutrino has a mass of the order of a few GeV, the Higgs and heavy neutrino would travel a certain distance before decaying. Since both particles are not detected, the decay products are expected to have associated tracks with displaced vertices. For this reason, the presence of displaced vertices in the detector is an important signal to prove this model because it could indicates the presence of the heavy neutrino in the detector. Nevertheless, in this model the resulting leptons have a low momentum. Thus, due to experimental restrictions of the available triggers in CMS and ATLAS, the theoretical analysis proposed in reference \cite{Seesaw Mechanism with displace vertices} is not achievable.  
 
@@ -17,25 +19,26 @@ The High Energy Physics Group at Universidad de los Andes has proposed a techniq
 
 Finally, as a result of the fusion of the two vector bosons, a Higgs boson is produced and the initial quarks that interacted manifest themselves as jets with high transverse momentum in opposite
 hemispheres of the detector. For this reason, in Experimental Particle Collider Physics the events in which two jets of high transverse momentum are detected in opposite hemispheres of the detector 
-and with a high separation of pseudorapidity are labeled as candidates of processes of VBF. The Feynman diagrams illustrating the processes already described is shown in Figure \ref{Signal_feynman}.
+and with a high separation of pseudorapidity are labeled as candidates of processes of VBF. The Feynman diagrams illustrating the processes already described is shown in Figure \ref{signals}, where \ref{signal_hadron_feynman} is the hadronic signal and \ref{signal_leptonic_feynman} illustrates the leptonic signal.
 
 %CORREGIR IMAGENEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEES
 
-\begin{figure}
-\label{Signal_feynman}
+\begin{figure}[h]
 \centering
-\begin{minipage}{.6\textwidth}
+\begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.7\linewidth]{./Capitulos/Model/hadron_signal}
+  \includegraphics[width=1\linewidth]{./Capitulos/Model/hadron_signal}
   \caption{Feynman diagram for the hadron signal}
   \label{signal_hadron_feynman}
-\end{minipage}%
-\begin{minipage}{.6\textwidth}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.7\linewidth]{./Capitulos/Model/leptonic_signal}
+  \includegraphics[width=1\linewidth]{./Capitulos/Model/leptonic_signal}
   \caption{Feynman diagram for the leptonic signal}
   \label{signal_leptonic_feynman}
-\end{minipage}
+\end{subfigure}
+\caption{}
+\label{signals}
 \end{figure}
 
 
@@ -51,35 +54,58 @@ kinematic characteristics. When a set of variables that separate the signal from
 the background. 
  
 The signal of interest that was described had two possible final states. For the hadronic signal: two leptons, two jets and $\vec{E_T^{miss}}$ and for the leptonic signal: four jets, 
-$\vec{E_T^{miss}}$, and one lepton. Thus, the principal backgrounds of the signal that have a similar final state are the W+jets background and the DY+jets background. In a inferior magnitude there
-is other background that comes from the quark-antiquark top annihilation.
+$\vec{E_T^{miss}}$, and one lepton. Thus, the main backgrounds of the signal that have a similar final state are the W+jets background and the DY+jets background. In a inferior magnitude there
+is other background that comes from the top pair production, referred as $t\overline{t}$.
 
  
 \subsection{W+Jets Background}
   
-The events in which is produced a boson W with jets has a large probabibity to occur in the collisions at the LHC. The W decay determines the final state of this event. Most of the times the W boson
-have a hadronic decay and the other times have a leptonic decay. In the last type of decayment, the boson W desintegrates into a lepton and a neutrino. Sometimes, in these events the particles 
+%ASOCCIATEEEEEEEEEEED JEEEEEEEEEEEEEEEEETS  
+The events in which is produced a W boson with jets has a large probabibity to occur in the collisions at the LHC. The W decay determines the final state of this event. Most of the times the W boson
+has a hadronic decay and the other times have a leptonic decay. In leptonic decays, the W boson desintegrates into a lepton and a neutrino. Sometimes, in these events the particles 
 comming from the interaction of the initial hadrons can produce a spontaneous radiative emission, which then is detected as a jet. It is said that this kind of jet comes from an Initial State 
 Radiation (ISR). Thus, when the boson W decays leptonically, the final state is conformed by a lepton, $\vec{E_T^{miss}}$ (comming from the neutrino) and jets from ISR. The Feynman diagram is shown 
 in Figure \ref{w_jets_feynman}.
   
-  %Arreglar numero figuraaaaaaaaaaaaaaaaaaaaaa
+%INCLUIR FRACCIONES PRECISAS DECAIMIENTOOOOOOOOOOOOOOO
   
  \begin{figure}[h] 
- \label{w_jets_feynman}
  \centering
  \caption{Feynman diagram for the W+jets Background}
  \includegraphics[width=0.4\textwidth]{./Capitulos/Model/w+jets}  
+ \label{w_jets_feynman}
  \end{figure}  
 
  \subsection{Drell Yan + Jets Background}
  
  Other background for our signal of interest comes from the Drell Yan procces. In this process a quark and an antiquark comming from the initial interacting hadrons annihilate each other and this
- produce a virtual photon or a Z boson. The concept virtual photon means that this particle is created for a really short period of time. We studied this process only when the Z boson decays into a 
- pair lepton-antilepton, because in this case the final state is the most similar to the one of the signal. 
- When the Z boson decays into a pair lepton-antilepton the 
- state of the event is conformed by: 
+ produce a virtual photon or a Z boson. The concept virtual photon means that this particle is created for a very short period of time. We studied this process only when the Z boson decays into a 
+ pair lepton-antilepton, because in this case the final state is the most similar to the one of the signal. Specifically, we considered the events were the Z decays into a pair 
+ tau and antitau ($\tau \overline{\tau}$). This process was simulated with the presence of a jet from ISR. Thus, the final state is conformed by one tau, jets (from the ISR procces), 
+ $\vec{E_T^{miss}}$ (from the erroneus identification of the one of the taus). The Figure \ref{dy_jets_feynman} shows the Feynman diagram for this process.
  
- \subsection{$t \bar{t}$ Background}
+  \begin{figure}[h] 
+ \centering
+ \caption{Feynman diagram for the DY+jets Background}
+ \includegraphics[width=0.4\textwidth]{./Capitulos/Model/DY+jets} 
+ \label{dy_jets_feynman}
+ \end{figure} 
+ 
+ \subsection{$t \overline{t}$ Background}
+ 
+ Other background for our signal of interest is produced by the the top anti-top creation pair. These events are produced when a gluon commming from the interaction of two colliding protons decays into
+ a pair top-antitop particles. A Feynman diagram for this background is showed in Figure \ref{t_tbar_feynman}
+ 
+ %https://www-d0.fnal.gov/Run2Physics/top/top_public_web_pages/top_feynman_diagrams.html
+ 
+  \begin{figure}[h] 
+ \centering
+ \caption{Feynman diagram for $t \overline{t}$ Background}
+ \includegraphics[width=0.4\textwidth]{./Capitulos/Model/t_tbar}  
+ \label{t_tbar_feynman}
+ \end{figure} 
+ 
+ 
+ 
  
  

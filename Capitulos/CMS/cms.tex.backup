@@ -16,7 +16,7 @@ The CMS and ATLAS detectors have a cylindrical form in order to have the most un
 
 %\section{Accelarator and Storage Ring}
 
-%CITAAAAAAAAAAAAAAAAAAAAAAAAAAR
+%CITAAAAAAAAAAAAAAAAAAAAAAAAAAR http://cms.web.cern.ch/news/detector-overview
 
  \begin{figure}[h] \label{CMS_detector}
  \centering
@@ -24,9 +24,12 @@ The CMS and ATLAS detectors have a cylindrical form in order to have the most un
  \includegraphics[width=0.9\textwidth]{./Capitulos/CMS/CMS}  
  \end{figure}
 
-\section{Track Detector}
+\section{Tracking System}
 
-Since every 25 ns there is a collision at the center of the CMS detector and almost 1000 particles are going to be produced, it is necessary to have a tracking system able to record measurements of all the particles that are produced. This tracking system must be located the nearest possible to the region where the collision occurs. This tracking system must measure the momentum and vertices of the particles with a high precision. The inner detectors are built with silicon detectors, with high granularity pixel systems at the smallest radii, and silicon-strip detectors at larger ones. 
+Since every 25 ns there is a collision at the center of the CMS detector and almost 1000 particles are going to be produced, it is necessary to have a tracking system able to record measurements 
+of all the particles that are produced. This tracking system must be located the nearest possible to the region where the collision occurs. This tracking system is used to measure the momentum and 
+vertices of the particles with a high precision. The inner detectors are built with silicon detectors, with high granularity pixel systems at the smallest radii, and silicon-strip detectors at 
+larger ones. 
 %Citar libro:perspectives on LHC Physics
 
 
@@ -63,11 +66,37 @@ The hadron calorimeter is restricted to fill the area between the outer cap of t
 
 \section{Muon Detector}
 
+The muon system detector consist of several multi-layer large-area gas-based detectors. The main objetive of this detector is to take precise measurements of muon tracks. Since the muon system detector is located at the outermost part of the CMS the radiation level is receives is very low in comparison to the tracking system and the calorimeters. The CMS muon detector has three task: identify the muon particles, measure its momentum and triggering on them (this concept is explained in the next subchapter). The layers of the muon detector alternate with layers of the yoke where the magnetic field returns, which is called flux-return yoke. 
+
+The flux-return yoke curves the path of the particles in the opposite direction as it was inside the copper layers. It also can be used for good resolution muon identification because it absorbs some hadrons with low energy. The high magnetic field applied and the flux-return yoke allows to take precise measurements of the muon momentum. The muon system detector surrounds the hadron  calorimeter and, consist also of a barrel section and two end-caps. 
+
+The CMS detector has three types of gaseous particle detectors for muon measurements. In the barrel region where the neutron-induced background is low and the magnetic field is almost uniform, there are located drift chambers. The drift chambers are tubes each of 4 cm wide that contain a strechted wire immersed in a gas. When a muon crosses the chamber it hits the electrons of the atoms in the gas. Then, the free electrons arrive to the positive charged wire and it is measured an electronic signal. By measuring the time it takes for an electron to arrive to the cathode (known as drift-time) and the velocity of the free electrons (drift velocity) it is possible to determine the position of the initial muon. The drift chambers cover the region of pseudorapidity given by: $\eta < 1.2$.
+%Referenciaaaaaaaaaaa: http://cms.web.cern.ch/news/muon-drift-tubes
+%REferenciaaaaaaaaaaaa: Claus gruppen - Particle detectors 
+  
+In the two-end caps regions there are cathode strip chambers (CSC). In these regions the muon rates and backgrounds levels are high and the magnetic field is large and non-uniform. The CSC uses the
+same principle as the drift chamber to measure the position of muons. The difference is that the CSC consist of anode wires crossed with cathode strips, these arrays are also immersed in a gas. When
+a charge particle crosses the detector, it hits the atoms of the gas expelling electrons. The free electrons are guided by the electric field and arrive to the anode wires, while the positive ions 
+move towards the cathode. The CSC have fast response time, fine sementation and are radiation resistant. Thus they are able to take precise measurements time and position. These detectors cover the
+area given by $|\eta| < 2.4$. Due to the fact that the tracking system and muon detectors take indepedent measurements of the muon momentum, it is possible to find errors and check both measurements.
+
+%http://cms.web.cern.ch/news/cathode-strip-chambers
+
+An additional redundacy in the muon measurements is contributed by resistive plate chambers (RPC) in the barrel and the two end-caps regions. It is similar to the other two muons detectors: it is 
+conformed by two plates, one is the cathode and the other the anode and these plates are separated by a gas. When a charge particle crosses the detector, the resulting free electrons move to the anode
+The electric signal is by metallic strips after a precise dime delay. The set of hit strips gives a precise measurement of the muon position and momentum.
+%http://cms.web.cern.ch/news/resistive-plate-chambers
 
 \section{Triggers}
 
+Since at the LHC the there are bunch crossings every by 25 ns with a peak crossing rate of 31.6 MHz, nearly a billion proton-proton events are produced every second. Thus, it is necessary to decide
+to store or not store an event in order to reduce the computational resources. Triggers have the task of apply a primary selection on the data at real-time. The triggers take the data and quickly 
+decide which events that are interesting pass to the next phase of filterig. The triggers need to have a rejection factor of almost $10^7$. As a consequence, it allows to store just around 100-200 
+carefully selected events per second to be proccess later. The first triggering level uses a partial amount of the total information given by the detector and takes decisions in less that 3.2 ns. 
+It reduces the data rate to nearly 100 kHz. Hight level triggers use a network of thousands processors and fast switches. They get the information gradually and use algorithms in order to reduce the ammount of data. The final product is that
+at a rate of 150-200 Hz each event occupies around 1.5 Mb. The former leads to a leads the LHC to have an annual data volume of around 10 PB .  
 
-
+%https://lhc-machine-outreach.web.cern.ch/lhc-machine-outreach/collisions.htm
 
 
 

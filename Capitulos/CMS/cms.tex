@@ -18,10 +18,11 @@ The CMS and ATLAS detectors have a cylindrical form in order to have the most un
 
 %CITAAAAAAAAAAAAAAAAAAAAAAAAAAR http://cms.web.cern.ch/news/detector-overview
 
- \begin{figure}[h] \label{CMS_detector}
+ \begin{figure}[h]
  \centering
  \caption{CMS detector.}
  \includegraphics[width=0.9\textwidth]{./Capitulos/CMS/CMS}  
+ \label{CMS_detector}
  \end{figure}
 
 \section{Tracking System}
@@ -74,17 +75,34 @@ The CMS detector has three types of gaseous particle detectors for muon measurem
 %Referenciaaaaaaaaaaa: http://cms.web.cern.ch/news/muon-drift-tubes
 %REferenciaaaaaaaaaaaa: Claus gruppen - Particle detectors 
   
-In the two-end caps region the muon rates and backgrounds levels are high and the magnetic field is large and non-uniform, there are cathode strip chambers (CSC).
+In the two-end caps regions there are cathode strip chambers (CSC). In these regions the muon rates and backgrounds levels are high and the magnetic field is large and non-uniform. The CSC uses the
+same principle as the drift chamber to measure the position of muons. The difference is that the CSC consist of anode wires crossed with cathode strips, these arrays are also immersed in a gas. When
+a charge particle crosses the detector, it hits the atoms of the gas expelling electrons. The free electrons are guided by the electric field and arrive to the anode wires, while the positive ions 
+move towards the cathode. The CSC have fast response time, fine sementation and are radiation resistant. Thus they are able to take precise measurements time and position. These detectors cover the
+area given by $|\eta| < 2.4$. Due to the fact that the tracking system and muon detectors take indepedent measurements of the muon momentum, it is possible to find errors and check both measurements.
 
 %http://cms.web.cern.ch/news/cathode-strip-chambers
 
+An additional redundacy in the muon measurements is contributed by resistive plate chambers (RPC) in the barrel and the two end-caps regions. It is similar to the other two muons detectors: it is 
+conformed by two plates, one is the cathode and the other the anode and these plates are separated by a gas. When a charge particle crosses the detector, the resulting free electrons move to the anode
+The electric signal is by metallic strips after a precise dime delay. The set of hit strips gives a precise measurement of the muon position and momentum.
 %http://cms.web.cern.ch/news/resistive-plate-chambers
-
 
 \section{Triggers}
 
+Since at the LHC the there are bunch crossings every by 25 ns with a peak crossing rate of 31.6 MHz, nearly a billion proton-proton events are produced every second. Thus, it is necessary to decide
+to store or not store an event in order to reduce the computational resources. Triggers have the task of apply a primary selection on the data at real-time. The triggers take the data and quickly 
+decide which events that are interesting pass to the next phase of filterig. The triggers need to have a rejection factor of almost $10^7$. As a consequence, it allows to store just around 100-200 
+carefully selected events per second to be proccess later. 
 
+The first triggering level uses a partial amount of the total information given by the detector and takes decisions in less that 3.2 ns. 
+It reduces the data rate to nearly 100 kHz. Hight level triggers use a network of thousands processors and fast switches. They get the information gradually and use algorithms in order to reduce 
+the ammount of data. The final product is that at a rate of 150-200 Hz each event occupies around 1.5 Mb. The former leads to the LHC to have an annual data volume of around 10 PB . After an event 
+passes the first triggering level, the resulting data is transferred from the detector electronics into readout buffers. Then, the signal is processed and compressed while the events are studied by 
+processors with several thousands of central processing units. The event then is directed to a single processor with the objective of perform detailed calculations of the critical parameters of the 
+event and reduce the ammount of data.
 
+%https://lhc-machine-outreach.web.cern.ch/lhc-machine-outreach/collisions.htm
 
 
 
