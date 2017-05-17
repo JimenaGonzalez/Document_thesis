@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  16 MAY 2017 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  17 MAY 2017 01:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,16 +716,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
-(./main.aux (./Capitulos/StateArt/StateArt.aux)
+(./main.aux (./Capitulos/Introduction/Introduction.aux)
+(./Capitulos/StateArt/StateArt.aux)
 (./Capitulos/VariableDefinitions/VariableDefinitions.aux)
 (./Capitulos/CMS/cms.aux) (./Capitulos/Model/Model.aux)
-(./Capitulos/Methodology/Methodology.aux) (./Capitulos/Analysis/Analysis.aux
+(./Capitulos/Methodology/Methodology.aux)
+(./Capitulos/Event_selection/Event_selection.aux)
+(./Capitulos/Analysis/Analysis.aux
 
 LaTeX Warning: Label `dy_jets_feynman' multiply defined.
 
 ) (./Capitulos/Conclusions/Conclusions.aux)
-(./Apendices/Neutrinos_calculus/Neutrinos_calculus.aux)
-(./Apendices/Charge_conjugation_operator/Charge_conjugation_operator.aux))
+(./Apendices/Neutrinos_calculus/Neutrinos_calculus.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -827,7 +829,7 @@ LaTeX Info: Redefining \nameref on input line 29.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
- <logo_uniandes.png, id=148, 544.0325pt x 311.1625pt>
+ <logo_uniandes.png, id=152, 544.0325pt x 311.1625pt>
 File: logo_uniandes.png Graphic file (type png)
 
 <use logo_uniandes.png>
@@ -843,11 +845,11 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo_uniandes.png>]
 (./main.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -855,7 +857,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 ...ine {t}$ Background}{27}{subsection.4.2.3}
+l.26 ...1}W+Jets Background}{28}{subsection.5.2.1}
                                                    [1
 
 ])
@@ -870,85 +872,137 @@ l.27 ...ine {t}$ Background}{27}{subsection.4.2.3}
 [3
 
 ]
-\openout2 = `Capitulos/StateArt/StateArt.aux'.
+\openout2 = `Capitulos/Introduction/Introduction.aux'.
 
- (./Capitulos/StateArt/StateArt.tex
+ (./Capitulos/Introduction/Introduction.tex
 Chapter 1.
+
+LaTeX Warning: Citation `Neutrino experiment 1 mass' on page 1 undefined on inp
+ut line 4.
+
+
+LaTeX Warning: Citation `Neutrino experiment 2 mass' on page 1 undefined on inp
+ut line 4.
+
+
+LaTeX Warning: Citation `Neutrino dark matter candidate 1' on page 1 undefined 
+on input line 6.
+
+
+LaTeX Warning: Citation `Neutrino dark matter candidate 2' on page 1 undefined 
+on input line 6.
+
+
+LaTeX Warning: Citation `Lep experiment' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `CMS experiment' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `ATLAS experiment' on page 1 undefined on input line 6.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.12 
-      [1
+l.7 
+     [1
 
 
 
 ]
-<./Capitulos/StateArt/standard_model.png, id=239, 376.40625pt x 283.0575pt>
-File: ./Capitulos/StateArt/standard_model.png Graphic file (type png)
 
-<use ./Capitulos/StateArt/standard_model.png>
-Package pdftex.def Info: ./Capitulos/StateArt/standard_model.png used on input 
-line 16.
-(pdftex.def)             Requested size: 136.00179pt x 102.27637pt.
+LaTeX Warning: Citation `Seesaw Mechanism with displaced vertices' on page 2 un
+defined on input line 8.
+
+
+LaTeX Warning: Citation `Seesaw Mechanism with displace vertices' on page 2 und
+efined on input line 8.
+
+
+LaTeX Warning: Citation `Type I Seesaw Mechanism' on page 2 undefined on input 
+line 10.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 
-      [2 <./Capitulos/StateArt/standard_model.png>]pdfTeX warning (ext4): desti
-nation with the same identifier (name{page.3}) has been already used, duplicate
- ignored
+l.16 \end{equation}
+                    [2])pdfTeX warning (ext4): destination with the same identi
+fier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 \begin{equation}
-                      [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 94--102
+l.204 ...lude{Capitulos/Introduction/Introduction}
+                                                   [3]
+\openout2 = `Capitulos/StateArt/StateArt.aux'.
 
- []
 
-[5] [6] [7]) [8]
-\openout2 = `Capitulos/VariableDefinitions/VariableDefinitions.aux'.
-
- (./Capitulos/VariableDefinitions/VariableDefinitions.tex
+(./Capitulos/StateArt/StateArt.tex
 Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--16
-
- []
-
-[9
+[4
 
 
 
 ]
-<./Capitulos/VariableDefinitions/jets_definitions.png, id=336, 1111.15125pt x 4
+<./Capitulos/StateArt/standard_model.png, id=260, 376.40625pt x 283.0575pt>
+File: ./Capitulos/StateArt/standard_model.png Graphic file (type png)
+
+<use ./Capitulos/StateArt/standard_model.png>
+Package pdftex.def Info: ./Capitulos/StateArt/standard_model.png used on input 
+line 17.
+(pdftex.def)             Requested size: 136.00179pt x 102.27637pt.
+ [5 <./Capitulos/StateArt/standard_model.png>] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 95--103
+
+ []
+
+
+LaTeX Warning: Reference `appendix_charge_conjugation' on page 8 undefined on i
+nput line 108.
+
+[8] [9] [10]) [11]
+\openout2 = `Capitulos/VariableDefinitions/VariableDefinitions.aux'.
+
+ (./Capitulos/VariableDefinitions/VariableDefinitions.tex
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+
+ []
+
+[12
+
+
+
+]
+<./Capitulos/VariableDefinitions/jets_definitions.png, id=356, 1111.15125pt x 4
 10.53375pt>
 File: ./Capitulos/VariableDefinitions/jets_definitions.png Graphic file (type p
 ng)
  <use ./Capitulos/VariableDefinitions/jets_definitions.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/jets_definitions.png u
-sed on input line 30.
+sed on input line 31.
 (pdftex.def)             Requested size: 255.00726pt x 94.21405pt.
 
 Overfull \hbox (39.63655pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CHAPTER 2.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
-1/cmr/m/n/10.95 10
+\OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
+1/cmr/m/n/10.95 13
  []
 
-[10 <./Capitulos/VariableDefinitions/jets_definitions.png>]
-<./Capitulos/VariableDefinitions/CMS_coordinates.png, id=344, 504.88625pt x 241
+[13 <./Capitulos/VariableDefinitions/jets_definitions.png>]
+<./Capitulos/VariableDefinitions/CMS_coordinates.png, id=364, 504.88625pt x 241
 .90375pt>
 File: ./Capitulos/VariableDefinitions/CMS_coordinates.png Graphic file (type pn
 g)
  <use ./Capitulos/VariableDefinitions/CMS_coordinates.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/CMS_coordinates.png us
-ed on input line 65.
+ed on input line 66.
 (pdftex.def)             Requested size: 255.00726pt x 122.18073pt.
 
 
@@ -956,130 +1010,130 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \hbox (39.63655pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CHAPTER 2.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
-1/cmr/m/n/10.95 11
+\OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
+1/cmr/m/n/10.95 14
  []
 
-[11]
+[14]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 83.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 83.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `subscript' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `math shift' on input line 84.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 84.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--89
 
  []
 
 
 Overfull \hbox (39.63655pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CHAPTER 2.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
-1/cmr/m/n/10.95 12
+\OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
+1/cmr/m/n/10.95 15
  []
 
-[12 <./Capitulos/VariableDefinitions/CMS_coordinates.png (PNG copy)>]
-<./Capitulos/VariableDefinitions/Displaced_vertex.png, id=359, 225.84375pt x 15
+[15 <./Capitulos/VariableDefinitions/CMS_coordinates.png (PNG copy)>]
+<./Capitulos/VariableDefinitions/Displaced_vertex.png, id=380, 225.84375pt x 15
 5.58125pt>
 File: ./Capitulos/VariableDefinitions/Displaced_vertex.png Graphic file (type p
 ng)
  <use ./Capitulos/VariableDefinitions/Displaced_vertex.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/Displaced_vertex.png u
-sed on input line 119.
+sed on input line 120.
 (pdftex.def)             Requested size: 136.00179pt x 93.69606pt.
 
 Overfull \hbox (39.63655pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CHAPTER 2.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
-1/cmr/m/n/10.95 13
+\OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
+1/cmr/m/n/10.95 16
  []
 
-[13 <./Capitulos/VariableDefinitions/Displaced_vertex.png>]
-<./Capitulos/VariableDefinitions/impactParameter.png, id=366, 842.14626pt x 562
+[16 <./Capitulos/VariableDefinitions/Displaced_vertex.png>]
+<./Capitulos/VariableDefinitions/impactParameter.png, id=387, 842.14626pt x 562
 .1pt>
 File: ./Capitulos/VariableDefinitions/impactParameter.png Graphic file (type pn
 g)
  <use ./Capitulos/VariableDefinitions/impactParameter.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/impactParameter.png us
-ed on input line 129.
+ed on input line 130.
 (pdftex.def)             Requested size: 238.00574pt x 158.85358pt.
 )
 Overfull \hbox (39.63655pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10.95 CHAPTER 2.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
-1/cmr/m/n/10.95 14
+\OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VARIABLE DEFINITIONS \OT
+1/cmr/m/n/10.95 17
  []
 
-[14 <./Capitulos/VariableDefinitions/impactParameter.png>]
+[17 <./Capitulos/VariableDefinitions/impactParameter.png>]
 \openout2 = `Capitulos/CMS/cms.aux'.
 
 
 (./Capitulos/CMS/cms.tex
-Chapter 3.
-[15
+Chapter 4.
+[18
 
 
 
-] <./Capitulos/CMS/CMS.png, id=377, 602.25pt x 307.1475pt>
+] <./Capitulos/CMS/CMS.png, id=397, 602.25pt x 307.1475pt>
 File: ./Capitulos/CMS/CMS.png Graphic file (type png)
 
 <use ./Capitulos/CMS/CMS.png>
-Package pdftex.def Info: ./Capitulos/CMS/CMS.png used on input line 24.
+Package pdftex.def Info: ./Capitulos/CMS/CMS.png used on input line 25.
 (pdftex.def)             Requested size: 306.00664pt x 156.06668pt.
- [16 <./Capitulos/CMS/CMS.png>] [17]
-Overfull \hbox (11.27281pt too wide) in paragraph at lines 57--58
+ [19 <./Capitulos/CMS/CMS.png>] [20]
+Overfull \hbox (11.27281pt too wide) in paragraph at lines 58--59
 \OT1/cmr/m/n/10.95 The elec-tro-mag-netic calorime-ter is an en-tirely ac-tive 
 ho-mo-geneus calorime-
  []
 
-[18]
-Overfull \hbox (10.36035pt too wide) in paragraph at lines 63--64
+[21]
+Overfull \hbox (10.36035pt too wide) in paragraph at lines 64--65
 \OT1/cmr/m/n/10.95 Surrouding the elec-tro-mag-netic calorime-ter is lo-cated t
 he hadron calorime-
  []
 
-[19] [20] [21]) [22]
+[22] [23] [24]) [25]
 \openout2 = `Capitulos/Model/Model.aux'.
 
  (./Capitulos/Model/Model.tex
-Chapter 4.
+Chapter 5.
 
-LaTeX Warning: Citation `Seesaw Mechanism with displaced vertices' on page 23 u
+LaTeX Warning: Citation `Seesaw Mechanism with displaced vertices' on page 26 u
 ndefined on input line 6.
 
 
-LaTeX Warning: Citation `Seesaw Mechanism with displaced vertices' on page 23 u
+LaTeX Warning: Citation `Seesaw Mechanism with displaced vertices' on page 26 u
 ndefined on input line 7.
 
 
-LaTeX Warning: Citation `Seesaw Mechanism with displace vertices' on page 23 un
+LaTeX Warning: Citation `Seesaw Mechanism with displace vertices' on page 26 un
 defined on input line 16.
 
-[23
+[26
 
 
 
 ]
 
-LaTeX Warning: Citation `Seesaw Mechanism with displace vertices' on page 24 un
+LaTeX Warning: Citation `Seesaw Mechanism with displace vertices' on page 27 un
 defined on input line 18.
 
 
-LaTeX Warning: Citation `VBF processes' on page 24 undefined on input line 18.
+LaTeX Warning: Citation `VBF processes' on page 27 undefined on input line 18.
 
-<./Capitulos/Model/hadron_signal.png, id=415, 274.77657pt x 193.47281pt>
+<./Capitulos/Model/hadron_signal.png, id=436, 274.77657pt x 193.47281pt>
 File: ./Capitulos/Model/hadron_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/hadron_signal.png>
@@ -1087,7 +1141,7 @@ Package pdftex.def Info: ./Capitulos/Model/hadron_signal.png used on input line
  30.
 (pdftex.def)             Requested size: 170.00484pt x 119.70392pt.
 
-<./Capitulos/Model/leptonic_signal.png, id=416, 456.20438pt x 339.51843pt>
+<./Capitulos/Model/leptonic_signal.png, id=437, 456.20438pt x 339.51843pt>
 File: ./Capitulos/Model/leptonic_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/leptonic_signal.png>
@@ -1098,24 +1152,21 @@ ne 36.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24] [25 <./Capitulos/Model/hadron_signal.png> <./Capitulos/Model/leptonic_sign
-al.png>] <./Capitulos/Model/w+jets.png, id=428, 185.19188pt x 217.5628pt>
+[27] [28 <./Capitulos/Model/hadron_signal.png> <./Capitulos/Model/leptonic_sign
+al.png>] <./Capitulos/Model/w+jets.png, id=449, 185.19188pt x 217.5628pt>
 File: ./Capitulos/Model/w+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/w+jets.png>
 Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 75.
 (pdftex.def)             Requested size: 136.00179pt x 159.7756pt.
 
-<./Capitulos/Model/DY+jets.png, id=430, 229.60782pt x 206.27063pt>
+<./Capitulos/Model/DY+jets.png, id=451, 229.60782pt x 206.27063pt>
 File: ./Capitulos/Model/DY+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/DY+jets.png>
 Package pdftex.def Info: ./Capitulos/Model/DY+jets.png used on input line 90.
 (pdftex.def)             Requested size: 136.00179pt x 122.1833pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ [29 <./Capitulos/Model/w+jets.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 94.
@@ -1128,52 +1179,68 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 94.
 
-[26 <./Capitulos/Model/w+jets.png>]
-<./Capitulos/Model/t_tbar.png, id=436, 1003.75pt x 834.11626pt>
+<./Capitulos/Model/t_tbar.png, id=457, 1003.75pt x 834.11626pt>
 File: ./Capitulos/Model/t_tbar.png Graphic file (type png)
 
 <use ./Capitulos/Model/t_tbar.png>
 Package pdftex.def Info: ./Capitulos/Model/t_tbar.png used on input line 106.
 (pdftex.def)             Requested size: 136.00179pt x 113.00812pt.
-) [27 <./Capitulos/Model/DY+jets.png> <./Capitulos/Model/t_tbar.png (PNG copy)>
+) [30 <./Capitulos/Model/DY+jets.png> <./Capitulos/Model/t_tbar.png (PNG copy)>
 ]
 \openout2 = `Capitulos/Methodology/Methodology.aux'.
 
  (./Capitulos/Methodology/Methodology.tex
-Chapter 5.
-
-LaTeX Warning: Citation `MadGraph 1' on page 28 undefined on input line 4.
-
-
-LaTeX Warning: Citation `MadGraph 2' on page 28 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Pythia' on page 28 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Delphes' on page 28 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Root' on page 28 undefined on input line 4.
-
-[28
-
-
-
-] [29]) [30] [31]
-\openout2 = `Capitulos/Analysis/Analysis.aux'.
-
- (./Capitulos/Analysis/Analysis.tex
 Chapter 6.
 
-<./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf, id=458, 569.12625pt x 659.46375
+LaTeX Warning: Citation `MadGraph 1' on page 31 undefined on input line 5.
+
+
+LaTeX Warning: Citation `MadGraph 2' on page 31 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Pythia' on page 31 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Delphes' on page 31 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Root' on page 31 undefined on input line 5.
+
+[31
+
+
+
+] [32]) [33] [34]
+\openout2 = `Capitulos/Event_selection/Event_selection.aux'.
+
+ (./Capitulos/Event_selection/Event_selection.tex
+Chapter 7.
+[35
+
+
+
+] [36]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 29.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 29.
+) [37]
+\openout2 = `Capitulos/Analysis/Analysis.aux'.
+
+
+(./Capitulos/Analysis/Analysis.tex
+Chapter 8.
+
+<./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf, id=497, 569.12625pt x 659.46375
 pt>
 File: ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf used on 
-input line 6.
+input line 8.
 (pdftex.def)             Requested size: 136.00179pt x 157.59027pt.
-) [32
+) [38
 
 
 
@@ -1181,8 +1248,8 @@ input line 6.
 \openout2 = `Capitulos/Conclusions/Conclusions.aux'.
 
  (./Capitulos/Conclusions/Conclusions.tex
-Chapter 7.
-) [33
+Chapter 9.
+) [39
 
 
 
@@ -1193,41 +1260,32 @@ Chapter 7.
 Appendix A.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 11.
+(hyperref)                than one, level fixed on input line 12.
 
-[34
+[40
 
 
 
-] [35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+] [41] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
-) [37]
-\openout2 = `Apendices/Charge_conjugation_operator/Charge_conjugation_operator.
-aux'.
-
- (./Apendices/Charge_conjugation_operator/Charge_conjugation_operator.tex
-Appendix B.
-) [38
-
-
-
-]
+) [43]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
- (./main.aux (./Capitulos/StateArt/StateArt.aux)
+ (./main.aux (./Capitulos/Introduction/Introduction.aux)
+(./Capitulos/StateArt/StateArt.aux)
 (./Capitulos/VariableDefinitions/VariableDefinitions.aux)
 (./Capitulos/CMS/cms.aux) (./Capitulos/Model/Model.aux)
-(./Capitulos/Methodology/Methodology.aux) (./Capitulos/Analysis/Analysis.aux)
-(./Capitulos/Conclusions/Conclusions.aux)
-(./Apendices/Neutrinos_calculus/Neutrinos_calculus.aux)
-(./Apendices/Charge_conjugation_operator/Charge_conjugation_operator.aux))
+(./Capitulos/Methodology/Methodology.aux)
+(./Capitulos/Event_selection/Event_selection.aux)
+(./Capitulos/Analysis/Analysis.aux) (./Capitulos/Conclusions/Conclusions.aux)
+(./Apendices/Neutrinos_calculus/Neutrinos_calculus.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6DA7C7C83E6F2181D8D80AB10D0E507A;2265.
+(rerunfilecheck)             Checksum: 1FA776C64C3417C15B8DECCDBECC2BC0;2298.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1241,13 +1299,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 9268 strings out of 494850
- 139230 string characters out of 6178024
- 243464 words of memory out of 5000000
- 12213 multiletter control sequences out of 15000+600000
+ 9326 strings out of 494850
+ 140204 string characters out of 6178024
+ 243337 words of memory out of 5000000
+ 12250 multiletter control sequences out of 15000+600000
  18313 words of font info for 70 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 36i,19n,41p,1163b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,19n,41p,1405b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1262,10 +1320,10 @@ mr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (42 pages, 708436 bytes).
+Output written on main.pdf (47 pages, 723367 bytes).
 PDF statistics:
- 629 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 136 named destinations out of 1000 (max. 500000)
- 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 667 PDF objects out of 1000 (max. 8388607)
+ 555 compressed objects within 6 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 362 words of extra memory for PDF output out of 10000 (max. 10000000)
 

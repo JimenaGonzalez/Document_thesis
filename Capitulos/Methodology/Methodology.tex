@@ -1,4 +1,5 @@
 \chapter{Methodology} 
+\label{Methodology_chapter}
 
 The objective of this project was to make a phenomenological study that allow the identification of a signal with the presence of a heavy neutrino in the experiments of the LHC. For this reason, 
 the proposed methodology consisted in the use of different computational programs to simulate the signal and its background as it should be produced and measured at the CMS detector. Next, this data must go through a statistical analysis. The programs that were used to simulate the signal were MadGraph \cite{MadGraph 1, MadGraph 2} and Pythia \cite{Pythia}. Then, the program Delphes is used to simulate the behavior of the multi-purpose CMS detector \cite{Delphes}. Lastly, the statistical study of the data was developed with the software ROOT \cite{Root}, which determined the potential variables that could differentiate the signal and background. In the next paragraphs each program is going to be described, including the fundamental physical basis on which the program is constructed and its specific task in the development of the project.
@@ -10,7 +11,7 @@ The first program that was used is MadGraph, which is a generator of events that
 Madgraph uses perturbation theory to perform production calculations and to generate physical processes. The parameter entries are controlled in configuration files that are called input cards. 
 These cards are use to modify essential variables in the production of the events, for example: the type of particles that will collide, the energy of the collision, number of events that are going to be simulated, mass of the generated particles, final states, among others. At the level of event generation it is possible to make basic cuts of minimal and maximal values of some kinematic variables. Moreover, the lastest version of MadGraph (MadGraph 5) has an useful characteristic: it can give an output file with matrix elements that can be used directly in the program Pythia. 
 
-In order to produce an event of physics beyond the SM one has to describe the physical model in the form of a Lagrangian , a list of fields and parameters. Then use the former elements as parameters input of the MATEMATICA-based package FEYNRULES. Finally, FEYNRULES returns the Feynman rules corresponding to the Lagrangian of the model, which are used as input of MadGraph.
+In order to produce an event of physics beyond the SM one has to describe the physical model in the form of a Lagrangian , a list of fields and parameters. Then use the former elements as parameters input of the MATHEMATICA-based package FEYNRULES. Finally, FEYNRULES returns the Feynman rules corresponding to the Lagrangian of the model, which are used as input of MadGraph.
 
 
 \section{Pythia}
