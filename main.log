@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.5.29)  17 MAY 2017 18:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.5.29)  17 MAY 2017 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -815,7 +815,7 @@ Chapter 2.
 
 
 ]
-<./Capitulos/StateArt/standard_model.png, id=299, 376.40625pt x 283.0575pt>
+<./Capitulos/StateArt/standard_model.png, id=301, 376.40625pt x 283.0575pt>
 File: ./Capitulos/StateArt/standard_model.png Graphic file (type png)
 
 <use ./Capitulos/StateArt/standard_model.png>
@@ -851,7 +851,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--16
 
 
 ]
-<./Capitulos/VariableDefinitions/jets_definitions.png, id=400, 1111.15125pt x 4
+<./Capitulos/VariableDefinitions/jets_definitions.png, id=402, 1111.15125pt x 4
 10.53375pt>
 File: ./Capitulos/VariableDefinitions/jets_definitions.png Graphic file (type p
 ng)
@@ -866,7 +866,7 @@ Overfull \hbox (39.63655pt too wide) has occurred while \output is active
  []
 
 [13 <./Capitulos/VariableDefinitions/jets_definitions.png>]
-<./Capitulos/VariableDefinitions/CMS_coordinates.png, id=412, 504.88625pt x 241
+<./Capitulos/VariableDefinitions/CMS_coordinates.png, id=414, 504.88625pt x 241
 .90375pt>
 File: ./Capitulos/VariableDefinitions/CMS_coordinates.png Graphic file (type pn
 g)
@@ -917,7 +917,7 @@ Overfull \hbox (39.63655pt too wide) has occurred while \output is active
  []
 
 [15 <./Capitulos/VariableDefinitions/CMS_coordinates.png (PNG copy)>]
-<./Capitulos/VariableDefinitions/Displaced_vertex.png, id=432, 225.84375pt x 15
+<./Capitulos/VariableDefinitions/Displaced_vertex.png, id=434, 225.84375pt x 15
 5.58125pt>
 File: ./Capitulos/VariableDefinitions/Displaced_vertex.png Graphic file (type p
 ng)
@@ -932,7 +932,7 @@ Overfull \hbox (39.63655pt too wide) has occurred while \output is active
  []
 
 [16 <./Capitulos/VariableDefinitions/Displaced_vertex.png>]
-<./Capitulos/VariableDefinitions/impactParameter.png, id=441, 842.14626pt x 562
+<./Capitulos/VariableDefinitions/impactParameter.png, id=443, 842.14626pt x 562
 .1pt>
 File: ./Capitulos/VariableDefinitions/impactParameter.png Graphic file (type pn
 g)
@@ -956,7 +956,7 @@ Chapter 4.
 
 
 
-] <./Capitulos/CMS/CMS.png, id=454, 602.25pt x 307.1475pt>
+] <./Capitulos/CMS/CMS.png, id=456, 602.25pt x 307.1475pt>
 File: ./Capitulos/CMS/CMS.png Graphic file (type png)
 
 <use ./Capitulos/CMS/CMS.png>
@@ -992,7 +992,7 @@ defined on input line 19.
 LaTeX Warning: Citation `Seesaw Mechanism with displace vertices' on page 27 un
 defined on input line 22.
 
-<./Capitulos/Model/hadron_signal.png, id=512, 274.77657pt x 193.47281pt>
+<./Capitulos/Model/hadron_signal.png, id=514, 274.77657pt x 193.47281pt>
 File: ./Capitulos/Model/hadron_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/hadron_signal.png>
@@ -1000,7 +1000,7 @@ Package pdftex.def Info: ./Capitulos/Model/hadron_signal.png used on input line
  38.
 (pdftex.def)             Requested size: 170.00484pt x 119.70392pt.
 
-<./Capitulos/Model/leptonic_signal.png, id=513, 456.20438pt x 339.51843pt>
+<./Capitulos/Model/leptonic_signal.png, id=515, 456.20438pt x 339.51843pt>
 File: ./Capitulos/Model/leptonic_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/leptonic_signal.png>
@@ -1012,14 +1012,14 @@ ne 44.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [27] [28 <./Capitulos/Model/hadron_signal.png> <./Capitulos/Model/leptonic_sign
-al.png>] <./Capitulos/Model/w+jets.png, id=527, 185.19188pt x 217.5628pt>
+al.png>] <./Capitulos/Model/w+jets.png, id=529, 185.19188pt x 217.5628pt>
 File: ./Capitulos/Model/w+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/w+jets.png>
 Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 80.
 (pdftex.def)             Requested size: 136.00179pt x 159.7756pt.
  [29 <./Capitulos/Model/w+jets.png>]
-<./Capitulos/Model/DY+jets.png, id=533, 229.60782pt x 206.27063pt>
+<./Capitulos/Model/DY+jets.png, id=535, 229.60782pt x 206.27063pt>
 File: ./Capitulos/Model/DY+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/DY+jets.png>
@@ -1038,7 +1038,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 99.
 
-<./Capitulos/Model/t_tbar.png, id=535, 1003.75pt x 834.11626pt>
+<./Capitulos/Model/t_tbar.png, id=537, 1003.75pt x 834.11626pt>
 File: ./Capitulos/Model/t_tbar.png Graphic file (type png)
 
 <use ./Capitulos/Model/t_tbar.png>
@@ -1068,12 +1068,12 @@ Chapter 7.
 
 
 ] [37]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 29.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 50.
  (/usr/share/texmf/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 29.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 50.
 ) [38]
 \openout2 = `Capitulos/Analysis/Analysis.aux'.
 
@@ -1085,100 +1085,110 @@ Chapter 8.
 
 
 ]
-<./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf, id=596, 569.12625pt x 659.4637
+<./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf, id=598, 569.12625pt x 659.4637
 5pt>
 File: ./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf used on
- input line 13.
+ input line 22.
 (pdftex.def)             Requested size: 272.00879pt x 315.20067pt.
  [40 <./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf>]
-<./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf, id=647, 569.12625pt x 659.46375
+<./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf, id=649, 569.12625pt x 659.46375
 pt>
 File: ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf used on 
-input line 24.
+input line 35.
 (pdftex.def)             Requested size: 187.00635pt x 216.68788pt.
 
-Overfull \hbox (17.00151pt too wide) in paragraph at lines 24--25
+Overfull \hbox (17.00151pt too wide) in paragraph at lines 35--36
  [][] 
  []
 
 
-<./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf, id=648, 569.12625pt x 659.4637
+<./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf, id=650, 569.12625pt x 659.4637
 5pt>
 File: ./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf used on
- input line 30.
+ input line 41.
 (pdftex.def)             Requested size: 187.00635pt x 216.68788pt.
 
-Overfull \hbox (17.00151pt too wide) in paragraph at lines 30--31
+Overfull \hbox (17.00151pt too wide) in paragraph at lines 41--42
  [][] 
  []
 
 
-<./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf, id=649, 569.12625pt x 659.46
+<./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf, id=651, 569.12625pt x 659.46
 375pt>
 File: ./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf used 
-on input line 36.
+on input line 47.
 (pdftex.def)             Requested size: 187.00635pt x 216.68788pt.
 
-Overfull \hbox (17.00151pt too wide) in paragraph at lines 36--37
+Overfull \hbox (17.00151pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 39.34386pt on input line 42.
+LaTeX Warning: Float too large for page by 39.34386pt on input line 53.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf, id=654, 569.12625pt x 659.463
+<./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf, id=656, 569.12625pt x 659.463
 75pt>
 File: ./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf used o
-n input line 50.
+n input line 63.
 (pdftex.def)             Requested size: 187.00635pt x 216.68788pt.
 
-Overfull \hbox (17.00151pt too wide) in paragraph at lines 50--51
+Overfull \hbox (17.00151pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
 
-<./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf, id=655, 569.12625pt x 659.46
+<./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf, id=657, 569.12625pt x 659.46
 375pt>
 File: ./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf used 
-on input line 56.
+on input line 69.
 (pdftex.def)             Requested size: 187.00635pt x 216.68788pt.
 
-Overfull \hbox (17.00151pt too wide) in paragraph at lines 56--57
+Overfull \hbox (17.00151pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
 
-<./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf, id=656, 569.12625pt x 659.4
+<./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf, id=658, 569.12625pt x 659.4
 6375pt>
 File: ./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf Graphic file (type pdf)
 
  <use ./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf used
- on input line 62.
+ on input line 75.
 (pdftex.def)             Requested size: 187.00635pt x 216.68788pt.
 
-Overfull \hbox (17.00151pt too wide) in paragraph at lines 62--63
+Overfull \hbox (17.00151pt too wide) in paragraph at lines 75--76
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 25.74385pt on input line 68.
+LaTeX Warning: Float too large for page by 25.74385pt on input line 81.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Capitulos/Analysis/c1.pdf, id=660, 569.12625pt x 258.9675pt>
+File: ./Capitulos/Analysis/c1.pdf Graphic file (type pdf)
+
+<use ./Capitulos/Analysis/c1.pdf>
+Package pdftex.def Info: ./Capitulos/Analysis/c1.pdf used on input line 98.
+(pdftex.def)             Requested size: 272.00879pt x 123.77742pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1187,12 +1197,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 s/AfterBJets/mjj_MET_20.pdf> <./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf>
 ] [43 <./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf> <./Capitulos/Analysis/A
 fterVBFCUTS/mjj_MET_20.pdf> <./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf>
-]
+] [44 <./Capitulos/Analysis/c1.pdf, page is rotated 90 degrees>]
 \openout2 = `Capitulos/Conclusions/Conclusions.aux'.
 
- (./Capitulos/Conclusions/Conclusions.tex
+
+(./Capitulos/Conclusions/Conclusions.tex
 Chapter 9.
-) [44
+) [45
 
 
 
@@ -1205,16 +1216,16 @@ Appendix A.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 12.
 
-[45
+[46
 
 
 
-] [46] [47]
+] [47] [48]
 Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
-) [48]
+) [49]
 Underfull \hbox (badness 1490) in paragraph at lines 254--255
 []\OT1/cmr/m/n/10.95 Balantekin, A. & Hax-ton, W. (2013). Neu-trino os-cil-la-t
 ions.
@@ -1247,7 +1258,7 @@ Overfull \hbox (16.96072pt too wide) in paragraph at lines 262--263
 005080 
  []
 
-[49
+[50
 
 
 ]
@@ -1321,7 +1332,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--283
 -
  []
 
-[50]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 284--285
 []\OT1/cmr/m/n/10.95 CMS. (2011). De-tec-tor overview. Re-trieved from
  []
@@ -1368,7 +1379,7 @@ Underfull \hbox (badness 4582) in paragraph at lines 302--303
 \OT1/cmr/m/n/10.95 sai, N., & Il-ten, P. et al. (2015). An in-tro-duc-tion to
  []
 
-[51]
+[52]
 Underfull \hbox (badness 1675) in paragraph at lines 304--305
 []\OT1/cmr/m/n/10.95 de Favereau, J., De-laere, C., Demin, P., Gi-ammanco, A.,
  []
@@ -1385,7 +1396,7 @@ Underfull \hbox (badness 1052) in paragraph at lines 306--307
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
-[52]
+[53]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
  (./main.aux (./Capitulos/Introduction/Introduction.aux)
 (./Capitulos/StateArt/StateArt.aux)
@@ -1412,10 +1423,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
  ) 
 Here is how much of TeX's memory you used:
- 9274 strings out of 493315
- 139665 string characters out of 6145893
- 246369 words of memory out of 5000000
- 12304 multiletter control sequences out of 15000+600000
+ 9284 strings out of 493315
+ 139878 string characters out of 6145893
+ 246440 words of memory out of 5000000
+ 12309 multiletter control sequences out of 15000+600000
  18313 words of font info for 70 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,19n,42p,2127b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1432,10 +1443,10 @@ fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texm
 f/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/symbols/m
 sam10.pfb>
-Output written on main.pdf (56 pages, 846690 bytes).
+Output written on main.pdf (57 pages, 1218487 bytes).
 PDF statistics:
- 1079 PDF objects out of 1200 (max. 8388607)
- 794 compressed objects within 8 object streams
- 186 named destinations out of 1000 (max. 500000)
- 392 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1132 PDF objects out of 1200 (max. 8388607)
+ 819 compressed objects within 9 object streams
+ 188 named destinations out of 1000 (max. 500000)
+ 397 words of extra memory for PDF output out of 10000 (max. 10000000)
 
