@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  18 MAY 2017 02:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  18 MAY 2017 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,11 +722,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./Capitulos/CMS/cms.aux) (./Capitulos/Model/Model.aux)
 (./Capitulos/Methodology/Methodology.aux)
 (./Capitulos/Event_selection/Event_selection.aux)
-(./Capitulos/Analysis/Analysis.aux
-
-LaTeX Warning: Label `Variables_bjets' multiply defined.
-
-) (./Capitulos/Conclusions/Conclusions.aux)
+(./Capitulos/Analysis/Analysis.aux) (./Capitulos/Conclusions/Conclusions.aux)
 (./Apendices/Neutrinos_calculus/Neutrinos_calculus.aux))
 \openout1 = `main.aux'.
 
@@ -865,15 +861,13 @@ Overfull \hbox (6.76898pt too wide) in paragraph at lines 6--6
  par-tonic, hadronic 
  []
 
-)
+[5
+
+])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [5
-
-] [6
-
-]
+ [6]
 \openout2 = `Capitulos/Introduction/Introduction.aux'.
 
  (./Capitulos/Introduction/Introduction.tex
@@ -886,13 +880,9 @@ l.7
      [1
 
 
-]
 
-LaTeX Warning: Citation `Seesaw Mechanism with displace vertices' on page 2 und
-efined on input line 8.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.16 \end{equation}
@@ -928,7 +918,7 @@ been already used, duplicate ignored
                    \relax 
 l.11 
       [5]
-<./Capitulos/StateArt/standard_model.png, id=319, 376.40625pt x 283.0575pt>
+<./Capitulos/StateArt/standard_model.png, id=332, 376.40625pt x 283.0575pt>
 File: ./Capitulos/StateArt/standard_model.png Graphic file (type png)
 
 <use ./Capitulos/StateArt/standard_model.png>
@@ -941,38 +931,24 @@ been already used, duplicate ignored
                    \relax 
 l.21 A
       dditionally, according to the SM, the fundamental particles acquire th...
-[6 <./Capitulos/StateArt/standard_model.png>] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 93--101
-
- []
-
-[9] [10] [11]) [12]
+[6 <./Capitulos/StateArt/standard_model.png>] [7] [8] [9] [10] [11]) [12]
 \openout2 = `Capitulos/VariableDefinitions/VariableDefinitions.aux'.
 
- (./Capitulos/VariableDefinitions/VariableDefinitions.tex
+
+(./Capitulos/VariableDefinitions/VariableDefinitions.tex
 Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--16
-
- []
-
 [13
 
 
 
 ]
-<./Capitulos/VariableDefinitions/jets_definitions.png, id=428, 1111.15125pt x 4
+<./Capitulos/VariableDefinitions/jets_definitions.png, id=441, 1111.15125pt x 4
 10.53375pt>
 File: ./Capitulos/VariableDefinitions/jets_definitions.png Graphic file (type p
 ng)
  <use ./Capitulos/VariableDefinitions/jets_definitions.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/jets_definitions.png u
-sed on input line 28.
+sed on input line 20.
 (pdftex.def)             Requested size: 265.89056pt x 98.23569pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -984,13 +960,13 @@ RIABLE DEFINITIONS
  []
 
 [14 <./Capitulos/VariableDefinitions/jets_definitions.png>]
-<./Capitulos/VariableDefinitions/CMS_coordinates.png, id=440, 504.88625pt x 241
+<./Capitulos/VariableDefinitions/CMS_coordinates.png, id=453, 504.88625pt x 241
 .90375pt>
 File: ./Capitulos/VariableDefinitions/CMS_coordinates.png Graphic file (type pn
 g)
  <use ./Capitulos/VariableDefinitions/CMS_coordinates.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/CMS_coordinates.png us
-ed on input line 63.
+ed on input line 55.
 (pdftex.def)             Requested size: 265.89056pt x 127.39632pt.
 
 
@@ -999,43 +975,35 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [15]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 80.
+(hyperref)                removing `math shift' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 80.
+(hyperref)                removing `subscript' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 80.
+(hyperref)                removing `math shift' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 80.
+(hyperref)                removing `math shift' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 80.
+(hyperref)                removing `math shift' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 80.
+(hyperref)                removing `math shift' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 80.
+(hyperref)                removing `subscript' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 80.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
-
- []
-
-
-Underfull \vbox (badness 1132) has occurred while \output is active []
+(hyperref)                removing `math shift' on input line 71.
 
 
 Overfull \hbox (25.12547pt too wide) has occurred while \output is active
@@ -1044,28 +1012,32 @@ RIABLE DEFINITIONS
  []
 
 [16 <./Capitulos/VariableDefinitions/CMS_coordinates.png (PNG copy)>]
-<./Capitulos/VariableDefinitions/Displaced_vertex.png, id=459, 225.84375pt x 15
+<./Capitulos/VariableDefinitions/Displaced_vertex.png, id=473, 225.84375pt x 15
 5.58125pt>
 File: ./Capitulos/VariableDefinitions/Displaced_vertex.png Graphic file (type p
 ng)
  <use ./Capitulos/VariableDefinitions/Displaced_vertex.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/Displaced_vertex.png u
-sed on input line 119.
+sed on input line 110.
 (pdftex.def)             Requested size: 141.80614pt x 97.69383pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
-<./Capitulos/VariableDefinitions/impactParameter.png, id=470, 842.14626pt x 562
+
+<./Capitulos/VariableDefinitions/impactParameter.png, id=477, 842.14626pt x 562
 .1pt>
 File: ./Capitulos/VariableDefinitions/impactParameter.png Graphic file (type pn
 g)
  <use ./Capitulos/VariableDefinitions/impactParameter.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/impactParameter.png us
-ed on input line 129.
+ed on input line 120.
 (pdftex.def)             Requested size: 248.16345pt x 165.63794pt.
-)
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [17]
 Overfull \hbox (25.12547pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/10.95 18 \OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VA
 RIABLE DEFINITIONS
@@ -1081,7 +1053,7 @@ Chapter 4.
 
 
 
-] <./Capitulos/CMS/CMS.png, id=483, 602.25pt x 307.1475pt>
+] <./Capitulos/CMS/CMS.png, id=496, 602.25pt x 307.1475pt>
 File: ./Capitulos/CMS/CMS.png Graphic file (type png)
 
 <use ./Capitulos/CMS/CMS.png>
@@ -1100,47 +1072,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 5.
-
-LaTeX Warning: Citation `Seesaw Mechanism with displace vertices' on page 27 un
-defined on input line 19.
-
-[27]
-
-LaTeX Warning: Citation `Seesaw Mechanism with displace vertices' on page 28 un
-defined on input line 22.
-
-<./Capitulos/Model/hadron_signal.png, id=541, 274.77657pt x 193.47281pt>
+[27] <./Capitulos/Model/hadron_signal.png, id=556, 367.3725pt x 249.93375pt>
 File: ./Capitulos/Model/hadron_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/hadron_signal.png>
 Package pdftex.def Info: ./Capitulos/Model/hadron_signal.png used on input line
- 38.
-(pdftex.def)             Requested size: 177.26038pt x 124.81409pt.
+ 37.
+(pdftex.def)             Requested size: 177.26038pt x 120.59608pt.
 
-<./Capitulos/Model/leptonic_signal.png, id=542, 456.20438pt x 339.51843pt>
+<./Capitulos/Model/leptonic_signal.png, id=557, 380.42125pt x 257.96375pt>
 File: ./Capitulos/Model/leptonic_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/leptonic_signal.png>
 Package pdftex.def Info: ./Capitulos/Model/leptonic_signal.png used on input li
-ne 44.
-(pdftex.def)             Requested size: 177.26038pt x 131.91948pt.
+ne 43.
+(pdftex.def)             Requested size: 177.26038pt x 120.20381pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28] [29 <./Capitulos/Model/hadron_signal.png> <./Capitulos/Model/leptonic_sign
-al.png>] <./Capitulos/Model/w+jets.png, id=555, 185.19188pt x 217.5628pt>
+al.png>] <./Capitulos/Model/w+jets.png, id=571, 185.19188pt x 217.5628pt>
 File: ./Capitulos/Model/w+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/w+jets.png>
-Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 80.
+Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 79.
 (pdftex.def)             Requested size: 141.80614pt x 166.59435pt.
 
-<./Capitulos/Model/DY+jets.png, id=557, 229.60782pt x 206.27063pt>
+<./Capitulos/Model/DY+jets.png, id=573, 229.60782pt x 206.27063pt>
 File: ./Capitulos/Model/DY+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/DY+jets.png>
-Package pdftex.def Info: ./Capitulos/Model/DY+jets.png used on input line 95.
+Package pdftex.def Info: ./Capitulos/Model/DY+jets.png used on input line 94.
 (pdftex.def)             Requested size: 141.80614pt x 127.3986pt.
 
 
@@ -1148,22 +1111,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 99.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@overline' on input line 99.
+(hyperref)                removing `\@@overline' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 99.
+(hyperref)                removing `math shift' on input line 98.
 
 [30 <./Capitulos/Model/w+jets.png>]
-<./Capitulos/Model/ttbar.png, id=563, 647.41875pt x 523.9575pt>
+<./Capitulos/Model/ttbar.png, id=579, 647.41875pt x 523.9575pt>
 File: ./Capitulos/Model/ttbar.png Graphic file (type png)
 
 <use ./Capitulos/Model/ttbar.png>
-Package pdftex.def Info: ./Capitulos/Model/ttbar.png used on input line 111.
+Package pdftex.def Info: ./Capitulos/Model/ttbar.png used on input line 110.
 (pdftex.def)             Requested size: 212.71461pt x 172.14699pt.
 
 
@@ -1210,149 +1173,130 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 ]
 Chapter 8.
 [41]
-<./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf, id=628, 569.12625pt x 659.4637
+<./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf, id=643, 569.12625pt x 659.4637
 5pt>
 File: ./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf used on
  input line 22.
 (pdftex.def)             Requested size: 283.61769pt x 328.6443pt.
- [42 <./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf>]
-<./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf, id=679, 569.12625pt x 659.46375
+
+<./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf, id=647, 569.12625pt x 659.46375
 pt>
 File: ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf used on 
-input line 35.
-(pdftex.def)             Requested size: 194.98749pt x 225.93541pt.
-
-Overfull \hbox (17.72711pt too wide) in paragraph at lines 35--36
- [][] 
- []
-
-
-<./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf, id=680, 569.12625pt x 659.4637
+input line 33.
+(pdftex.def)             Requested size: 248.16345pt x 287.55873pt.
+ [42 <./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf>]
+<./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf, id=695, 569.12625pt x 659.4637
 5pt>
 File: ./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf used on
- input line 41.
-(pdftex.def)             Requested size: 194.98749pt x 225.93541pt.
-
-Overfull \hbox (17.72711pt too wide) in paragraph at lines 41--42
- [][] 
- []
+ input line 40.
+(pdftex.def)             Requested size: 248.16345pt x 287.55873pt.
 
 
-<./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf, id=681, 569.12625pt x 659.46
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf, id=696, 569.12625pt x 659.46
 375pt>
 File: ./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf used 
 on input line 47.
-(pdftex.def)             Requested size: 194.98749pt x 225.93541pt.
-
-Overfull \hbox (17.72711pt too wide) in paragraph at lines 47--48
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 57.83891pt on input line 53.
+(pdftex.def)             Requested size: 248.16345pt x 287.55873pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf, id=686, 569.12625pt x 659.463
+<./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf, id=701, 569.12625pt x 659.463
 75pt>
 File: ./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf used o
-n input line 63.
-(pdftex.def)             Requested size: 194.98749pt x 225.93541pt.
-
-Overfull \hbox (17.72711pt too wide) in paragraph at lines 63--64
- [][] 
- []
+n input line 58.
+(pdftex.def)             Requested size: 248.16345pt x 287.55873pt.
 
 
-<./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf, id=687, 569.12625pt x 659.46
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf, id=702, 569.12625pt x 659.46
 375pt>
 File: ./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf used 
-on input line 69.
-(pdftex.def)             Requested size: 194.98749pt x 225.93541pt.
-
-Overfull \hbox (17.72711pt too wide) in paragraph at lines 69--70
- [][] 
- []
+on input line 65.
+(pdftex.def)             Requested size: 248.16345pt x 287.55873pt.
 
 
-<./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf, id=688, 569.12625pt x 659.4
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf, id=703, 569.12625pt x 659.4
 6375pt>
 File: ./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf Graphic file (type pdf)
 
  <use ./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf used
- on input line 75.
-(pdftex.def)             Requested size: 194.98749pt x 225.93541pt.
-
-Overfull \hbox (17.72711pt too wide) in paragraph at lines 75--76
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 44.2389pt on input line 81.
+ on input line 72.
+(pdftex.def)             Requested size: 248.16345pt x 287.55873pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Capitulos/Analysis/c1.pdf, id=690, 569.12625pt x 258.9675pt>
+[43 <./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf>] [44 <./Capitulos/Analysis/
+AfterBJets/mjj_MET_20.pdf>]
+Underfull \vbox (badness 7012) has occurred while \output is active []
+
+ [45 <./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf>]
+<./Capitulos/Analysis/c1.pdf, id=848, 569.12625pt x 258.9675pt>
 File: ./Capitulos/Analysis/c1.pdf Graphic file (type pdf)
 
 <use ./Capitulos/Analysis/c1.pdf>
-Package pdftex.def Info: ./Capitulos/Analysis/c1.pdf used on input line 100.
-(pdftex.def)             Requested size: 389.975pt x 177.45486pt.
+Package pdftex.def Info: ./Capitulos/Analysis/c1.pdf used on input line 94.
+(pdftex.def)             Requested size: 407.69672pt x 185.51993pt.
 
-Overfull \hbox (35.45424pt too wide) in paragraph at lines 100--102
+Overfull \hbox (53.17595pt too wide) in paragraph at lines 94--96
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43] <./Capitulos/Analysis/ipt1_pt.pdf, id=698, 569.12625pt x 198.7425pt>
+<./Capitulos/Analysis/ipt1_pt.pdf, id=851, 569.12625pt x 198.7425pt>
 File: ./Capitulos/Analysis/ipt1_pt.pdf Graphic file (type pdf)
 
 <use ./Capitulos/Analysis/ipt1_pt.pdf>
 Package pdftex.def Info: ./Capitulos/Analysis/ipt1_pt.pdf used on input line 10
-9.
-(pdftex.def)             Requested size: 389.975pt x 136.1863pt.
+3.
+(pdftex.def)             Requested size: 407.69672pt x 142.37576pt.
 
-Overfull \hbox (35.45424pt too wide) in paragraph at lines 109--111
+Overfull \hbox (53.17595pt too wide) in paragraph at lines 103--105
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [44] [45 <./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf> <./Capitulos/Analysi
-s/AfterBJets/mjj_MET_20.pdf> <./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf>
-] [46 <./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf> <./Capitulos/Analysis/A
-fterVBFCUTS/mjj_MET_20.pdf> <./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf>
-] [47 <./Capitulos/Analysis/c1.pdf, page is rotated 90 degrees> <./Capitulos/An
-alysis/ipt1_pt.pdf, page is rotated 90 degrees>]
+[46 <./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf>]) [47 <./Capitulos/Analys
+is/AfterVBFCUTS/mjj_MET_20.pdf>] [48 <./Capitulos/Analysis/AfterVBFCUTS/TauPt_M
+ET20.pdf>] [49 <./Capitulos/Analysis/c1.pdf, page is rotated 90 degrees> <./Cap
+itulos/Analysis/ipt1_pt.pdf, page is rotated 90 degrees>]
 \openout2 = `Capitulos/Conclusions/Conclusions.aux'.
 
 
-(./Capitulos/Conclusions/Conclusions.tex [48
+(./Capitulos/Conclusions/Conclusions.tex [50
 
 
 
 ]
 Chapter 9.
-[49]) [50]
+[51]) [52]
 \openout2 = `Apendices/Neutrinos_calculus/Neutrinos_calculus.aux'.
 
  (./Apendices/Neutrinos_calculus/Neutrinos_calculus.tex
@@ -1361,16 +1305,16 @@ Appendix A.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 10.
 
-[51
+[53
 
 
 
-] [52] [53]
+] [54] [55]
 Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
-[54]) [55] [56
+[56]) [57] [58
 
 
 ]
@@ -1418,7 +1362,7 @@ Overfull \hbox (2.44965pt too wide) in paragraph at lines 262--263
 005080 
  []
 
-[57]
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 268--269
 []\OT1/cmr/m/n/10.95 Molinaro, E. (2013). Type I See-saw Mech-a-nism, Lep-
  []
@@ -1478,29 +1422,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--287
 -
  []
 
-[58]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 288--289
-[]\OT1/cmr/m/n/10.95 CMS. (2011). De-tec-tor overview. Re-trieved from
+[]\OT1/cmr/m/n/10.95 Taylor, L. (2011). De-tec-tor overview | CMS Ex-per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+\OT1/cmr/m/n/10.95 i-ment. Cms.web.cern.ch. Re-trieved 18 May 2017, from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+[]\OT1/cmr/m/n/10.95 Taylor, L. (2011). Muon Drift Tubes | CMS Ex-per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+\OT1/cmr/m/n/10.95 i-ment. Cms.web.cern.ch. Re-trieved 18 May 2017, from
+ []
+
+
+Underfull \hbox (badness 6792) in paragraph at lines 294--295
+[]\OT1/cmr/m/n/10.95 Taylor, L. (2011). Cath-ode Strip Cham-bers | CMS Ex-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--295
-[]\OT1/cmr/m/n/10.95 Cathode Strip Cham-bers | CMS Ex-per-i-ment. (2017).
+\OT1/cmr/m/n/10.95 per-i-ment. Cms.web.cern.ch. Re-trieved 18 May 2017, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\OT1/cmr/m/n/10.95 Cms.web.cern.ch. Re-trieved 17 May 2017, from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-[]\OT1/cmr/m/n/10.95 Resistive Plate Cham-bers | CMS Ex-per-i-ment.
+Underfull \hbox (badness 5802) in paragraph at lines 296--297
+[]\OT1/cmr/m/n/10.95 Taylor, L. (2011). Re-sis-tive Plate Cham-bers | CMS Ex-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 296--297
-\OT1/cmr/m/n/10.95 (2017). Cms.web.cern.ch. Re-trieved 17 May 2017, from
+\OT1/cmr/m/n/10.95 per-i-ment. Cms.web.cern.ch. Re-trieved 18 May 2017, from
  []
 
 
@@ -1514,7 +1473,7 @@ Underfull \hbox (badness 8056) in paragraph at lines 306--307
 \OT1/cmr/m/n/10.95 sai, N., & Il-ten, P. et al. (2015). An in-tro-duc-tion to
  []
 
-[59]
+[61]
 Underfull \hbox (badness 3849) in paragraph at lines 308--309
 []\OT1/cmr/m/n/10.95 de Favereau, J., De-laere, C., Demin, P., Gi-ammanco, A.,
  []
@@ -1561,7 +1520,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 310--311
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
-[60]
+[62]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
  (./main.aux (./Capitulos/Introduction/Introduction.aux)
 (./Capitulos/StateArt/StateArt.aux)
@@ -1574,46 +1533,39 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B5D23417553BFF846A950C7E568B569B;2384.
+(rerunfilecheck)             Checksum: BF8ECA741C0BDCF53F449BED38357BD6;2397.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
  ) 
 Here is how much of TeX's memory you used:
- 9460 strings out of 494850
- 143539 string characters out of 6178024
- 245319 words of memory out of 5000000
- 12315 multiletter control sequences out of 15000+600000
+ 9458 strings out of 494850
+ 143465 string characters out of 6178024
+ 245928 words of memory out of 5000000
+ 12307 multiletter control sequences out of 15000+600000
  18313 words of font info for 70 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 36i,19n,44p,2127b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,19n,44p,2127b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (66 pages, 1294093 bytes).
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (68 pages, 1293336 bytes).
 PDF statistics:
- 1247 PDF objects out of 1440 (max. 8388607)
- 899 compressed objects within 9 object streams
- 206 named destinations out of 1000 (max. 500000)
+ 1269 PDF objects out of 1440 (max. 8388607)
+ 919 compressed objects within 10 object streams
+ 212 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,7 +4,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Particles of the Standard Model\relax }}{6}{figure.caption.4}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Description of a jet at three different levels: partonic, hadronic and detector. Image taken from \cite {Image_jet_definitions}\relax }}{14}{figure.caption.6}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces CMS detector coordinates. Image taken from \cite {CMS_ATLAS_coordinates}\relax }}{16}{figure.caption.7}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces CMS and ATLAS detector coordinates. Image taken from \cite {CMS_ATLAS_coordinates}\relax }}{16}{figure.caption.7}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Scheme of a displaced vertex. Image taken from \cite {{Displaced_vertex_image}}\relax }}{18}{figure.caption.8}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Scheme of the impact parameter variable. Image taken from \cite {Impact_parameter_image}\relax }}{18}{figure.caption.9}
 \addvspace {10\p@ }
@@ -18,9 +18,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces $E_T^{miss}$ distribution for the signal and backgrounds\relax }}{42}{figure.caption.17}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Distribution of diferent variables after cuts in the number of jets, taus and b-jets\relax }}{45}{figure.caption.18}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Distribution of diferent variables after all the cuts\relax }}{46}{figure.caption.19}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces 2D graphic: $E_T^{miss}$ vs $d_{xy}$\relax }}{47}{figure.caption.20}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces 2D graphic: $p_T(\tau )$ vs $|d_{xy}|$\relax }}{47}{figure.caption.21}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces $H_T$ distribution for the signals and backgrounds after the cuts on the number of jets, taus and b-jets\relax }}{43}{figure.caption.18}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces diJetMass distribution for the signals and backgrounds after the cuts on the number of jets, taus and b-jets\relax }}{44}{figure.caption.19}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces $p_T(\tau )$ distribution for the signals and backgrounds after the cuts on the number of jets, taus and b-jets\relax }}{45}{figure.caption.20}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces $H_T$ distribution for the signals and backgrounds after all cuts\relax }}{46}{figure.caption.21}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces diJetMass distribution for the signals and backgrounds after all cuts\relax }}{47}{figure.caption.22}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces $p_T(\tau )$ distribution for the signals and backgrounds after all cuts\relax }}{48}{figure.caption.23}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces 2D graphic: $E_T^{miss}$ vs $d_{xy}$\relax }}{49}{figure.caption.24}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces 2D graphic: $p_T(\tau )$ vs $|d_{xy}|$\relax }}{49}{figure.caption.25}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Hadron Calorimeter}{23}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Muon Detector}{23}{section.4.3}
 \contentsline {section}{\numberline {4.4}Triggers}{25}{section.4.4}
-\contentsline {chapter}{\numberline {5}Model and backgrounds}{27}{chapter.5}
+\contentsline {chapter}{\numberline {5}Modeling of signal and backgrounds}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Signal of Interest}{27}{section.5.1}
 \contentsline {section}{\numberline {5.2}Backgrounds}{28}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}W+Jets Background}{29}{subsection.5.2.1}
@@ -33,9 +33,9 @@
 \contentsline {section}{\numberline {6.4}ROOT}{35}{section.6.4}
 \contentsline {chapter}{\numberline {7}Event Selection Criteria}{37}{chapter.7}
 \contentsline {chapter}{\numberline {8}Analysis}{41}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusions}{49}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{51}{Appendix.a.A}
-\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{51}{subsection.a.A.0.1}
-\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{52}{subsection.a.A.0.2}
-\contentsline {subsection}{\numberline {A.0.3}Seesaw Mechanism}{54}{subsection.a.A.0.3}
+\contentsline {chapter}{\numberline {9}Conclusions}{51}{chapter.9}
+\contentsline {chapter}{Appendix \numberline {A}Neutrinos and Seesaw Mechanism}{53}{Appendix.a.A}
+\contentsline {subsection}{\numberline {A.0.1}Dirac Mass}{53}{subsection.a.A.0.1}
+\contentsline {subsection}{\numberline {A.0.2}Majorana Mass}{54}{subsection.a.A.0.2}
+\contentsline {subsection}{\numberline {A.0.3}Seesaw Mechanism}{56}{subsection.a.A.0.3}
 \vspace {2em}
