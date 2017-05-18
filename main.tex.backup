@@ -1,6 +1,7 @@
 %Plantilla basada en "Template for Masters / Doctoral Thesis" (plantilla disponible en writeLaTex) que subió LaTeXTemplates.com
 
-\documentclass[11pt]{book}
+%\documentclass[11pt]{book}
+\documentclass[11pt, oneside]{book}
 \usepackage[paperwidth=17cm, paperheight=22.5cm, bottom=2.5cm, right=2.5cm]{geometry}
 \usepackage{amssymb,amsmath,amsthm} %paquete para símbolo matemáticos
 %\usepackage[spanish]{babel}
@@ -8,6 +9,10 @@
 \usepackage[utf8]{inputenc} %Paquete para escribir acentos y otros símbolos directamente
 \usepackage{enumerate}
 \usepackage{graphicx}
+\usepackage[titletoc]{appendix}
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage{subcaption}
 %\usepackage{subfig} %para poner subfiguras
 \graphicspath{{Img/}} %En qué carpeta están las imágenes
 %\usepackage[nottoc]{tocbibind}
@@ -18,11 +23,12 @@
             pdfkeywords={Heavy neutrino, },
             pdfproducer={Latex con hyperref},
             pdfcreator={pdflatex}]{hyperref}
-
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
 
 
 \begin{document}
 
+%\graphicspath{./Capitulos/VariableDefinitions}
 %----------------------------------------------------------------------------------------
 %	COMANDOS PERSONALIZADOS
 %----------------------------------------------------------------------------------------
@@ -185,7 +191,7 @@
 %---------------------------------------------------------------------------------------
 
 \tableofcontents
-
+\listoffigures
 
 %----------------------------------------------------------------------------------------
 %	TESIS
@@ -196,34 +202,38 @@
 %  Incluye los capítulos en el folder de capítulos
 
 \include{Capitulos/Introduction/Introduction}
-\thispagestyle{empty}
+%\thispagestyle{empty}
 \include{Capitulos/StateArt/StateArt}
-\thispagestyle{empty}
+%\thispagestyle{empty}
 \include{Capitulos/VariableDefinitions/VariableDefinitions}
-\thispagestyle{empty}
+\include{Capitulos/CMS/cms}
+%\thispagestyle{empty}
 \include{Capitulos/Model/Model}
-\thispagestyle{empty}
+%\thispagestyle{empty}
 \include{Capitulos/Methodology/Methodology}
-\thispagestyle{empty}
+%\thispagestyle{empty}
+\include{Capitulos/Event_selection/Event_selection}
 \include{Capitulos/Analysis/Analysis}
-\thispagestyle{empty}
-\include{Capitulos/Conclusions}
-\thispagestyle{empty}
+%\thispagestyle{empty}
+\include{Capitulos/Conclusions/Conclusions}
+%\thispagestyle{empty}
 
 %----------------------------------------------------------------------------------------
 %	APÉNDICES
 %----------------------------------------------------------------------------------------
 
-\addtocontents{toc}{\vspace{2em}} % Agrega espacios en la toc
+%\addtocontents{toc}{\vspace{2em}} % Agrega espacios en la toc
 
-\appendix % Los siguientes capítulos son apéndices
-
+%\appendix % Los siguientes capítulos son apéndices
+\begin{appendices}
 %  Incluye los apéndices en el folder de apéndices
 
-\include{Apendices/Ap} 
+%\include{Apendices/Neutrinos_calculus} 
 \thispagestyle{empty}
-%\include{Apendices/AppendixB}
+\include{Apendices/Neutrinos_calculus/Neutrinos_calculus}
+%\include{Apendices/Charge_conjugation_operator/Charge_conjugation_operator}
 %\include{Apendices/AppendixC}
+\end{appendices}
 
 \addtocontents{toc}{\vspace{2em}} % Agrega espacio en la toc
 
@@ -231,14 +241,58 @@
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAFÍA
 %----------------------------------------------------------------------------------------
-\backmatter
-\nocite{*}
-\bibliographystyle{plain}
+%\backmatter
+%\nocite{*}
+%\bibliographystyle{plain}
 %\bibliography{bibliografía.bib} %Aquí ponen el nombre del archivo .bib
 
 
+\begin{thebibliography}{10}
 
+\bibitem{Neutrino experiment 1 mass} Gonzalez-Garcia, M., Maltoni, M., \& Schwetz, T. (2016). Global analyses of neutrino oscillation experiments. Nuclear Physics B, 908, 199-217. http://dx.doi.org/10.1016/j.nuclphysb.2016.02.0331
 
+\bibitem{Neutrino experiment 2 mass} Balantekin, A. \& Haxton, W. (2013). Neutrino oscillations. Progress In Particle And Nuclear Physics, 71, 150-161. http://dx.doi.org/10.1016/j.ppnp.2013.03.007   
+ 
+\bibitem{Neutrino dark matter candidate 1} Bhupal, P.S., Mohapatra, R.N., and Zhang, Y. (2016). Heavy right-handed neutrino dark matter in left-right models. Retrieved from https://arxiv.org/abs/1610.05738     
 
+\bibitem{Neutrino dark matter candidate 2} Bhupal, P.S., Mohapatra, R.N., and Zhang, Y. (2016). Naturally Stable Right-Handed Neutrino Dark Matter. Retrieved from https://arxiv.org/abs/1608.06266
+
+\bibitem{Lep experiment} Almeida Jr., F., Coutinho, Y., Martins Simñoes, J., Vale, M., \& Wulck, S. (2001). Dirac and Majorana heavy neutrinos at LEP II. The European Physical Journal C, 22(2), 277-281. http://dx.doi.org/10.1007/s100520100798  
+
+\bibitem{CMS experiment}  Gluza, J., Jelinsky, T. (2015). Heavy neutrinos and the pp-> lljj CMS data. Retrieved from http://www.sciencedirect.com/science/article/pii/S0370269315005080 
+
+\bibitem{ATLAS experiment} Aad, G., Abbott, B., Abdallah, J., Abdel Khalek, S., Abdinov, O., \& Aben, R. et al. (2015). Search for heavy Majorana neutrinos with the ATLAS detector in pp collisions at s = 8 $ \sqrt{s}=8 $ TeV. Journal Of High Energy Physics, 2015(7). http://dx.doi.org/10.1007/jhep07(2015)162  
+
+\bibitem{Seesaw Mechanism with displaced vertices} Gago, A., Hernández, P., Jones-Peréz, J., Losada, M., Moreno, A. (2015). Probing the Type I Seesaw Mechanism with Displaced Vertices at the LHC. Retrieved from  https://arxiv.org/abs/1505.05880v2
+
+\bibitem{Type I Seesaw Mechanism} Molinaro, E. (2013). Type I Seesaw Mechanism, Lepton Flavour    	Violation and                                                                                                       Higgs Decays. Retrieved from https://arxiv.org/pdf/1303.5856v1.pdf
+
+\bibitem{Particle_Detectors_Claus} Grupen, C., Shwartz, B., \& Spieler, H. (2011). Particle detectors (1st ed.). Cambridge: Cambridge University Press.
+
+\bibitem{Image_jet_definitions} Kirschenmann, H. (2017). Sketch of pp-collision and resulting collimated spray of particles, a jet. Retrieved from https://phys.org/news/2012-07-jets-cms-energy-scale.html
+
+\bibitem{Tesis_luis_alfredo} HUERTAS, L. (2016). Estudio fenomenológico de búsquedas de nueva fsica en el LHC, mediante la producción de pares de staus en conjunto con un jet de ISR. (Master of Science). Universidad de los Andes.
+
+\bibitem{Data_analysis_techniques} Fruhwirth, R., \& Regler, M. (2000). Data Analysis Techniques for High-energy Physics (Cambridge Monographs on Particle Physics, Nuclear Physics, and Cosmology) (1st ed.). Cambridge University Press.
+
+\bibitem{CMS_ATLAS_coordinates} Schott, M. (2017). Illustration of the ATLAS and CMS coordinate system. Retrieved from https://inspirehep.net/record/1294662/plots
+
+\bibitem{Displaced_vertex_image}  Azuma, Y. SUSY searches with Displaced Vertices (Disappearing Tracks) in ATLAS. Lecture, Berkeley.
+
+\bibitem{Impact_parameter_image} DORNEY, B. (2017). Visualization of the Impact Parameter (IP, red line) of a track (Image courtesy of Jean-Roch Vlimant, of the CMS Collaboration). Retrieved from http://www.quantumdiaries.org/2011/06/10/to-b-or-not-to-bbar-b-tagging-via-track-counting/
+
+\bibitem{CMS_detector_slice} CMS. (2011). Detector overview. Retrieved from http://cms.web.cern.ch/news/detector-overview
+
+\bibitem{Perspectives_LHC} Kane, G., \& Pierce, A. (2008). Perspectives on LHC physics (1st ed.). Singapore [u.a.]: World Scientific.
+
+\bibitem{Muon_drift_tubes_cms} Muon Drift Tubes | CMS Experiment. (2017). Cms.web.cern.ch. Retrieved 17 May 2017, from http://cms.web.cern.ch/news/muon-drift-tubes
+
+\bibitem{CSC_CMS} Cathode Strip Chambers | CMS Experiment. (2017). Cms.web.cern.ch. Retrieved 17 May 2017, from http://cms.web.cern.ch/news/cathode-strip-chambers
+
+\bibitem{RPC_CMS} Resistive Plate Chambers | CMS Experiment. (2017). Cms.web.cern.ch. Retrieved 17 May 2017, from http://cms.web.cern.ch/news/resistive-plate-chambers
+
+\bibitem{LHC_collitions_web} LHC collisions. (2017). Lhc-machine-outreach.web.cern.ch. Retrieved 17 May 2017, from https://lhc-machine-outreach.web.cern.ch/lhc-machine-outreach/collisions.htm
+
+\end{thebibliography}
 
 \end{document}
