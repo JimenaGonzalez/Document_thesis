@@ -1,8 +1,6 @@
 \chapter{Neutrinos and Seesaw Mechanism} 
 \label{apendice_neutrinos}
 
-%DEFINIR OPERADORES P_R Y P_L
-
 First of all we are going to start by defining some fundamental concepts: helicity, quirality and projection operators. The helicity of a particle is defined as the projection of its spin onto the direction of its motion. It is said that a particle is right-handed when its spin is in the same direction as its motion and it is said a particle is left-handed when its spin is opposite in the opposite direction of its motion. In the case of massless particles the concept of quirality and helicity is equivalent. The quirality for a Dirac fermion is defined through the operator $\gamma^5$ with eigenvalues $\pm 1$. Thus a Dirac field can be projected into its left or right component by acting the operators $P_R$ and $P_L$ upon it. The right- and left-handed projection operators are defined as:
 \begin{equation}
 P_R = \frac{1 + \gamma^5}{2} \ \ \text{and } \ \ P_L = \frac{1 - \gamma^5}{2}
@@ -125,15 +123,50 @@ Now, let us examine the term $\overline{\psi_L}P_L$:
 Hence $C \overline{\psi_L}^\intercal$ is in fact a right-handed quiral state. 
 \\
 
-%Now, let us find the neutrino mass eigenstates by diagonalizing the matrix M:
+\subsection{Seesaw Mechanism}
 
-%\begin{equation}\label{matrix m}
-%M = 
-%\begin{pmatrix}
-%  m_L & m_D \\
-%  m_D & m_R  
-%\end{pmatrix}
-%\end{equation}
+Now, let us find the neutrino mass values by diagonalizing the matrix M:
 
+\begin{equation}
+M = 
+  \begin{pmatrix}
+  m_L & m_D \\
+  m_D & m_R  
+  \end{pmatrix}
+\end{equation}
 
+In order to find the mass eigenvalues we need to solve the equation:
+\begin{equation}
+\left| M - I \lambda \right|  = \left| \begin{pmatrix}
+  m_L - \lambda & m_D \\
+  m_D & m_R - \lambda 
+  \end{pmatrix} \right| = 0
+\end{equation}
 
+We obtain a cuadratic equation of the form: 
+
+\begin{equation}
+\lambda ^2 - (m_L + m_R) \lambda + (m_L m_R - m_D^2) = 0
+\end{equation}
+
+Using the cuadratic equation to find the values of $\lambda$ we get:
+
+\begin{align}
+  &\begin{aligned}
+     \mathllap{m_{1,2}} &= \frac{(m_L + m_R) \pm \sqrt{(m_L + m_R)^2 - 4 (m_L m_R - m_D^2)}}{2} \\
+     \mathllap{}        &= \frac{(m_L + m_R) \pm \sqrt{(m_L - m_R)^2 - 4 m_D^2)}}{2}
+  &\end{aligned}
+\end{align}
+
+Now, setting $m_L= 0$ and assuming $m_R >> m_D$, we obtain the following mass eigenstates. For the 
+neutrino field $\nu_1$ the mass is given by Equation \ref{mass1}, and for the neutrino field $\nu_2$ the mass is give by the Equation \ref{mass2}.
+
+\begin{equation}
+m_1 = \frac{m_D^2}{m_R}
+\label{mass1}
+\end{equation}
+
+\begin{equation}
+m_2 = m_R \left( 1 + \frac{m_D^2}{m_R^2} \right) \approx m_R
+\label{mass2}
+\end{equation}

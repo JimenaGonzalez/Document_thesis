@@ -1,25 +1,26 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Particles of the Standard Model\relax }}{5}{figure.caption.4}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Particles of the Standard Model\relax }}{6}{figure.caption.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Description of a jet at three different levels: partonic, hadronic and detector. Image taken from \cite {Image_jet_definitions}\relax }}{13}{figure.caption.6}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces CMS detector coordinates. Image taken from \cite {CMS_ATLAS_coordinates}\relax }}{15}{figure.caption.7}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Scheme of a displaced vertex. Image taken from \cite {{Displaced_vertex_image}}\relax }}{16}{figure.caption.8}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Scheme of the impact parameter variable. Image taken from \cite {Impact_parameter_image}\relax }}{17}{figure.caption.9}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Description of a jet at three different levels: partonic, hadronic and detector. Image taken from \cite {Image_jet_definitions}\relax }}{14}{figure.caption.6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces CMS detector coordinates. Image taken from \cite {CMS_ATLAS_coordinates}\relax }}{16}{figure.caption.7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Scheme of a displaced vertex. Image taken from \cite {{Displaced_vertex_image}}\relax }}{18}{figure.caption.8}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Scheme of the impact parameter variable. Image taken from \cite {Impact_parameter_image}\relax }}{18}{figure.caption.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector. Image take from \cite {CMS_detector_slice}\relax }}{19}{figure.caption.10}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector. Image take from \cite {CMS_detector_slice}\relax }}{20}{figure.caption.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \relax }}{28}{figure.caption.11}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Feynman diagram for the W+jets Background\relax }}{29}{figure.caption.12}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Feynman diagram for the DY+jets Background\relax }}{30}{figure.caption.13}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Feynman diagram for $t \overline {t}$ Background\relax }}{31}{figure.caption.14}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \relax }}{29}{figure.caption.11}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Feynman diagram for the W+jets Background\relax }}{30}{figure.caption.12}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Feynman diagram for the DY+jets Background\relax }}{31}{figure.caption.13}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Feynman diagram for $t \overline {t}$ Background\relax }}{32}{figure.caption.14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces $E_T^{miss}$ distribution for the signal and backgrounds\relax }}{40}{figure.caption.17}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Distribution of diferent variables after cuts in the number of jets, taus and b-jets\relax }}{42}{figure.caption.18}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Distribution of diferent variables after all the cuts\relax }}{43}{figure.caption.19}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces 2D graphic: $E_T^{miss}$ vs $d_{xy}$\relax }}{44}{figure.caption.20}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces $E_T^{miss}$ distribution for the signal and backgrounds\relax }}{42}{figure.caption.17}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Distribution of diferent variables after cuts in the number of jets, taus and b-jets\relax }}{45}{figure.caption.18}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Distribution of diferent variables after all the cuts\relax }}{46}{figure.caption.19}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces 2D graphic: $E_T^{miss}$ vs $d_{xy}$\relax }}{47}{figure.caption.20}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces 2D graphic: $p_T(\tau )$ vs $|d_{xy}|$\relax }}{47}{figure.caption.21}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

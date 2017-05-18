@@ -55,7 +55,7 @@
  \section{Pseudorapidity}
  %GENERALIZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR
  
- The variable pseudorapidity is defined as a parametrization of the CMS detector coordinates. These coordinates are ilustrated in the Figure \ref{CMSCoordinates}:
+ The variable pseudorapidity is defined as a parametrization of the CMS and ATLAS detector coordinates. These coordinates are ilustrated in the Figure \ref{CMSCoordinates}:
  
  \begin{figure}[h]
  \centering
@@ -65,7 +65,7 @@
  \end{figure}
 
 
-The origin of the CMS coordinates coincides with the point in which a collision occurs in the detector. 
+The origin of the CMS and ATLAS coordinates coincides with the point in which a collision occurs in the detector. 
 The polar angle is described by the parameter $\theta$ and it is measured with respect to the z axis.
 The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from the x axis. The pseudorapidity is defined in terms of the polar angle as:
 
@@ -77,7 +77,7 @@ The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from
  is approximately uniform in a cilindrical detector. 
  
   
- \section{$p_T$ and $\vec{E_T^{miss}}$}
+ \section{$p_T$, $\vec{E_T^{miss}}$ and $H_T$}
 
  The quantity $p_T$ is the transversal momentum and it is the projection of the linear momentum onto the xy plane. This variable is used instead of the linear momentum because the initial beams
  are moving just in the z axis (the initial momentum in the xy plane is zero), so when a collision is produced the interesting effects occur in the transverse plane.\\
@@ -97,6 +97,11 @@ The azimuthal angle is denoted by $\Phi$ and it is measured in the xy plane from
   \vec{E_T^{miss}} \equiv \sum_{k=M}^{N-M}\vec{P_T(k)}^{invisible} = - \sum_{j=1}^M  \vec{P_T(j)}^{visible}
  \end{equation}
 
+Finally, the variable $H_T$ is defined as the sum of the transveral momentum of all the jets in the event, as it is showed in Equation
+
+\begin{equation}
+H_T = \sum_i^n P_T(jet_{\ i})
+\end{equation}
  
  \section{Displaced Vertices and Impact Parameter}
 The vertex of a track is a variable of importance because it can be used to determine the position of the point of interaction and the momentum vector of the tracks emerging from the vertex. The 
