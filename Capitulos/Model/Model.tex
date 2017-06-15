@@ -28,7 +28,9 @@ and with a high separation of pseudorapidity are labeled as candidates for proce
 There are two possible final states of the event of interest: two leptons, two jets (from the VBF process) and $\vec{E_T^{miss}}$ (due to the neutrino) or four jets 
 (two of the VBF process and two from the quarks of the heavy neutrino decays), $\vec{E_T^{miss}}$ and one lepton. The first type of final state is going to be called leptonic signal, while the second
 will be named hadronic signal. The Feynman diagrams illustrating the processes already described is shown in Figure \ref{signals},
-where \ref{signal_hadron_feynman} is the hadronic signal and \ref{signal_leptonic_feynman} illustrates the leptonic signal. Since it is expected that the hadronic signal have a larger cross-section
+where \ref{signal_hadron_feynman} is the hadronic signal and \ref{signal_leptonic_feynman} illustrates the leptonic signal. 
+
+The two different final states of the signal are determined by the decay of the W boson that is produced from the heavy neutrino decay. The W boson has a hadronic decay the 64\% of the times and the rest 36\% times has a leptonic decay \cite{Tesis_luis_alfredo}. Since it is expected that the hadronic signal have a larger cross-section
 than the leptonic signal, in this analysis we simulated only the hadronic signal.
 
 
@@ -46,7 +48,7 @@ than the leptonic signal, in this analysis we simulated only the hadronic signal
   \caption{Feynman diagram for the leptonic signal}
   \label{signal_leptonic_feynman}
 \end{subfigure}
-\caption{}
+\caption{Signal Feynman diagrams}
 \label{signals}
 \end{figure}
 
@@ -55,9 +57,10 @@ than the leptonic signal, in this analysis we simulated only the hadronic signal
  \section{Backgrounds}
  
 The main problem of detecting an event of interest is that the magnitude of its signal is significantly smaller with respect to some other processes from the SM. For this reason, the processes from the
-SM that have the same or similar final states as the signal are called backgrounds. Thus, it is fundamental to develop procedures in order to reduce the experimental background under the magnitude 
-of the searched signal. These procedures usually use different variables (like the ones explain in the chapter \ref{Important_concepts_chapter}) that exploit the topology of the event and its 
-kinematic characteristics. When a set of variables that separate the signal from the background is found, it is necessary to find the optimal values of them that allow to reduce as much as possible 
+SM that have the same or similar final states as the signal are called backgrounds. 
+
+In this analysis, it is fundamental to develop procedures in order to reduce the number of events of background. These procedures usually use different variables (like the ones explained in the chapter \ref{Important_concepts_chapter}) that exploit the topology of the event and its 
+kinematic characteristics. When a set of variables that separate the signal from the background is found, it is necessary to find the optimal values of these variables that allow to reduce as much as possible 
 the background. 
  
 The signal of interest that was described had two possible final states. For the hadronic signal: two leptons, two jets and $\vec{E_T^{miss}}$ and for the leptonic signal: four jets, 
@@ -68,10 +71,9 @@ is other background that comes from the top pair production, referred as $t\over
 \subsection{W+Jets Background}
   
 %ASOCCIATEEEEEEEEEEED JEEEEEEEEEEEEEEEEETS  
-The events in which is produced a W boson with jets has a large probabibity to occur in the collisions at the LHC. The W decay determines the final state of this event. The 64 \% of the times the 
-W boson has a hadronic decay and while the rest 36\% times has a leptonic decay \cite{Tesis_luis_alfredo}. In leptonic decays, the W boson desintegrates into a lepton and a neutrino. Sometimes, in these events the particles 
-comming from the interaction of the initial hadrons can produce a spontaneous radiative emission, which then is detected as a jet. It is said that this kind of jet comes from an Initial State 
-Radiation (ISR). Thus, when the boson W decays leptonically, the final state is conformed by a lepton, $\vec{E_T^{miss}}$ (comming from the neutrino) and jets from ISR. The Feynman diagram is shown 
+The events in which a W boson is produced with jets, has a large probabibity to occur in the collisions at the LHC. In leptonic decays, the W boson desintegrates into a lepton and a neutrino. Sometimes, in these events the particles 
+coming from the interaction of the initial hadrons can produce a spontaneous radiative emission, which then is detected as a jet. It is said that this kind of jet comes from an Initial State 
+Radiation (ISR). Thus, when the boson W decays leptonically, the final state is conformed by a lepton, $\vec{E_T^{miss}}$ (coming from the neutrino) and jets from ISR. The Feynman diagram is shown 
 in Figure \ref{w_jets_feynman}.
 
   
@@ -84,10 +86,10 @@ in Figure \ref{w_jets_feynman}.
 
  \subsection{Drell Yan + Jets Background}
  
- Other background for our signal of interest comes from the Drell Yan procces. In this process a quark and an antiquark comming from the initial interacting hadrons annihilate each other and this
- produce a virtual photon or a Z boson. The concept virtual photon means that this particle is created for a very short period of time. We studied this process only when the Z boson decays into a 
+ Other background for our signal of interest comes from the Drell Yan process. In this process a quark and an antiquark coming from the initial interacting hadrons annihilate each other and this
+ produces a virtual photon or a Z boson. The concept of virtual photon means that this particle is created for a very short period of time. We studied this process only when the Z boson decays into a 
  pair lepton-antilepton, because in this case the final state is the most similar to the one of the signal. Specifically, we considered the events were the Z decays into a pair 
- tau and antitau ($\tau \overline{\tau}$). This process was simulated with the presence of a jet from ISR. Thus, the final state is conformed by one tau, jets (from the ISR procces), 
+ tau and antitau ($\tau \overline{\tau}$). This process was simulated with the presence of a jet from ISR. Thus, the final state is conformed by one tau, jets (from the ISR procces), and 
  $\vec{E_T^{miss}}$ (from the erroneus identification of the one of the taus). The Figure \ref{dy_jets_feynman} shows the Feynman diagram for this process.
  
   \begin{figure}[h] 

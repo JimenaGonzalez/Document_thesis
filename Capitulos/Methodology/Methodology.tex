@@ -1,7 +1,7 @@
 \chapter{Methodology} 
 \label{Methodology_chapter}
 
-The objective of this project was to make a phenomenological study that allow the identification of a signal with the presence of a heavy neutrino in the experiments of the LHC. For this reason, 
+The objective of this project was to make a phenomenological study that allowed the identification of a signal with the presence of a heavy neutrino in the experiments of the LHC. For this reason, 
 the proposed methodology consisted in the use of different computational programs to simulate the signal and its background as it should be produced and measured at the CMS detector. Next, this 
 data must go through a statistical analysis. The programs that were used to simulate the signal were MadGraph and Pythia. Then, the program Delphes is 
 used to simulate the behavior of the multi-purpose CMS detector. Lastly, the statistical study of the data was developed with the software ROOT, which determined the 
@@ -13,14 +13,14 @@ is constructed and its specific task in the development of the project.
 The first program that was used is MadGraph, which is a generator of events that simulates the collisions of particle beams, which in our case are protons. MadGraph is written in Python programming 
 language. The physical processes that MadGraph can simulate include processes from the SM and from physics beyond the SM that are based on certain theoretical models such as Supersymmetry. This 
 program incorporates diverse physical parameters in order to include all the necessary elements to make phenomenological studies: it calculates the cross section of a certain event, it generates 
-events with strong interactions (including possible decay of particles) and it offers relevant tools to manipulate the events and to make their posterior analysis  \cite{MadGraph 1}. 
+events with strong interactions (including possible decay of particles) and it offers relevant tools to specify simulation parameters of the events \cite{MadGraph 1}. 
 
-Madgraph uses perturbation theory to perform production calculations and to generate physical processes. The parameter entries are controlled in configuration files that are called input cards. 
-These cards are use to modify essential variables in the production of the events, for example: the type of particles that will collide, the energy of the collision, number of events that are going
-to be simulated, mass of the generated particles, final states, among others. At the level of event generation it is possible to make basic cuts of minimal and maximal values of some kinematic
-variables. Moreover, the lastest version of MadGraph (MadGraph 5) has an useful characteristic: it can give an output file with matrix elements that can be used directly in the program Pythia. 
+Madgraph uses perturbation theory to perform cross section calculations and to generate physical processes. The parameter entries are controlled in configuration files that are called input cards. 
+These cards are used to modify essential variables in the production of the events, for example: the type of particles that will collide, the energy of the collision, number of events that are going
+to be simulated, mass of the generated particles, final states, among others. At the level of event generation, it is possible to make basic cuts of minimal and maximal values of some kinematic
+variables. Moreover, the lastest version of MadGraph (MadGraph 5) has a useful characteristic: it can give an output file with matrix elements that can be used directly in the program Pythia. 
 
-In order to produce an event of physics beyond the SM one has to describe the physical model in the form of a Lagrangian , a list of fields and parameters. Then use the former elements as parameters
+In order to produce a process beyond the SM one has to describe the physical model in the form of a Lagrangian, a list of fields, and parameters. Then, use the former elements as parameters
 input of the MATHEMATICA-based package FEYNRULES. Finally, FEYNRULES returns the Feynman rules corresponding to the Lagrangian of the model, which are used as input of MadGraph \cite{MadGraph 2}.
 
 
@@ -45,14 +45,14 @@ at the LHC \cite{Delphes}.
 
 \section{ROOT}
 
-The analysis of the simulated data was developed using the software ROOT. This software was created by the CERN laboratory. ROOT is written in the programming language C++ and it was 
-designed to analyze data in particle physics. This program provides all the necessary tools to efficiently process large data, make statistical analyses, and visualize and store data. The program 
-includes a numerous quantity of mathematical and statistic functions, numeric algorithms and methods for analysis of data regression. One key tool ROOT has are the histograms that can even use 
-multidimensional data and estimate their density. The histograms can be manipulated, offer statistical information and can make data regression \cite{Root}. 
+The analysis of the simulated data was performed using the software ROOT. This software was created by the CERN laboratory. ROOT is written in the programming language C++ and it was 
+designed to analyze data in particle physics. This program provides all the necessary tools to efficiently process large amounts of data, make statistical analyses, and visualize and store data. The program 
+includes a numerous quantity of mathematical and statistical functions, numeric algorithms and methods for analysis of data regression. One key tool ROOT has are the histograms that can even use 
+multidimensional data and estimate their density. The histograms can be manipulated, offer statistical information, and can performance data regressions \cite{Root}. 
 
 The program ROOT receives as input parameter complementary information that allows it to do the best analysis of the signal: characteristics of the detector or configuration settings that were 
 made in the simulations. ROOT includes other components like a command interpreter that makes quicker the analysis process and a graphic interface which contains a flexible set of tools. The former
 means that the set of tools can be modified using GUI Builder (the graphic interface constructor). This software can be used to analyse real or simulated data that have the same structure and 
-consist of many events. 
+consists of many events. 
 
 
