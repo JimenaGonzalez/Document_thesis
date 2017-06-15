@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  14 JUN 2017 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  14 JUN 2017 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,11 +930,15 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.20 
-      [6 <./Capitulos/StateArt/standard_model.png>] [7] [8] [9] [10] [11])
-[12]
+      [6 <./Capitulos/StateArt/standard_model.png>] [7]
+
+LaTeX Warning: Reference `anterior' on page 8 undefined on input line 71.
+
+[8] [9] [10] [11]) [12]
 \openout2 = `Capitulos/VariableDefinitions/VariableDefinitions.aux'.
 
- (./Capitulos/VariableDefinitions/VariableDefinitions.tex
+
+(./Capitulos/VariableDefinitions/VariableDefinitions.tex
 Chapter 3.
 [13
 
@@ -1076,7 +1080,7 @@ File: ./Capitulos/Model/hadron_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/hadron_signal.png>
 Package pdftex.def Info: ./Capitulos/Model/hadron_signal.png used on input line
- 37.
+ 39.
 (pdftex.def)             Requested size: 177.26038pt x 120.59608pt.
 
 <./Capitulos/Model/leptonic_signal.png, id=557, 380.42125pt x 257.96375pt>
@@ -1084,7 +1088,7 @@ File: ./Capitulos/Model/leptonic_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/leptonic_signal.png>
 Package pdftex.def Info: ./Capitulos/Model/leptonic_signal.png used on input li
-ne 43.
+ne 45.
 (pdftex.def)             Requested size: 177.26038pt x 120.20381pt.
 
 
@@ -1095,14 +1099,14 @@ al.png>] <./Capitulos/Model/w+jets.png, id=571, 185.19188pt x 217.5628pt>
 File: ./Capitulos/Model/w+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/w+jets.png>
-Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 79.
+Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 81.
 (pdftex.def)             Requested size: 141.80614pt x 166.59435pt.
 
 <./Capitulos/Model/DY+jets.png, id=573, 229.60782pt x 206.27063pt>
 File: ./Capitulos/Model/DY+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/DY+jets.png>
-Package pdftex.def Info: ./Capitulos/Model/DY+jets.png used on input line 94.
+Package pdftex.def Info: ./Capitulos/Model/DY+jets.png used on input line 96.
 (pdftex.def)             Requested size: 141.80614pt x 127.3986pt.
 
 
@@ -1110,22 +1114,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 98.
+(hyperref)                removing `math shift' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@overline' on input line 98.
+(hyperref)                removing `\@@overline' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 98.
+(hyperref)                removing `math shift' on input line 100.
 
 [30 <./Capitulos/Model/w+jets.png>]
 <./Capitulos/Model/ttbar.png, id=579, 647.41875pt x 523.9575pt>
 File: ./Capitulos/Model/ttbar.png Graphic file (type png)
 
 <use ./Capitulos/Model/ttbar.png>
-Package pdftex.def Info: ./Capitulos/Model/ttbar.png used on input line 110.
+Package pdftex.def Info: ./Capitulos/Model/ttbar.png used on input line 112.
 (pdftex.def)             Requested size: 212.71461pt x 172.14699pt.
 
 
@@ -1537,16 +1541,22 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
  ) 
 Here is how much of TeX's memory you used:
- 9458 strings out of 494850
- 143465 string characters out of 6178024
+ 9459 strings out of 494850
+ 143475 string characters out of 6178024
  245928 words of memory out of 5000000
- 12307 multiletter control sequences out of 15000+600000
+ 12308 multiletter control sequences out of 15000+600000
  18313 words of font info for 70 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 36i,19n,44p,2043b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,19n,44p,2011b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1561,7 +1571,7 @@ mr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (68 pages, 1293101 bytes).
+Output written on main.pdf (68 pages, 1293620 bytes).
 PDF statistics:
  1269 PDF objects out of 1440 (max. 8388607)
  919 compressed objects within 10 object streams
