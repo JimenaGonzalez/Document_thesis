@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  19 JUN 2017 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.11)  21 JUN 2017 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,7 +930,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 
+l.22 
       [6 <./Capitulos/StateArt/standard_model.png>] [7] [8] [9] [10] [11])
 [12]
 \openout2 = `Capitulos/VariableDefinitions/VariableDefinitions.aux'.
@@ -942,109 +942,76 @@ Chapter 3.
 
 
 ]
-<./Capitulos/VariableDefinitions/jets_definitions.png, id=442, 1111.15125pt x 4
+<./Capitulos/VariableDefinitions/jets_definitions.png, id=446, 1111.15125pt x 4
 10.53375pt>
 File: ./Capitulos/VariableDefinitions/jets_definitions.png Graphic file (type p
 ng)
  <use ./Capitulos/VariableDefinitions/jets_definitions.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/jets_definitions.png u
-sed on input line 20.
+sed on input line 18.
 (pdftex.def)             Requested size: 265.89056pt x 98.23569pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (25.12547pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10.95 14 \OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VA
-RIABLE DEFINITIONS
- []
-
-[14 <./Capitulos/VariableDefinitions/jets_definitions.png>]
-<./Capitulos/VariableDefinitions/CMS_coordinates.png, id=454, 504.88625pt x 241
+ [14 <./Capitulos/VariableDefinitions/jets_definitions.png>]
+<./Capitulos/VariableDefinitions/CMS_coordinates.png, id=459, 504.88625pt x 241
 .90375pt>
 File: ./Capitulos/VariableDefinitions/CMS_coordinates.png Graphic file (type pn
 g)
  <use ./Capitulos/VariableDefinitions/CMS_coordinates.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/CMS_coordinates.png us
-ed on input line 55.
+ed on input line 42.
 (pdftex.def)             Requested size: 265.89056pt x 127.39632pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15]
+ [15 <./Capitulos/VariableDefinitions/CMS_coordinates.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 71.
+(hyperref)                removing `math shift' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 71.
+(hyperref)                removing `subscript' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 71.
+(hyperref)                removing `math shift' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 71.
+(hyperref)                removing `math shift' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 71.
+(hyperref)                removing `math shift' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 71.
+(hyperref)                removing `math shift' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 71.
+(hyperref)                removing `subscript' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 71.
+(hyperref)                removing `math shift' on input line 56.
 
-
-Overfull \hbox (25.12547pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10.95 16 \OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VA
-RIABLE DEFINITIONS
- []
-
-[16 <./Capitulos/VariableDefinitions/CMS_coordinates.png (PNG copy)>]
-<./Capitulos/VariableDefinitions/Displaced_vertex.png, id=474, 225.84375pt x 15
+[16]
+<./Capitulos/VariableDefinitions/Displaced_vertex.png, id=478, 225.84375pt x 15
 5.58125pt>
 File: ./Capitulos/VariableDefinitions/Displaced_vertex.png Graphic file (type p
 ng)
  <use ./Capitulos/VariableDefinitions/Displaced_vertex.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/Displaced_vertex.png u
-sed on input line 110.
+sed on input line 92.
 (pdftex.def)             Requested size: 141.80614pt x 97.69383pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<./Capitulos/VariableDefinitions/impactParameter.png, id=478, 842.14626pt x 562
+<./Capitulos/VariableDefinitions/impactParameter.png, id=482, 842.14626pt x 562
 .1pt>
 File: ./Capitulos/VariableDefinitions/impactParameter.png Graphic file (type pn
 g)
  <use ./Capitulos/VariableDefinitions/impactParameter.png>
 Package pdftex.def Info: ./Capitulos/VariableDefinitions/impactParameter.png us
-ed on input line 120.
+ed on input line 102.
 (pdftex.def)             Requested size: 248.16345pt x 165.63794pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [17]
-Overfull \hbox (25.12547pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10.95 18 \OT1/cmr/m/sl/10.95 CHAPTER 3.  IMPORTANT CONCEPTS AND VA
-RIABLE DEFINITIONS
- []
-
-[18 <./Capitulos/VariableDefinitions/Displaced_vertex.png> <./Capitulos/Variabl
-eDefinitions/impactParameter.png>]
+ [17 <./Capitulos/VariableDefinitions/Displaced_vertex.png>]) [18 <./Capitulos/
+VariableDefinitions/impactParameter.png>]
 \openout2 = `Capitulos/CMS/cms.aux'.
 
  (./Capitulos/CMS/cms.tex
@@ -1053,11 +1020,11 @@ Chapter 4.
 
 
 
-] <./Capitulos/CMS/CMS.png, id=497, 602.25pt x 307.1475pt>
+] <./Capitulos/CMS/CMS.png, id=500, 602.25pt x 307.1475pt>
 File: ./Capitulos/CMS/CMS.png Graphic file (type png)
 
 <use ./Capitulos/CMS/CMS.png>
-Package pdftex.def Info: ./Capitulos/CMS/CMS.png used on input line 24.
+Package pdftex.def Info: ./Capitulos/CMS/CMS.png used on input line 19.
 (pdftex.def)             Requested size: 319.06651pt x 162.73116pt.
  [20 <./Capitulos/CMS/CMS.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1072,20 +1039,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 5.
-[27] <./Capitulos/Model/hadron_signal.png, id=558, 367.3725pt x 249.93375pt>
+[27] <./Capitulos/Model/hadron_signal.png, id=561, 367.3725pt x 249.93375pt>
 File: ./Capitulos/Model/hadron_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/hadron_signal.png>
 Package pdftex.def Info: ./Capitulos/Model/hadron_signal.png used on input line
- 41.
+ 31.
 (pdftex.def)             Requested size: 177.26038pt x 120.59608pt.
 
-<./Capitulos/Model/leptonic_signal.png, id=559, 380.42125pt x 257.96375pt>
+<./Capitulos/Model/leptonic_signal.png, id=562, 380.42125pt x 257.96375pt>
 File: ./Capitulos/Model/leptonic_signal.png Graphic file (type png)
 
 <use ./Capitulos/Model/leptonic_signal.png>
 Package pdftex.def Info: ./Capitulos/Model/leptonic_signal.png used on input li
-ne 47.
+ne 37.
 (pdftex.def)             Requested size: 177.26038pt x 120.20381pt.
 
 
@@ -1099,37 +1066,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <./Capitulos/Model/hadron_signal.png> <./Capitulos/Model/leptonic_signal.p
 ng>]
-<./Capitulos/Model/w+jets.png, id=572, 185.19188pt x 217.5628pt>
+<./Capitulos/Model/w+jets.png, id=575, 185.19188pt x 217.5628pt>
 File: ./Capitulos/Model/w+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/w+jets.png>
-Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 83.
+Package pdftex.def Info: ./Capitulos/Model/w+jets.png used on input line 70.
 (pdftex.def)             Requested size: 141.80614pt x 166.59435pt.
  [30 <./Capitulos/Model/w+jets.png>]
-<./Capitulos/Model/DY+jets.png, id=578, 229.60782pt x 206.27063pt>
+<./Capitulos/Model/DY+jets.png, id=581, 229.60782pt x 206.27063pt>
 File: ./Capitulos/Model/DY+jets.png Graphic file (type png)
 
 <use ./Capitulos/Model/DY+jets.png>
-Package pdftex.def Info: ./Capitulos/Model/DY+jets.png used on input line 98.
+Package pdftex.def Info: ./Capitulos/Model/DY+jets.png used on input line 82.
 (pdftex.def)             Requested size: 141.80614pt x 127.3986pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 102.
+(hyperref)                removing `math shift' on input line 86.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@@overline' on input line 102.
+(hyperref)                removing `\@@overline' on input line 86.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 102.
+(hyperref)                removing `math shift' on input line 86.
 
-<./Capitulos/Model/ttbar.png, id=580, 647.41875pt x 523.9575pt>
+<./Capitulos/Model/ttbar.png, id=583, 647.41875pt x 523.9575pt>
 File: ./Capitulos/Model/ttbar.png Graphic file (type png)
 
 <use ./Capitulos/Model/ttbar.png>
-Package pdftex.def Info: ./Capitulos/Model/ttbar.png used on input line 114.
+Package pdftex.def Info: ./Capitulos/Model/ttbar.png used on input line 96.
 (pdftex.def)             Requested size: 212.71461pt x 172.14699pt.
 
 
@@ -1146,7 +1113,7 @@ Chapter 6.
 
 
 ]
-Overfull \hbox (3.3317pt too wide) in paragraph at lines 23--25
+Overfull \hbox (3.3317pt too wide) in paragraph at lines 18--20
 \OT1/cmr/m/n/10.95 Then, use the for-mer el-e-ments as pa-ram-e-ters in-put of 
 the MATHEMATICA-
  []
@@ -1155,12 +1122,12 @@ the MATHEMATICA-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-Overfull \hbox (1.35464pt too wide) in paragraph at lines 48--52
+Overfull \hbox (1.35464pt too wide) in paragraph at lines 41--43
 \OT1/cmr/m/n/10.95 The anal-y-sis of the sim-u-lated data was per-formed us-ing
  the soft-ware ROOT.
  []
 
-[35]) [36]
+) [35] [36]
 \openout2 = `Capitulos/Event_selection/Event_selection.aux'.
 
  (./Capitulos/Event_selection/Event_selection.tex
@@ -1169,25 +1136,31 @@ Chapter 7.
 
 
 
-] [38]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 52.
+]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 52.
-) [39]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 36.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [38] [39]
 \openout2 = `Capitulos/Analysis/Analysis.aux'.
 
-
-(./Capitulos/Analysis/Analysis.tex [40
+ (./Capitulos/Analysis/Analysis.tex [40
 
 
 
 ]
 Chapter 8.
 [41]
-<./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf, id=644, 569.12625pt x 659.4637
+<./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf, id=647, 569.12625pt x 659.4637
 5pt>
 File: ./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf>
@@ -1195,7 +1168,7 @@ Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf used on
  input line 17.
 (pdftex.def)             Requested size: 283.61769pt x 328.6443pt.
  [42 <./Capitulos/Analysis/AfterBJets/MET_MET_20.pdf>]
-<./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf, id=695, 569.12625pt x 659.46375
+<./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf, id=698, 569.12625pt x 659.46375
 pt>
 File: ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf>
@@ -1203,7 +1176,7 @@ Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/HT_MET_20.pdf used on
 input line 28.
 (pdftex.def)             Requested size: 248.16345pt x 287.55873pt.
 
-<./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf, id=696, 569.12625pt x 659.4637
+<./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf, id=699, 569.12625pt x 659.4637
 5pt>
 File: ./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf>
@@ -1215,7 +1188,7 @@ Package pdftex.def Info: ./Capitulos/Analysis/AfterBJets/mjj_MET_20.pdf used on
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf, id=697, 569.12625pt x 659.46
+<./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf, id=700, 569.12625pt x 659.46
 375pt>
 File: ./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf>
@@ -1227,7 +1200,7 @@ on input line 42.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf, id=702, 569.12625pt x 659.463
+<./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf, id=705, 569.12625pt x 659.463
 75pt>
 File: ./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20.pdf>
@@ -1239,7 +1212,7 @@ n input line 53.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf, id=703, 569.12625pt x 659.46
+<./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf, id=706, 569.12625pt x 659.46
 375pt>
 File: ./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf Graphic file (type pdf)
  <use ./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20.pdf>
@@ -1251,7 +1224,7 @@ on input line 60.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf, id=704, 569.12625pt x 659.4
+<./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf, id=707, 569.12625pt x 659.4
 6375pt>
 File: ./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20.pdf Graphic file (type pdf)
 
@@ -1268,7 +1241,7 @@ AfterBJets/mjj_MET_20.pdf>]
 Underfull \vbox (badness 7012) has occurred while \output is active []
 
  [45 <./Capitulos/Analysis/AfterBJets/TauPt_MET_20.pdf>]
-<./Capitulos/Analysis/c1.pdf, id=849, 569.12625pt x 258.9675pt>
+<./Capitulos/Analysis/c1.pdf, id=852, 569.12625pt x 258.9675pt>
 File: ./Capitulos/Analysis/c1.pdf Graphic file (type pdf)
 
 <use ./Capitulos/Analysis/c1.pdf>
@@ -1282,7 +1255,7 @@ Overfull \hbox (53.17595pt too wide) in paragraph at lines 89--91
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Capitulos/Analysis/ipt1_pt.pdf, id=852, 569.12625pt x 198.7425pt>
+<./Capitulos/Analysis/ipt1_pt.pdf, id=855, 569.12625pt x 198.7425pt>
 File: ./Capitulos/Analysis/ipt1_pt.pdf Graphic file (type pdf)
 
 <use ./Capitulos/Analysis/ipt1_pt.pdf>
@@ -1332,210 +1305,210 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 []\OT1/cmr/m/n/10.95 Balantekin, A. & Hax-ton, W. (2013). Neu-trino os-cil-la-
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 257--258
+Underfull \hbox (badness 1675) in paragraph at lines 258--259
 \OT1/cmr/m/n/10.95 tions. Progress In Par-ti-cle And Nu-clear Physics, 71, 150-
 161.
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 261--262
+Underfull \hbox (badness 1308) in paragraph at lines 262--263
 []\OT1/cmr/m/n/10.95 Bhupal, P.S., Mo-ha-p-a-tra, R.N., and Zhang, Y. (2016). N
 at-u-
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 263--264
+Underfull \hbox (badness 3492) in paragraph at lines 264--265
 []\OT1/cmr/m/n/10.95 Almeida Jr., F., Coutinho, Y., Mar-tins Sim~noes, J., Vale
 ,
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 263--264
+Underfull \hbox (badness 1062) in paragraph at lines 264--265
 \OT1/cmr/m/n/10.95 at LEP II. The Eu-ro-pean Phys-i-cal Jour-nal C, 22(2), 277-
 281.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 []\OT1/cmr/m/n/10.95 Gluza, J., Jelin-sky, T. (2015). Heavy neu-tri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 \OT1/cmr/m/n/10.95 nos and the pp-> lljj CMS data. Re-trieved from
  []
 
 
-Overfull \hbox (2.44965pt too wide) in paragraph at lines 265--266
+Overfull \hbox (2.44965pt too wide) in paragraph at lines 266--267
 \OT1/cmr/m/n/10.95 http://www.sciencedirect.com/science/article/pii/S0370269315
 005080 
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 []\OT1/cmr/m/n/10.95 Molinaro, E. (2013). Type I See-saw Mech-a-nism, Lep-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 \OT1/cmr/m/n/10.95 ton Flavour Vi-o-la-tion and Higgs De-cays. Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 []\OT1/cmr/m/n/10.95 Neutrino Mass and Di-rect Mea-sure-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 \OT1/cmr/m/n/10.95 ments. (2015) (1st ed.). Re-trieved from
  []
 
 
-Overfull \hbox (35.19627pt too wide) in paragraph at lines 273--274
+Overfull \hbox (35.19627pt too wide) in paragraph at lines 278--279
 \OT1/cmr/m/n/10.95 https://www2.warwick.ac.uk/fac/sci/physics/staff/academic/bo
 yd/stuff/lec[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 []\OT1/cmr/m/n/10.95 Kirschenmann, H. (2017). Sketch of pp-collision and re-
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 279--280
+Underfull \hbox (badness 4726) in paragraph at lines 284--285
 \OT1/cmr/m/n/10.95 sult-ing col-li-mated spray of par-ti-cles, a jet. Re-trieve
 d from
  []
 
-
-Underfull \hbox (badness 7963) in paragraph at lines 289--290
+[60]
+Underfull \hbox (badness 7963) in paragraph at lines 294--295
 []\OT1/cmr/m/n/10.95 DORNEY, B. (2017). Vi-su-al-iza-tion of the Im-pact Pa-ram
 -
  []
 
 
-Underfull \hbox (badness 7397) in paragraph at lines 289--290
+Underfull \hbox (badness 7397) in paragraph at lines 294--295
 \OT1/cmr/m/n/10.95 e-ter (IP, red line) of a track (Im-age cour-tesy of Jean-
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 289--290
+Underfull \hbox (badness 5771) in paragraph at lines 294--295
 \OT1/cmr/m/n/10.95 Roch Vli-mant, of the CMS Col-lab-o-ra-tion). Re-trieved fro
 m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 \OT1/cmr/m/n/10.95 http://www.quantumdiaries.org/2011/06/10/to-b-or-not-to-bbar
 -
  []
 
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 []\OT1/cmr/m/n/10.95 Taylor, L. (2011). De-tec-tor overview | CMS Ex-per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 \OT1/cmr/m/n/10.95 i-ment. Cms.web.cern.ch. Re-trieved 18 May 2017, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 []\OT1/cmr/m/n/10.95 Taylor, L. (2011). Muon Drift Tubes | CMS Ex-per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 \OT1/cmr/m/n/10.95 i-ment. Cms.web.cern.ch. Re-trieved 18 May 2017, from
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 297--298
+Underfull \hbox (badness 6792) in paragraph at lines 302--303
 []\OT1/cmr/m/n/10.95 Taylor, L. (2011). Cath-ode Strip Cham-bers | CMS Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 \OT1/cmr/m/n/10.95 per-i-ment. Cms.web.cern.ch. Re-trieved 18 May 2017, from
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 299--300
+Underfull \hbox (badness 5802) in paragraph at lines 304--305
 []\OT1/cmr/m/n/10.95 Taylor, L. (2011). Re-sis-tive Plate Cham-bers | CMS Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 \OT1/cmr/m/n/10.95 per-i-ment. Cms.web.cern.ch. Re-trieved 18 May 2017, from
  []
 
-
-Underfull \hbox (badness 5696) in paragraph at lines 309--310
+[61]
+Underfull \hbox (badness 5696) in paragraph at lines 314--315
 []\OT1/cmr/m/n/10.95 Sj^^?ostrand, T., Ask, S., Chris-tiansen, J., Corke, R., D
 e-
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 309--310
+Underfull \hbox (badness 8056) in paragraph at lines 314--315
 \OT1/cmr/m/n/10.95 sai, N., & Il-ten, P. et al. (2015). An in-tro-duc-tion to
  []
 
-[61]
-Underfull \hbox (badness 3849) in paragraph at lines 311--312
+
+Underfull \hbox (badness 3849) in paragraph at lines 316--317
 []\OT1/cmr/m/n/10.95 de Favereau, J., De-laere, C., Demin, P., Gi-ammanco, A.,
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 311--312
+Underfull \hbox (badness 1142) in paragraph at lines 316--317
 \OT1/cmr/m/n/10.95 Lema^^^Ptre, V., Mertens, A., & Sel-vaggi, M. (2014). DELPHE
 S
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 311--312
+Underfull \hbox (badness 1137) in paragraph at lines 316--317
 \OT1/cmr/m/n/10.95 3: a mod-u-lar frame-work for fast sim-u-la-tion of a generi
 c col-
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 311--312
+Underfull \hbox (badness 4366) in paragraph at lines 316--317
 \OT1/cmr/m/n/10.95 lider ex-per-i-ment. Jour-nal Of High En-ergy Physics, 2014(
 2).
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 313--314
+Underfull \hbox (badness 1552) in paragraph at lines 318--319
 []\OT1/cmr/m/n/10.95 Antcheva, I., Ballintijn, M., Bel-lenot, B., Biskup, M., B
 run,
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 313--314
+Underfull \hbox (badness 2393) in paragraph at lines 318--319
 \OT1/cmr/m/n/10.95 R., & Bun-cic, N. et al. (2009). ROOT | A C++ frame-
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 313--314
+Underfull \hbox (badness 1097) in paragraph at lines 318--319
 \OT1/cmr/m/n/10.95 work for petabyte data stor-age, sta-tis-ti-cal anal-y-sis a
 nd vi-su-al-
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 313--314
+Underfull \hbox (badness 1097) in paragraph at lines 318--319
 \OT1/cmr/m/n/10.95 iza-tion. Com-puter Physics Com-mu-ni-ca-tions, 180(12), 249
 9-2512.
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
 [62]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
  (./main.aux (./Capitulos/Introduction/Introduction.aux)
 (./Capitulos/StateArt/StateArt.aux)
 (./Capitulos/VariableDefinitions/VariableDefinitions.aux)
@@ -1544,21 +1517,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
 (./Capitulos/Event_selection/Event_selection.aux)
 (./Capitulos/Analysis/Analysis.aux) (./Capitulos/Conclusions/Conclusions.aux)
 (./Apendices/Neutrinos_calculus/Neutrinos_calculus.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BF8ECA741C0BDCF53F449BED38357BD6;2397.
+(rerunfilecheck)             Checksum: A551E0B9ED63B99C087AE0CF2849721A;2372.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
  ) 
 Here is how much of TeX's memory you used:
- 9459 strings out of 494850
- 143475 string characters out of 6178024
- 245992 words of memory out of 5000000
- 12308 multiletter control sequences out of 15000+600000
+ 9462 strings out of 494850
+ 143539 string characters out of 6178024
+ 246045 words of memory out of 5000000
+ 12310 multiletter control sequences out of 15000+600000
  18313 words of font info for 70 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  36i,19n,44p,1277b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1576,10 +1549,10 @@ mr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (68 pages, 1293144 bytes).
+Output written on main.pdf (68 pages, 1291476 bytes).
 PDF statistics:
- 1270 PDF objects out of 1440 (max. 8388607)
- 920 compressed objects within 10 object streams
- 212 named destinations out of 1000 (max. 500000)
+ 1273 PDF objects out of 1440 (max. 8388607)
+ 923 compressed objects within 10 object streams
+ 213 named destinations out of 1000 (max. 500000)
  410 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,18 +2,13 @@
 \label{CMS_chapter}
 
 In this analysis we are going to perform simulations of collisions occurring at the CMS experiment, so we have to take into account the specific characteristics of this detector. For this reason,
-the components of the CMS are going to be explained.
-The CMS is one of the seven experiments located at the Large Hadron Collider (LHC), which is the largest and most powerful particle accelerator in the world. This accelerator collides protons 
-and heavy ions at very high energies of the order of 13 TeV and 6.37 TeV, respectively, with the objective of studying the elemental particles of the universe. 
+the components of the CMS detector are going to be explained. The CMS detector is one of the seven experiments located at the Large Hadron Collider (LHC), which is the largest and most powerful particle accelerator in the world. This accelerator collides protons and heavy ions at very high energies of the order of 13 TeV and 6.37 TeV, respectively, with the objective of studying the elementary particles that compose the universe.
 
 %Energia ions http://accelconf.web.cern.ch/accelconf/ipac2016/papers/tupmw027.pdf
 
-The LHC is conformed by a ring of almost 27 km of perimeter and by 7 detectors located at the different collision points of the ring. Two of these detector are general-purpose detectors, and they 
-are called experiments CMS and ATLAS. Both experiments share the same goals of searching physics beyond the SM. The physics program of these experiments includes measurements of the Higgs boson, 
-Supersymmetry searches, dark matter, detection of extra dimensions, among others. The difference between both experiments is that they use different designs and software. In the ATLAS detector, the 
-magnetic field is produced by a central toroid, two end toroids, and a central solenoid, while the CMS detector is built around a superconducting solenoid magnet.  
+The LHC is conformed by a ring of almost 27 km of perimeter and by 7 detectors located at the different collision points of the ring. ATLAS and CMS are general purpose experiments and are the largest detectors at the LHC. Both experiments share the same goals of searching physics beyond the SM. The physics program of these experiments includes measurements of the Higgs boson, Supersymmetry searches, dark matter, detection of extra dimensions, among others. The difference between both experiments is that they use different detector designs and software. In the ATLAS detector, the magnetic field is produced by a central toroid, two end toroids, and a central solenoid, while the CMS detector is built around a superconducting solenoid magnet.  
 
-The CMS and ATLAS detectors have a cylindrical form in order to have the most uniform magnetic field posible. They are centered in the direction of the interacting beams and the collision point and have two ``end-caps'' to cover the forward regions. These detectors are conformed by the same general components, from the inner part of the detector to the outer part. These components are: a tracking system, an electromagnetic and a hadronic calorimeter, and muon detectors. They also have magnets to curve the path of the electric charged particles, so it can be determined whether a particle has a positive or negative charge. Aditionally, the measurement of the curve can be used to calculate the momentum of the charged particle. In Figure \ref{CMS_detector}, there is a diagram showing the structure of the CMS detector. This image also shows the interaction of different particles with the parts of the detector.
+The CMS and ATLAS detectors have a cylindrical form in order to have the most uniform magnetic field posible. They are centered in the direction of the interacting beams and the collision point and have two ``end-caps'' to cover the forward regions. These detectors are conformed by the same general components, from the inner part of the detector to the outer part. These components are: a tracking system, an electromagnetic and a hadronic calorimeter, and muon detectors. They also have magnets to curve the path of particles with electric charge, so it can be determined whether a particle has a positive or negative charge. Aditionally, the measurement of the curve can be used to calculate the momentum of the charged particle. In Figure \ref{CMS_detector}, there is a diagram showing the structure of the CMS detector. This image also shows the interaction of different particles with the parts of the detector.
 
 %\section{Accelarator and Storage Ring}
 %citada imagen http://cms.web.cern.ch/news/detector-overview
@@ -28,7 +23,7 @@ The CMS and ATLAS detectors have a cylindrical form in order to have the most un
 \section{Tracking System}
 
 Since every 25 ns there is a collision at the center of the CMS detector and almost 1000 particles are going to be produced, it is necessary to have a tracking system able to record measurements 
-of all the particles that are produced. This tracking system must be located the nearest possible to the region where the collision occurs. This tracking system is used to measure the momentum and 
+of all the particles that are produced. This tracking system must be located the nearest possible to the region where the collision occurs. The tracking system is used to measure the momentum and 
 vertices of the particles with a high precision. The inner detectors are built with silicon detectors, with high granularity pixel systems at the smallest radii, and silicon-strip detectors at larger ones \cite{Perspectives_LHC}.
 
 The properties of the tracking system are: fast recording of measurements, tolerance to high radiation doses, ensembled with light material and tolerance of the severe conditions imposed by the low temperature at LHC (of almost 2 K). One of the major challenges for the inner dectector parts is the control of aging effects because the damage produced by irradiation is severe. The silicon detectors are p-n junction diodes, so when a particle crosses the detector, it causes the liberation of electron-hole pairs, which move to the electrodes of the system. The tracking system in the CMS detector covers the range within $|\eta|<2.5$, the region where most of the relevant particles for the analysis arrive. 
@@ -98,16 +93,9 @@ The electric signal is received by metallic strips after a precise time delay \c
 \section{Triggers}
 
 Since at the LHC there are bunch crossings every by 25 ns with a peak crossing rate of 31.6 MHz, nearly a billion proton-proton events are produced every second. Thus, it is necessary to decide
-to store or not store an event in order to reduce the computational resources use. Triggers have the task of applying a primary selection on the data at real-time. The triggers take the data and quickly 
-decide which events that are interesting pass to the next phase of filtering. The triggers need to have a rejection factor of almost $10^7$. As a consequence, it allows to store just around 100-200 
-carefully selected events per second to be proccessed later. 
+if an event must be stored or not in order to use the computational resources in an optimal way. Triggers have the task of applying a primary selection on the data at real-time. The triggers take the data and quickly decide which events that are interesting pass to the next phase of filtering. The triggers need to have a rejection factor of almost $10^7$. As a consequence, it allows to store just around 100-200 carefully selected events per second to be proccessed later. 
 
-The first triggering level uses a partial amount of the total information given by the detector and takes decisions in less that 3.2 ns. 
-It reduces the data rate to nearly 100 kHz \cite{LHC_collitions_web}. High level triggers use a network of thousands of processors and fast switches. They get the information gradually and use algorithms in order to reduce 
-the amount of data. The final product is that at a rate of 150-200 Hz each event occupies around 1.5 Mb. The former leads to the LHC to have an annual data volume of around 10 PB \cite{Perspectives_LHC}. After an event 
-passes the first triggering level, the resulting data is transferred from the detector electronics into readout buffers. Then, the signal is processed and compressed while the events are studied by 
-processors with several thousands of central processing units. The event then is directed to a single processor with the objective of performing detailed calculations of the critical parameters of the 
-event and reduce the amount of data.
+The first triggering level uses a partial amount of the total information given by the detector and makes decisions in less that 3.2 ns. It reduces the data rate to nearly 100 kHz \cite{LHC_collitions_web}. High level triggers use a network of thousands of processors and fast switches. They get the information gradually and use algorithms in order to reduce the amount of data. The final product is that at a rate of 150-200 Hz each event occupies around 1.5 Mb. Under these circumstances, the volume of data processed at the LHC every year is of the order of 10 PB  \cite{Perspectives_LHC}. After an event passes the first triggering level, the resulting data is transferred from the detector electronics into readout buffers. Then, the signal is processed and compressed while the events are studied by processors with several thousands of central processing units. The event then is directed to a single processor with the objective of performing detailed calculations of the critical parameters and reduce the amount of data.
 
 %https://lhc-machine-outreach.web.cern.ch/lhc-machine-outreach/collisions.htm
 
