@@ -1,87 +1,73 @@
 \chapter{Analysis}
 \label{Analysis_chapter}
 
-Since MadGraph needs as input parameter the mass of the heavy neutrino, two signals were simulated. One signal was simulated with a value of 5.0 GeV for the heavy neutrino mass, while the other assumed 
-this mass to have a value of 70.0 GeV. 
+Since MadGraph needs as input parameter the mass of the heavy neutrino, two signals were simulated with different values of mass. One signal was simulated with a neutrino mass of 5.0 GeV, while the other one used a value of 70.0 GeV.
 
-In order to study the performance of a variable to reduce the backgrounds, histograms of this variable were made for each signal and background. The type of histograms used in this analysis are called stacked plots. In these histograms each distribution of the variable is placed on the same plot and each one is normalized to the cross section and luminosity. The luminosity expected for the LHC accelerator by the end of 2017 is 50 $fb^{-1}$. This normalization makes possible to compare the performance of the variable among them.  If each histogram is not normalized it will depend on the size of the simulated sample. In this kind of plots, the bins of one background are located above the corresponding bins of the other background. Thus, the total background is given by the curve of the background at the top. The background uncertainty is represented by a dashed line at the top of the background histograms. These kind of graphics are called stacked plots. The plots shown here include just the W+jets and DY+jets backgrounds, because these are very large compared to the $t\overline{t}$ background, and reducing them is already a difficult task.
+In order to study the performance of a variable to reduce the background, histograms of this variable were made for each signal and background. The type of histograms used in this analysis are called stacked plots. In these histograms each distribution of the variable is placed on the same plot and each one is normalized to the cross section and luminosity. The luminosity expected for the LHC accelerator by the end of 2017 is 50 $fb^{-1}$. This normalization makes possible to compare the behavior of a given variable for the signal with respect to the given background. In stacked plots the backgrounds are placed sequentially on top of each other, in order to represent a graphical sum of the total noise contribution in the analysis. The signal is drawn overlaid on top of the background. The statistical uncertainty is represented by a dashed line at the top of the background histograms. The plots shown here include just the W+jets and DY+jets backgrounds, because these are very large compared to the $t\overline{t}$ background, and reducing them is already a difficult task.
 
-The analysis started by studying the distribution of different variables after the preselection cuts and some cuts on three variables: number of jets, taus and b-jets. The first variable studied 
-was $\vec{E_T^{miss}}$, and its stack plot is shown in Figure \ref{MET_bjets}. The plot shows that the amount of background is much larger than both signals. Moreover, the distribution of the 
-variable is similar for the signals and backgrounds. This implies that a cut on this variable would reduce the background in a similar way as it would reduce the signal. Thus, it is not possible 
-to find an optimal cut value of MET.
+In the first four plots showed in this chapter some cuts were imposed: the preselection cuts and cuts on the number of jets, taus and b-jets. Figure \ref{MET_bjets} shows the stacked plot of $\vec{E_T^{miss}}$. It can be seen that the quantity of background events is much larger than the number of events of both signals at any value of $\vec{E_T^{miss}}$. Moreover, the distribution shape of both backgrounds is alike to the shape of both signals. This implies that a cut on this variable would reduce the background in a similar way as it would reduce the signal. Thus, it is not possible to find an optimal $\vec{E_T^{miss}}$ cut value.
 
  \begin{figure}[h] 
  \centering
- \caption{$E_T^{miss}$ distribution for the signal and backgrounds}
+ \caption{Stacked plot of $E_T^{miss}$ after the preselection cuts and cuts on the number of jets, taus and b-jets.}
  \includegraphics[width=0.8\textwidth]{./Capitulos/Analysis/AfterBJets/MET_MET_20} 
  \label{MET_bjets}
  \end{figure}
  
-Next, we studied the distribution of more variables in order to be able to find the optimal cut values. The variables are $H_T$, di-jet mass and the $p_T$ of the tau, and they are shown in the 
-Figures \ref{HT_bjets}, \ref{diJetMass_bjets} and \ref{taupt_bjets}. It is possible to see that the distribution of these variables is similar for the signals and backgrounds. As a consequence, 
-a set of optimal cuts on these variables that allows to reduce the background cannot be determined.
+We studied the distribution of more variables in order to find possible cut values that can reduce the contribution of background. Figures \ref{HT_bjets}, \ref{diJetMass_bjets} and \ref{taupt_bjets} show the stacked plots of the variables $H_T$, di-jet mass and the tau $p_T$, respectively. These plots follow an analogous behavior as in the case of $E_T^{miss}$: the number of background events is larger than of signal events and the background distribution is similar to the signal distribution. As a consequence, it is not possible to determine a set of variables that allow to reduce the contribution of background.
  
  \begin{figure}[h] 
  \centering
- \caption{$H_T$ distribution for the signals and backgrounds after the cuts on the number of jets, taus and b-jets}
+ \caption{Stacked plot of $H_T$ after the preselection cuts and cuts on the number of jets, taus and b-jets.}
  \includegraphics[width=0.7\textwidth]{./Capitulos/Analysis/AfterBJets/HT_MET_20} 
  \label{HT_bjets}
  \end{figure} 
  
   \begin{figure}[h] 
  \centering
- \caption{di-jet mass distribution for the signals and backgrounds after the cuts on the number of jets, taus and b-jets}
+ \caption{Stacked plot of di-jet mass after the preselection cuts and cuts on the number of jets, taus and b-jets.}
  \includegraphics[width=0.7\textwidth]{./Capitulos/Analysis/AfterBJets/mjj_MET_20} 
  \label{diJetMass_bjets}
  \end{figure} 
  
   \begin{figure}[h] 
  \centering
- \caption{$p_T(\tau)$ distribution for the signals and backgrounds after the cuts on the number of jets, taus and b-jets}
+ \caption{Stacked plot of $p_T(\tau)$ after the preselection cuts and cuts on the number of jets, taus and b-jets.}
  \includegraphics[width=0.7\textwidth]{./Capitulos/Analysis/AfterBJets/TauPt_MET_20} 
  \label{taupt_bjets}
  \end{figure} 
  
- Then, all the cuts mentioned in the Chapter \ref{Event_selection_criteria_chapter} are imposed. These cuts include the ones related to the VBF process and the results are showed in the following 
- plots. The variables $H_T$, di-jet mass and $p_T(\tau)$ are shown is the Figures \ref{HT_VBF}, \ref{diJetMass_VBF} and \ref{taupt_VBF}. In these plots, one can see that, after imposing all the 
- cuts the amount of signal and backgrounds reduces drastically. 
+ Then, all the cuts mentioned in the Chapter \ref{Event_selection_criteria_chapter} are imposed. 
+ These cuts include the cuts which take into account the topology of VBF processes. Figures \ref{HT_VBF}, \ref{diJetMass_VBF} and \ref{taupt_VBF} show the stacked plots of the $H_T$, di-jet mass and tau $p_T$ variables after all cuts, respectively. It can be seen that the quantity of background events reduces drastically, but it is still larger than the number of signal events. Moreover, the amount of signal events after imposing all cuts is minimal. Thus, it was not achievable to find a set of cuts that could reduce the background contribution in order to distinguish our signal of interest.
+  
  
  \begin{figure}[h] 
  \centering
- \caption{$H_T$ distribution for the signals and backgrounds after all cuts}
+ \caption{Stacked plot of $H_T$ after the all the cuts were imposed.}
  \includegraphics[width=0.7\textwidth]{./Capitulos/Analysis/AfterVBFCUTS/HT_MET_20} 
  \label{HT_VBF}
  \end{figure} 
  
   \begin{figure}[h] 
  \centering
- \caption{di-jet mass distribution for the signals and backgrounds after all cuts}
+ \caption{Stacked plot of di-jet mass after the all the cuts were imposed.}
  \includegraphics[width=0.7\textwidth]{./Capitulos/Analysis/AfterVBFCUTS/mjj_MET_20} 
  \label{diJetMass_VBF}
  \end{figure} 
  
   \begin{figure}[h] 
  \centering
- \caption{$p_T(\tau)$ distribution for the signals and backgrounds after all cuts}
+ \caption{Stacked plot of $p_T(\tau)$ after the all the cuts were imposed.}
  \includegraphics[width=0.7\textwidth]{./Capitulos/Analysis/AfterVBFCUTS/TauPt_MET20} 
  \label{taupt_VBF}
  \end{figure}  
 
- 
-One fact that can explain the reason why the VBF cuts do not allow to reduce significantly the background compared to the signal is the similar values of mass of the Higgs boson and the Z boson.
-The production mechanism of a Higgs boson is 
-identical to the Z gamma production mechanism because the mass difference between the Higgs boson and the Z boson is just 30 GeV. Thus, the characteristics of the VBF jets in the events are similar
-and it is difficult to distinguish both VBF topologies. In the case that the heavy neutrinos are produced by the decay of a particle heavier that the Higgs boson, this heavier particle must be the
-result of the interaction of more energetic VBF jets. Thus, in this case it is expected that the detected VBF jets would be more energetic, which would lead to distinguish between both final states.
+One fact that can explain the reason why VBF cuts do not allow to reduce significantly the number of background events compared to the signal, is that the mass values of the Higgs boson and the Z boson are similar. Since this mass difference is almost just 30 GeV, the production mechanism of a Higgs boson is identical to the Z gamma production mechanism. Thus, the characteristics of the VBF jets in both events are similar and it is difficult to distinguish both VBF topologies. In the case that the heavy neutrinos are produced by the decay of a particle heavier that the Higgs boson, the heavier particle must be the result of an interaction between VBF jets with larger energy. Thus, in this case it would be expected that the detected VBF jets would be more energetic, which could allow to distinguish between both final states.
 
-Since it was expected that the resulting tau in the signal had an associated track with a displaced vertex, some 2D plots were made using this variable. The value of the impact parameter for the tau was found by performing a minimization process on the distance between the tau and the tracks. That way, the track associated to each tau is determined. 
+Since it was expected that the resulting tau in the signal had an associated track with a displaced vertex, some 2D plots were made using this variable. The value of the impact parameter for the tau was found by performing a minimization process on the distance between the tau and the tracks. 
 
 First, we studied a plot on which the x axis 
-represents $\vec{E_T^{miss}}$ and the y axis the impact parameter ($d_{xy}$). This plot is shown in the Figure \ref{ipt1_MET}. The two plots at the left of this figure correspond to the signal events, one 
-assuming a mass of the heavy neutrino of 5.0 GeV, and the other of 70.0 GeV. The range of the y axis for both plots is just from -1.0 to 1.0. The left plots at the right of the figure correspond 
-to the W+jets background and DY+jets background. These plots have a range in the y axis from -8.0 to 8.0. It can be seen that for our signals the value of the impact parameter is almost zero. 
-This implies that it is not possible to make a cut on this variable to reduce the background as it was expected. 
+represents $\vec{E_T^{miss}}$ and the y axis is the impact parameter ($d_{xy}$). This plot is shown in Figure \ref{ipt1_MET}. The first two plots at the left of this figure correspond to the signal events, one assuming a mass of the heavy neutrino of 5.0 GeV, and the other of 70.0 GeV. The range of the y axis for these plots is just from -1.0 to 1.0. The left plots at the right of the figure correspond to the W+jets background and DY+jets background. These plots have a range in the y axis from -8.0 to 8.0. It can be seen that the impact parameter value of the signals is almost zero. This implies that it is not possible to make a cut on this variable to reduce the background as it was expected. Additionally, it is important to notice that in the case of the signals, the impact parameter only takes positive values which is not expected since the topology of the events should be symmetrical. 
  
  \begin{figure}[h] 
  \centering
@@ -90,7 +76,7 @@ This implies that it is not possible to make a cut on this variable to reduce th
  \label{ipt1_MET}
  \end{figure}
  
-The other 2D plots studied is shown in the Figure \ref{ipt1_pt}, where the x axis represents the absolute value of the impact paramter and the y axis the transversal momentum of the tau. As in the previous Figure \ref{ipt1_MET}, the y-axis for the analysis has a range between -0.1 to 0.4. Unfortunately, it is not possible to obtain relevant information from this figure.
+Other 2D plots studied are shown in Figure \ref{ipt1_pt}. In these plots the x axis represents the tau transverse momentum and the y axis represents the absolute value of the impact parameter. In the signal plots, the y axis has a range between -0.1 to 0.4; while in the background plots it has a range between 0 and 8. Unfortunately, it is not possible to determine a cut value on any of these variables.
  
  \begin{figure}[h] 
  \centering
@@ -101,8 +87,4 @@ The other 2D plots studied is shown in the Figure \ref{ipt1_pt}, where the x axi
  
 %EXPLICAR BIEN RECONSTRUCCION VERTICES Y MEJORAR GRAFICA 
  
-Thus, in the end we obtained that our signals of interest have a low value on the impact parameter variable, while it was expected the opposite. Now, possible facts that can explain the difference between our results and what was expected are discussed. In the first place, the samples of signal are small compared to the sample size of background. Both simulated signals consist of 10000 events while the W+jets and DY+jets background samples consist of millions of events. Thus, we have a small statistical sample and it may be necessary to generate more signal events to make a study. On the other hand, it seemed that there was a problem in the generation of the signals because the impact parameter values of the signals only obtained positive values. The former is not expected because there is no reason to believe that the impact parameter has an asymmetric distribution. If this problem is solved, a cut on the impact parameter value would strongly reduce the amount of background.
-
-
-
-
+Thus, we obtained that the signals of interest present a very low impact parameter value, while it was expected the opposite. Next, possible reasons that can explain the difference between our results and what was expected are discussed. In the first place, the quantity of signal events simulated is much smaller than the number of background events. Both simulated signals consisted of 10000 events while the W+jets and DY+jets background samples consisted of millions of events. Thus, we had a small statistical sample and it may be necessary to generate more signal events to make the study. On the other hand, it seemed that there was a problem in the generation of the signals because their impact parameter values were only positive values. The former is not expected because there is no reason to believe that the impact parameter has an asymmetric distribution. If this problem is solved, a cut on the impact parameter value would significantly reduce the amount of background.

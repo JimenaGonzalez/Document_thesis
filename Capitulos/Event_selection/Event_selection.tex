@@ -1,18 +1,18 @@
 \chapter{Event Selection Criteria}
 \label{Event_selection_criteria_chapter}
 
-The analysis of the simulated data started by imposing a minimum value of 20.0 GeV on $p_T$ for b-jets and taus, and of 30.0 GeV on jets that are not associated to taus or b quarks. The minimum values required on $p_T$ are imposed in order to preselect the interesting particles. After this was done, it was required a minimum separation distance between taus and muons, taus and electrons, and taus and jets. This is done in order to have well identified and well isolated objects in the event selection. To do this, one has to impose a minimal value on a variable called $\Delta R$, which is defined in Equation \ref{minimal_separation}. A $Delta R > 0.3$ was required between the different particle candidates mentioned above. 
+The analysis of the simulated data started by imposing a minimum value of 20.0 GeV on $p_T$ for b-jets and taus, and of 30.0 GeV on jets that are not associated to taus or b quarks. The minimum values required on $p_T$ are imposed in order to preselect the interesting particles. After this was done, it was required a minimum separation distance between taus and muons, taus and electrons, and taus and jets. This is done in order to have well identified and well isolated objects in the event selection. To do this, one has to impose a minimal value on a variable called $\Delta R$, which is defined in Equation \ref{minimal_separation}. A $\Delta R > 0.3$ was required between the different particle candidates mentioned above. 
 
 \begin{equation}
 \Delta R \equiv \sqrt{\Delta \eta ^2 + \Delta \phi ^2}
 \label{minimal_separation}
 \end{equation}
 
-Since it was considered that the event of interest was produced through VBF, in the analysis was necessary to find in each event a jet-pair with the distinctive characteristics of a VBF process in their topology. The jets were required to have $p_{T} > 50$ GeV, because VBF jets are expected to have large transverse momentum. In addition, the jets must have a large separation gap in $\eta$ of $|\eta| > 5.0$ and should be located in opposite hemispheres of the detector. If more than two jets with these characteristics were found in the event, the jet-pair combination with the largest mass was selected. A minimal value of 100 GeV was required for the mass of the jet-pair. In the text that follows the jet with the hightest momentum is referred to as the leading jet, and the other is known as the subleading jet.
+Since it was considered that the event of interest was produced through VBF, in the analysis was necessary to find in each event a jet-pair with the distinctive characteristics of a VBF process in their topology. The jets were required to have $p_{T} > 50$ GeV, because VBF jets are expected to have large transverse momentum. In addition, the jets must have a large separation gap in $\eta$, so a cut of $|\eta| > 5.0$ was imposed. The jets also should be located in opposite hemispheres of the detector. If more than two jets with these characteristics were found in the event, the jet-pair combination with the largest mass was selected. The minimal value of this mass was required to be 100 GeV. In the text that follows, the jet with the highest momentum is referred to as the leading jet, and the other is known as the subleading jet.
 
 After the preselection process is made, we have to find the optimal values of the variables that allow to reduce the background to its minimum. The required values are known as cuts. The first cut imposed in the analysis was on the number of jets. It was required a maximum number of 5 jets because the signal is expected to have 4 jets. An additional jet is included in order to find the best two VBF jets. The second cut imposed was the presence of just one tau, due to the fact that this is a characteristic expected for the hadronic signal. 
 
-Next, the third cut imposed was requiring the number of b-jets to be zero. This cut is applied in order to reduce drastically the contribution of $t\overline{t}$ events. Next, a cut on $\vec{E_{T}^{miss}} > 20$ GeV was applied, which helps to drastically reduce contamination from strong processes, referred to as QCD. Then, a cut on the absolute value of $\eta$ of the tau of maximum 2.1 was performed. This value was chosen because the tracking detector covers the range of $|\eta|<2.5$. Since the isolation cones of the taus have a radius of around 0.4, one has to impose a maximum value on $|\eta|$ of maximum 2.5 - 0.4 = 2.1.
+Next, the third cut imposed was requiring the number of b-jets to be zero. This cut is applied in order to reduce drastically the contribution from $t\overline{t}$ events. Next, a cut on $\vec{E_{T}^{miss}} > 20$ GeV was applied, which helps to drastically reduce contamination from strong processes, referred to as QCD. Then, a cut on the absolute value of $\eta$ of the tau of maximum 2.1 was performed. This value was chosen because the tracking detector covers the range of $|\eta|<2.5$. Since the isolation cones of the taus have a radius of around 0.4, one has to impose a maximum value on $|\eta|$ of maximum 2.5 - 0.4 = 2.1.
   
 After the cut on $\vec{E}_T^{miss}$ was imposed, the cuts motivated by the VBF proccess were performed. The first cut guarantees that there are minimum two jets that satisfy the 
 condition on $p_T$ to be candidates of VBF jets. Next, it was required that the product of eta between both jets is negative. This implies that both jets are located in opposite hemispheres,
@@ -23,7 +23,7 @@ to be 3.8, since the VBF jets should have a large difference in pseudorapidity.
 Finally, a cut in the sum of the invariant mass of the VBF jets, known as dijet mass, was made. It was imposed a value of minimum 500.0 GeV on the dijet mass, due to the fact that the VBF jets have a large momentum, and this is proportional to the mass.  
 
 Table \ref{preselection_table} shows the preselection values imposed that were mentioned on the initial paragraphs of this chapter. Additionally, Table \ref{Cuts_variables} shows all 
-the cuts that were performed in the data in order to reduce as much as possible the background. 
+the cuts that were performed in the data with the objective of reducing as much as possible the background. 
 
 %tabla preselection values
 \begin{table}[h]
@@ -51,7 +51,7 @@ di-Jet Mass                                                               & \tex
 \begin{tabular}{|c|c|}
 \hline
 Variables                & Values                \\ \hline
-n(jets)                  & \textless 5.0         \\ \hline
+n(jets)                  & \textless 5         \\ \hline
 n($\tau$)                & = 1                   \\ \hline
 n(b-jets)                & = 0                   \\ \hline
 $|\eta(\tau)|$           & \textless 2.1         \\ \hline
